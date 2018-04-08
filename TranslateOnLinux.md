@@ -46,7 +46,7 @@
 		- [OCR](#ocr)
 	- [E-book management|conversion](#e-book-managementconversion)
 	- [File|Folder comparison (DIFF) tools](#filefolder-comparison-diff-tools)
-	- [Desktop search/full text index](#desktop-searchfull-text-index)
+	- [Desktop search|full text index](#desktop-searchfull-text-index)
 	- [File rename utilities](#file-rename-utilities)
 	- [Productivity tools selection](#productivity-tools-selection)
 		- [AutoKey (Py3)](#autokey-py3)
@@ -813,7 +813,7 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge): Diff tool for comparing and merging TMX translation memories.
 
-## Desktop search/full text index
+## Desktop search|full text index
 
 [DocFetcher](http://docfetcher.sourceforge.net/en/index.html)
 
