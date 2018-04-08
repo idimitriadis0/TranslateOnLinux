@@ -181,7 +181,6 @@ Online/Offline tool
 **Demo**: 30-day trial / Free Personal edition (maximum two files at a time)
 **Cost:** [editions and pricing](https://www.memsource.com/pricing2)
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/memsource_cloud/40) [G2Crowd](https://www.g2crowd.com/products/memsource/reviews)
-https://memsource.com/en
 
 ## WordFast Pro 3|5
 
@@ -295,7 +294,7 @@ The completely open source version can also be [installed offline or in a VM](ht
 [WordFast Anywhere](https://www.freetm.com/) is a free and complete online CAT tool, one of the oldest of its kind, allowing translators to work from anywhere, provided they have an Internet connection and a web browser.
 
 **Supported formats**: txml, txt, doc, docx, xls, xlsx, htm, html, inx, indml, pdf, jsp, asp, odt, tif, rtf, ppt, pptx,mif, ttx, txlf, xlf, xliff, sdlxliff
-**Support and manual:** (https://www.wordfast.net/wiki/Wordfast_Anywhere)
+**Support and manual:** [Wiki](https://www.wordfast.net/wiki/Wordfast_Anywhere), [manual](http://www.wordfast.com/sites/default/files/www.wordfast.net/zip/wf_en6.zip)
 **License:** Closed source
 **Cost:** Free (registration needed)
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_anywhere/29)
