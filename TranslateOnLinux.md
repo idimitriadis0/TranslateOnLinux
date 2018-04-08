@@ -19,15 +19,15 @@
 	- [Lilt](#lilt)
 	- [Google Translation Toolkit](#google-translation-toolkit)
 	- [Other](#other)
-	- [TRANSLATION-RELATED TASKS AND TOOLS](#translation-related-tasks-and-tools)
+	- [Translation related tasks and tools](#translation-related-tasks-and-tools)
 		- [Alignment](#alignment)
 		- [Handling tags](#handling-tags)
 		- [Translation Memory (TMX) Editing|Maintainance](#translation-memory-tmx-editingmaintainance)
 		- [Segmentation|SRX editors](#segmentationsrx-editors)
 		- [Term extraction](#term-extraction)
 		- [Terminology management](#terminology-management)
-		- [Office software](#office-software)
-	- [Language | Grammar checkers | writing aids](#language-grammar-checkers-writing-aids)
+	- [Office software](#office-software)
+	- [Language | Grammar checkers | Writing aids](#language-grammar-checkers-writing-aids)
 	- [QA tools](#qa-tools)
 	- [Proofreading|Revising (Track changes, compare documents)](#proofreadingrevising-track-changes-compare-documents)
 	- [Various localization related utilities](#various-localization-related-utilities)
@@ -325,7 +325,7 @@ Be sure to add the Chrome extension [Google Translator Toolkit Booster](https://
 
 Online browser-based localization platforms, of course, can be used on GNU/Linux: [Crowdin](https://crowdin.com/), [Transifex](https://www.transifex.com/), [Weblate](https://weblate.org/en/), [Pontoon](https://pontoon.mozilla.org/), [Zanata](http://zanata.org/), [Pootle](http://pootle.translatehouse.org/), [POEditor](https://poeditor.com/), [Webtranslateit](https://webtranslateit.com/en), etc.
 
-## TRANSLATION-RELATED TASKS AND TOOLS
+## Translation related tasks and tools
 
 ### Alignment
 
@@ -414,7 +414,7 @@ Free, offline. Its term extraction utility offers flexible, configurable statist
 
 TODO
 
-### Office software
+## Office software
 
 An Office suite represents an important part of a translator's or reviser's toolkit and is often a critical step in the translation workflow.
 
@@ -485,7 +485,7 @@ Copying the fonts folder from a Windows machine and placing it in the hidden .fo
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
-## Language | Grammar checkers | writing aids
+## Language | Grammar checkers | Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
