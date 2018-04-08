@@ -117,12 +117,12 @@ Some highlights include:
 - Complete project and TM Statistics
 - A thriving community and super-fast support via its [Yahoo group](https://groups.yahoo.com/neo/groups/OmegaT/info)
 
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** More than 50 formats (with the help of the Okapi plugin), including Microsoft Word, Excel and PowerPoint, LibreOffice, HTML, TTX and SDLXLIFF (Trados), TXML (Wordfast Pro), IDML (InDesign) and PDF (text and Iceni Infix export)
-**Support and manual:** [Documentation and manual](http://omegat.org/documentation)
-**License:** Free-Libre/Open Source Software
-**Cost:** Gratis (Donations welcome)
-**Reviews:** [OmegaT](http://omegat.org/en/reviews.html), [ProZ](https://www.proz.com/software-comparison-tool/tool/omegat/82), [G2Crowd](https://www.g2crowd.com/products/omegat/reviews)
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** More than 50 formats (with the help of the Okapi plugin), including Microsoft Word, Excel and PowerPoint, LibreOffice, HTML, TTX and SDLXLIFF (Trados), TXML (Wordfast Pro), IDML (InDesign) and PDF (text and Iceni Infix export).
+**Support and manual:** [Documentation and manual](http://omegat.org/documentation).
+**License:** Free-Libre/Open Source Software.
+**Cost:** Gratis (Donations welcome).
+**Reviews:** [OmegaT](http://omegat.org/en/reviews.html), [ProZ](https://www.proz.com/software-comparison-tool/tool/omegat/82), [G2Crowd](https://www.g2crowd.com/products/omegat/reviews).
 
 ## CafeTran Espresso
 
@@ -160,12 +160,13 @@ Here are some highlights:
 - Network memory server for remote or team work
 - Active community and very attentive developer, interested in user feedback and ideas for future development
 
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** [file formats](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#file-formats-overview)
-**Support:** [Solutions](https://cafetran.freshdesk.com/support/solutions) (Knowledge Base), [Official forum and support](https://cafetran.freshdesk.com/support/discussions), [Reference documents](https://github.com/idimitriadis0/TheCafeTranFiles/wiki)
-**License:** Closed source
-**Demo version:** no time limit, TM files up to 1000 TUs in total and glossaries no larger than 500 terms
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** [file formats](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#file-formats-overview).
+**Support:** [Solutions](https://cafetran.freshdesk.com/support/solutions) (Knowledge Base), [Official forum and support](https://cafetran.freshdesk.com/support/discussions), [Reference documents](https://github.com/idimitriadis0/TheCafeTranFiles/wiki).
+**License:** Closed source.
+**Demo version:** no time limit, TM files up to 1000 TUs in total and glossaries no larger than 500 terms.
 **Cost:** [Licensing options](https://www.cafetran.com/get-cafetran/) // Also, full access for [ProZ.com Plus members](https://www.proz.com/pages/Plus-subscriber-checklist).
+**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/cafetran_espresso/97).
 
 ## Memsource Editor|Cloud
 
@@ -192,13 +193,13 @@ In addition, WFP 5 offers a WYSIWYG interface for formatting tags, Target-only L
 
 The demo version has some limitations, but it is not time-based, making it useful to keep around, especially for round trip scenarios, since it supports many file formats and offers nice filter options.
 
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** [WFP 3](http://www.wordfast.com/products/products_wordfast_pro_3), [WFP 5](http://www.wordfast.com/products/products_wordfast_pro_5) (check specifications)
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** [WFP 3](http://www.wordfast.com/products/products_wordfast_pro_3), [WFP 5](http://www.wordfast.com/products/products_wordfast_pro_5) (check specifications).
 **Support and manual:** [WFP 3 support wiki](https://www.wordfast.net/wiki/Wordfast_Pro_3) and [manual](), [WFP 5 support wiki](https://www.wordfast.net/wiki/Wordfast_Pro_5) and [manual](http://wordfast.com/WFP/5.0/Wordfast_Pro_Help.htm), videos and training courses available as well.
-**License:** Closed source
+**License:** Closed source.
 **Demo:** Wordfast offers a demo version that runs without a paid license for translation memories (TMs) of up to 500 translation units, making it possible to use Wordfast on actual translation projects before you decide to purchase. You can also register for a 30 day, fully functional trial license in case you have TMs that exceed this limit.
-**Cost:** [pricing](http://www.wordfast.com/checkout?product=PRO)
-**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_pro/22)
+**Cost:** [pricing](http://www.wordfast.com/checkout?product=PRO).
+**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_pro/22).
 
 ## Swordfish Translation Editor
 
@@ -212,13 +213,13 @@ The developer Maxprograms also offers a range of [localization software and util
 
 Free utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.html) (Glossary manager and term extractor), [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) (Segmentation Rules editor), [XLIFFChecker](https://www.maxprograms.com/products/xliffchecker.html) and [TMXValidator](https://www.maxprograms.com/products/tmxvalidator.html).
 
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** [General documentation, XML formats and Software development](https://www.maxprograms.com/products/swordfish.html)
-**Support and manual:** [User guide](https://www.maxprograms.com/support/swordfish.pdf), [Getting started](https://www.maxprograms.com/tutorials/SwfishGettingStarted.html), [Yahoo support group](https://groups.yahoo.com/neo/groups/swordfish_support/info)
-**License:** Closed source
-**Demo version**: 30-day trial
-**Cost:** [Online Store](http://www.maxprograms.com/store/buy.html)
-**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/swordfish_translation_editor/89)
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** [General documentation, XML formats and Software development](https://www.maxprograms.com/products/swordfish.html).
+**Support and manual:** [User guide](https://www.maxprograms.com/support/swordfish.pdf), [Getting started](https://www.maxprograms.com/tutorials/SwfishGettingStarted.html), [Yahoo support group](https://groups.yahoo.com/neo/groups/swordfish_support/info).
+**License:** Closed source.
+**Demo version**: 30-day trial.
+**Cost:** [Online Store](http://www.maxprograms.com/store/buy.html).
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/swordfish_translation_editor/89).
 
 ## Heartsome Translation Studio
 
@@ -226,24 +227,24 @@ Free utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.ht
 
 The software starts getting old (it is no longer developed for more than 4 years now), but sports some nice capabilities that make it useful to keep around. It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8)) for editing TMX memories.
 
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** see GitHub page
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** see GitHub page.
 **Support:** [GitHub page](https://github.com/heartsome/translationstudio8) has links for user manual, quick start guide and file conversion guide.
-**License:** Open sourced
-**Cost:** Gratis
-**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/heartsome_translation_studio/85)
+**License:** Open sourced.
+**Cost:** Gratis.
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/heartsome_translation_studio/85).
 
 ## WordFast Classic
 
 [WordFast Classic](http://www.wordfast.com/products/products_wordfast) is a CAT tool that operates entirely inside of Microsoft Word. Since some versions of MS Word can be installed and run via the Wine compatibility layer (see related section below), WordFast Classic can be used in GNU/Linux.
 
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** Word
-**Support:** [support wiki](https://www.wordfast.net/wiki/Wordfast_Classic), [user manual](https://www.wordfast.net/wiki/Wordfast_Classic_User_Manual)
-**License:** Closed source
-**Demo:** [Demo version](https://wordfast.net/index.php?go=demo) with no time limit, up to 1000 translation units, limited MT
-**Cost:** [Price](http://www.wordfast.com/checkout?product=CLA)
-**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/heartsome_translation_studio/85)
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** Word.
+**Support:** [support wiki](https://www.wordfast.net/wiki/Wordfast_Classic), [user manual](https://www.wordfast.net/wiki/Wordfast_Classic_User_Manual).
+**License:** Closed source.
+**Demo:** [Demo version](https://wordfast.net/index.php?go=demo) with no time limit, up to 1000 translation units, limited MT.
+**Cost:** [Price](http://www.wordfast.com/checkout?product=CLA).
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/heartsome_translation_studio/85).
 
 ## Other
 
@@ -269,11 +270,11 @@ Mentionned along with Memsource Editor in the above section.
 
 Given the fact MateCat supports a host of file formats (as well as MT engines), it can also be used in a round trip scenario (as an additional filter to handle file types unsupported by other CAT tools). [Read more about this here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#matecat-recommended).
 
-**Supported formats**: [70 formats](https://www.matecat.com/support/introducing-matecat/supported-browser-languages-formats/)
-**Support and manual:** [Documentation and support](https://www.matecat.com/support/)
-**License:** Software based on mostly open source components
-**Cost:** Free (registration recommended)
-**Review:** [Proz](https://www.proz.com/software-comparison-tool/tool/matecat/134), [G2Crowd](https://www.g2crowd.com/products/matecat/reviews)
+**Supported formats**: [70 formats](https://www.matecat.com/support/introducing-matecat/supported-browser-languages-formats/).
+**Support and manual:** [Documentation and support](https://www.matecat.com/support/).
+**License:** Software based on mostly open source components.
+**Cost:** Free (registration recommended).
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/matecat/134), [G2Crowd](https://www.g2crowd.com/products/matecat/reviews).
 
 The completely open source version can also be [installed offline or in a VM](https://www.matecat.com/installation-guide/), and the open sourced [MateCat filters](https://github.com/matecat/MateCat-Filters/) are freely available too.
 
@@ -283,30 +284,31 @@ The completely open source version can also be [installed offline or in a VM](ht
 
 [Smarcat](https://smartcat.ai/) is an intuitive, feature-rich computer-assisted translation web app. It provides a full set of translation automation technologies for companies and translators and makes it easy for them to connect and collaborate.
 
-**Supported formats**: [file formats](https://www.smartcat.ai/corp-features/)
-**Support and manual:** [Documentation and support](https://www.matecat.com/support/)
-**License:** Closed source
-**Cost:** Mostly free (registration needed), billable OCR service
-**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/smartcat/145), [G2Crowd](https://www.g2crowd.com/products/smartcat/reviews)
+**Supported formats**: [file formats](https://www.smartcat.ai/corp-features/).
+**Support and manual:** [Documentation and support](https://www.matecat.com/support/).
+**License:** Closed source.
+**Cost:** Mostly free (registration needed), billable OCR service.
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/smartcat/145), [G2Crowd](https://www.g2crowd.com/products/smartcat/reviews).
 
 ## Wordfast Anywhere
 
 [WordFast Anywhere](https://www.freetm.com/) is a free and complete online CAT tool, one of the oldest of its kind, allowing translators to work from anywhere, provided they have an Internet connection and a web browser.
 
-**Supported formats**: txml, txt, doc, docx, xls, xlsx, htm, html, inx, indml, pdf, jsp, asp, odt, tif, rtf, ppt, pptx,mif, ttx, txlf, xlf, xliff, sdlxliff
-**Support and manual:** [Wiki](https://www.wordfast.net/wiki/Wordfast_Anywhere), [manual](http://www.wordfast.com/sites/default/files/www.wordfast.net/zip/wf_en6.zip)
-**License:** Closed source
-**Cost:** Free (registration needed)
-**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_anywhere/29)
+**Supported formats**: txml, txt, doc, docx, xls, xlsx, htm, html, inx, indml, pdf, jsp, asp, odt, tif, rtf, ppt, pptx,mif, ttx, txlf, xlf, xliff, sdlxliff.
+**Support and manual:** [Wiki](https://www.wordfast.net/wiki/Wordfast_Anywhere), [manual](http://www.wordfast.com/sites/default/files/www.wordfast.net/zip/wf_en6.zip).
+**License:** Closed source.
+**Cost:** Free (registration needed).
+**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_anywhere/29).
 
 ## Lilt
 [Lilt](https://lilt.com/) is machine-assisted translation platform that helps businesses, agencies, and individuals optimize translation speed, quality, and cost. It uses predictive typing as well as its own Adaptive MT engine that learns in real-time while you work.
 
-**Supported formats**: [file formats](https://lilt.com/kb/file-formats)
-**Support and manual:** [Resources](https://lilt.com/resources), [Knowledge base](https://lilt.com/kb/), [Webinars](https://lilt.com/webinar)
-**License:** Closed source
-**Demo:** 14-day free trial
+**Supported formats**: [file formats](https://lilt.com/kb/file-formats).
+**Support and manual:** [Resources](https://lilt.com/resources), [Knowledge base](https://lilt.com/kb/), [Webinars](https://lilt.com/webinar).
+**License:** Closed source.
+**Demo:** 14-day free trial.
 **Cost:** Translator monthly or annual [subscription](https://lilt.com/pricing/translator).
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/lilt/142).
 
 ## Google Translation Toolkit
 
@@ -314,10 +316,10 @@ The completely open source version can also be [installed offline or in a VM](ht
 
 Be sure to add the Chrome extension [Google Translator Toolkit Booster](https://chrome.google.com/webstore/detail/google-translator-toolkit/pjankaakojbendjaejlcnpgeldmfpjed?hl=en). GTT Booster improves on Google Translator Toolkit by transforming the experience into something more similar to a industry CAT tool.
 
-**Supported formats**: [Supported file formats & size limits](https://support.google.com/translatortoolkit/answer/6306382?hl=en)
-**Support and manual:** [Translator Toolkit Help](https://support.google.com/translatortoolkit#topic=6306364)
-**License:** Closed source
-**Cost:** Free (Google account needed)
+**Supported formats**: [Supported file formats & size limits](https://support.google.com/translatortoolkit/answer/6306382?hl=en).
+**Support and manual:** [Translator Toolkit Help](https://support.google.com/translatortoolkit#topic=6306364).
+**License:** Closed source.
+**Cost:** Free (Google account needed).
 
 ## Other
 
