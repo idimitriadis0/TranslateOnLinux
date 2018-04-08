@@ -445,7 +445,8 @@ Useful [LibreOffice extensions](http://extensions.libreoffice.org/):
 - [Copy only visible cells](https://extensions.libreoffice.org/extensions/copy-only-visible-cells): An alternative to the “Select Visible Cells” command in Microsoft Excel.
 - [Export as images](https://extensions.libreoffice.org/extensions/export-as-images): Export all the Impress slides or Draw pages as images of JPG, PNG, GIF, BMP and TIFF format.
 - [Pepito Cleaner](http://pepitoweb.altervista.org/pepito_cleaner/index.php): Pepito Cleaner helps quickly resolve the most common formatting mistakes of old scans, PDF imports, and every digital text file.
-- [CleanDoc](https://extensions.openoffice.org/project/cleandoc): (Old) Remove hidden information from the document - macros, dialogs, form elements, user fields. [Writer2ePub](https://extensions.libreoffice.org/extensions/writer2epub)
+- [CleanDoc](https://extensions.openoffice.org/project/cleandoc): (Old) Remove hidden information from the document - macros, dialogs, form elements, user fields.
+- [Writer2ePub](https://extensions.libreoffice.org/extensions/writer2epub)
 - [Anaphraseus](https://extensions.libreoffice.org/extensions/anaphraseus): free CAT tool integrated in OpenOffice/LibreOffice, like WordFast Classic in Word.
 - [Read Text](https://extensions.libreoffice.org/extensions/read-text): Text to speech solution which uses an external program or web service to read text (not tested).
 
@@ -724,7 +725,7 @@ Along with some other software and utilities, they can, however, prove useful fo
 
 Speech recognition is quite lacking in GNU/Linux. At present, few options compare to Nuance’s Dragon Naturally Speaking, which does not run natively.
 
-Some solutions, such as the [Voice notebook](https://voicenotebook.com/), use Google Speech API, which also used in Google Docs (CafeTran offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+Some solutions, such as the [Voice notebook](https://voicenotebook.com/), use Google Speech API, which also is used in Google Docs (CafeTran offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
 
 ## Text-to-speech (TTS)
 
@@ -789,7 +790,7 @@ Free/Open Source OCR engines include Tesseract, GOCR, and Cuneiform. The first t
 
 Various GUI software tools make use of these engines.
 
-One of the easiest and most feature reach is [gImageReader](https://github.com/manisandro/gImageReader). It scans images and PDFs, with manual and automatic recognition in multiple languages. Post-processing the recognized text includes spellchecker, an excellent find and replace feature and a useful “remove line breaks” action that can have its use outside of OCR tasks as well.
+One of the easiest and most feature rich is [gImageReader](https://github.com/manisandro/gImageReader). It scans images and PDFs, with manual and automatic recognition in multiple languages. Post-processing the recognized text includes spellchecker, an excellent find and replace feature and a useful “remove line breaks” action that can have its use outside of OCR tasks as well.
 
 When it comes to image scan post-processing, or pre-processing for use in a program like ABBYY FineReader (to improve OCR, but also for creating scanned ebooks), these is nothing like [Scantailor](http://scantailor.org/). Or maybe there is: [Scantailor Advanced](https://github.com/4lex4/scantailor-advanced/releases). The wiki is [here](https://github.com/4lex4/scantailor-advanced).
 
@@ -948,4 +949,4 @@ Happy translating!
 
 ## Feedback
 
-You can send me feedback via a [ProZ message](https://www.proz.com/?sp=mailsend&eid_s=2042360). Please start your subject with the name of the document: “CafeTran - Preferences”.
+You can send me feedback via a [ProZ message](https://www.proz.com/?sp=mailsend&eid_s=2042360). Please start your subject with the name of the document: “TranslateOnLinux”.
