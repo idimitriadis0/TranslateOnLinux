@@ -35,7 +35,7 @@
 	- [Transcription](#transcription)
 	- [Dictionary lookup](#dictionary-lookup)
 	- [Project management|Invoicing](#project-managementinvoicing)
-		- [DTP | Image localization](#dtp-image-localization)
+	- [DTP | Image localization](#dtp-image-localization)
 	- [Speech recognition (STT)](#speech-recognition-stt)
 	- [Text-to-speech (TTS)](#text-to-speech-tts)
 	- [PDFs](#pdfs)
@@ -705,7 +705,7 @@ Project management and invoicing tool for Freelance translators, teams and agenc
 
 An open source alternative to Microsoft Projects.
 
-### DTP | Image localization
+## DTP | Image localization
 
 There is no QuarkXpress, Adobe InDesign, Photoshop or Illustrator for GNU/Linux.
 
