@@ -2,66 +2,68 @@
 
 - [TranslateOnLinux](#translateonlinux)
 - [CAT TOOLS](#cat-tools)
-    - [OFFLINE CAT TOOLS](#offline-cat-tools)
-    - [OmegaT](#omegat)
-    - [CafeTran Espresso](#cafetran-espresso)
-    - [Memsource Editor|Cloud](#memsource-editorcloud)
-    - [WordFast Pro 3|5](#wordfast-pro-35)
-    - [Swordfish Translation Editor](#swordfish-translation-editor)
-    - [Heartsome Translation Studio](#heartsome-translation-studio)
-    - [WordFast Classic](#wordfast-classic)
-    - [Other](#other)
-    - [ONLINE CAT TOOLS](#online-cat-tools)
-    - [Memsource Cloud](#memsource-cloud)
-    - [MateCat](#matecat)
-    - [Smartcat](#smartcat)
-    - [Wordfast Anywhere](#wordfast-anywhere)
-    - [Lilt](#lilt)
-    - [Google Translation Toolkit](#google-translation-toolkit)
-    - [Other](#other)
-    - [Translation related tasks and tools](#translation-related-tasks-and-tools)
-        - [Alignment](#alignment)
-        - [Handling tags](#handling-tags)
-        - [Translation Memory (TMX) Editing|Maintainance](#translation-memory-tmx-editingmaintainance)
-        - [Segmentation|SRX editors](#segmentationsrx-editors)
-        - [Term extraction](#term-extraction)
-        - [Terminology management](#terminology-management)
-    - [Office software](#office-software)
-    - [Language | Grammar checkers | Writing aids](#language-grammar-checkers-writing-aids)
-    - [QA tools](#qa-tools)
-    - [Proofreading|Revising (Track changes, compare documents)](#proofreadingrevising-track-changes-compare-documents)
-    - [Various localization related utilities](#various-localization-related-utilities)
-    - [Subtitling](#subtitling)
-    - [Transcription](#transcription)
-    - [Dictionary lookup](#dictionary-lookup)
-    - [Project management|Invoicing](#project-managementinvoicing)
-    - [DTP | Image localization](#dtp-image-localization)
-    - [Speech recognition (STT)](#speech-recognition-stt)
-    - [Text-to-speech (TTS)](#text-to-speech-tts)
-    - [PDFs](#pdfs)
-        - [PDF Editors](#pdf-editors)
-        - [PDF Readers](#pdf-readers)
-        - [PDF-related utilities](#pdf-related-utilities)
-        - [PDF TO TEXT](#pdf-to-text)
-        - [OCR](#ocr)
-    - [E-book management|conversion](#e-book-managementconversion)
-    - [File|Folder comparison (DIFF) tools](#filefolder-comparison-diff-tools)
-    - [Desktop search|full text index](#desktop-searchfull-text-index)
-    - [File rename utilities](#file-rename-utilities)
-    - [Productivity tools selection](#productivity-tools-selection)
-        - [AutoKey (Py3)](#autokey-py3)
-        - [Reduce eye-strain](#reduce-eye-strain)
-        - [Clipboard managers](#clipboard-managers)
-        - [Screenshots](#screenshots)
-        - [Time|project tracking](#timeproject-tracking)
-        - [Pomodoro timers](#pomodoro-timers)
-    - [Unit conversion](#unit-conversion)
-    - [Running Windows applications](#running-windows-applications)
-        - [Natively through WINE](#natively-through-wine)
-        - [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine-vm)
-        - [Via Dual Boot | On a separate machine](#via-dual-boot-on-a-separate-machine)
-    - [Updates](#updates)
-    - [Feedback](#feedback)
+	- [OFFLINE CAT TOOLS](#offline-cat-tools)
+	- [OmegaT](#omegat)
+	- [CafeTran Espresso](#cafetran-espresso)
+	- [Memsource Editor|Cloud](#memsource-editorcloud)
+	- [WordFast Pro 3|5](#wordfast-pro-35)
+	- [Swordfish Translation Editor](#swordfish-translation-editor)
+	- [Heartsome Translation Studio](#heartsome-translation-studio)
+	- [WordFast Classic](#wordfast-classic)
+	- [Other](#other)
+	- [ONLINE CAT TOOLS](#online-cat-tools)
+	- [Memsource Cloud](#memsource-cloud)
+	- [MateCat](#matecat)
+	- [Smartcat](#smartcat)
+	- [Wordfast Anywhere](#wordfast-anywhere)
+	- [Lilt](#lilt)
+	- [Google Translation Toolkit](#google-translation-toolkit)
+	- [Other](#other)
+	- [Translation related tasks and tools](#translation-related-tasks-and-tools)
+		- [Alignment](#alignment)
+		- [Handling tags](#handling-tags)
+		- [Translation Memory (TMX) Editing|Maintainance](#translation-memory-tmx-editingmaintainance)
+		- [Segmentation|SRX editors](#segmentationsrx-editors)
+		- [Term extraction](#term-extraction)
+		- [Terminology management](#terminology-management)
+	- [Office software](#office-software)
+	- [Language | Grammar checkers | Writing aids](#language-grammar-checkers-writing-aids)
+	- [QA tools](#qa-tools)
+	- [Proofreading|Revising (Track changes, compare documents)](#proofreadingrevising-track-changes-compare-documents)
+	- [Various localization-related utilities](#various-localization-related-utilities)
+	- [Subtitling](#subtitling)
+	- [Transcription](#transcription)
+	- [Dictionary lookup](#dictionary-lookup)
+	- [Project management|Invoicing](#project-managementinvoicing)
+	- [DTP | Image localization](#dtp-image-localization)
+	- [Speech recognition (STT)](#speech-recognition-stt)
+	- [Text-to-speech (TTS)](#text-to-speech-tts)
+	- [PDFs](#pdfs)
+		- [PDF Editors](#pdf-editors)
+		- [PDF Readers](#pdf-readers)
+		- [PDF-related utilities](#pdf-related-utilities)
+		- [PDF TO TEXT](#pdf-to-text)
+		- [OCR](#ocr)
+	- [E-book management|conversion](#e-book-managementconversion)
+	- [File|Folder comparison (DIFF) tools](#filefolder-comparison-diff-tools)
+	- [Desktop search|full text index](#desktop-searchfull-text-index)
+	- [File rename utilities](#file-rename-utilities)
+	- [Text editors](#text-editors)
+	- [System security|Antivirus](#system-securityantivirus)
+	- [Productivity tools selection](#productivity-tools-selection)
+		- [AutoKey (Py3)](#autokey-py3)
+		- [Reduce eye-strain](#reduce-eye-strain)
+		- [Clipboard managers](#clipboard-managers)
+		- [Screenshots](#screenshots)
+		- [Time|project tracking](#timeproject-tracking)
+		- [Pomodoro timers](#pomodoro-timers)
+	- [Unit conversion](#unit-conversion)
+	- [Running Windows applications](#running-windows-applications)
+		- [Natively on WINE](#natively-on-wine)
+		- [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine-vm)
+		- [Via Dual Boot | On a separate machine](#via-dual-boot-on-a-separate-machine)
+	- [Updates](#updates)
+	- [Feedback](#feedback)
 
 <!-- /TOC -->
 
@@ -518,7 +520,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - The Freeware version 2.9 works fine on Wine, although it does not offer Unicode support.
   - The paid version XBench 3.x seems to work fine as well.
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
-- [Verifika](https://e-verifika.com/) (paid, 14-day trial) can be installed, but does not run in Wine, it needs to be used in a Windows VM. Other tools ([QA Distiller](http://www.qa-distiller.com/), [ErrorSpy](http://www.dog-gmbh.de/en/products/errorspy/)) have not been tested.
+- [Verifika](https://e-verifika.com/) (paid, 14-day trial) can be installed, but does not run in Wine, it needs to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
 ## Proofreading|Revising (Track changes, compare documents)
 
@@ -703,6 +705,8 @@ Free [for freelancers](https://protemos.com/freelance.html). Track translation o
 
 Project management and invoicing tool for Freelance translators, teams, and agencies. Online, subscription-based, 30-day trial.
 
+I you are a ProZ.com member, you can also use the online [ProZ.com invoicing tool](https://www.proz.com/invoice/about).
+
 [Project Libre](http://www.projectlibre.com/product/projectlibre-open-source)
 
 An open source alternative to Microsoft Projects.
@@ -753,7 +757,7 @@ Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/
 
 [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/): Small and fast PDF viewer.
 
-[Acroread](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html): Acrobat Reader.
+[Acroread](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html): Acrobat Reader 9 for Linux. You can install [abracadabraCompteur 2016](https://www.abracadabrapdf.net/utilitaires/utilitaires-reader/abracadabracompteur/) plugin for PDF word count.
 
 [Okular](https://okular.kde.org/): Universal document viewer, supporting different kinds of documents, like PDF, Postscript, DjVu, CHM, XPS, ePub, and others.
 
@@ -776,7 +780,7 @@ For converting editable PDFs to Docx, most PDF conversion utilities require usin
 
 [AntFileConverter](http://www.laurenceanthony.net/software/antfileconverter/) is a freeware tool to convert PDF and Word (DOCX) files into plain text for use in corpus tools like AntConc.
 
-For command line enthusiasts, programs such as pdftotext, pdfreflow (pdftohtml), Calibre’s e-book-convert, pdf2htmlEX, pdfbox can be added to the mix for PDF text extraction.
+For command-line enthusiasts, programs such as pdftotext, pdfreflow (pdftohtml), Calibre’s e-book-convert, pdf2htmlEX, pdfbox can be added to the mix for PDF text extraction.
 
 For a thorough review of solutions for handling PDFs in translation, see [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#pdf).
 
@@ -824,9 +828,17 @@ Allows you to index select directories and search the contents of files on your 
 
 Recoll finds keywords inside documents as well as file names (uses indexing).
 
+[Searchmonkey](http://searchmonkey.embeddediq.com/)
+
+Allows users to search for file names and contents using powerful regular expressions.
+
+[Regexxer](http://regexxer.sourceforge.net/) is a GUI search/replace tool featuring Perl-style regular expressions.
+
 [Gnome Shell](https://www.gnome.org/) Desktop Environment comes with a configurable built-in Tracker (Search), which allows searching various types of content, including “full-text search”. If you don’t use it, you might as well disable it, to prevent full indexing.
 
 For simple, lightweight desktop search, you can use Gnome search tool or [Catfish](http://www.twotoasts.de/index.php/catfish/).
+
+Of course, there are also powerful command-line utilities for searching files (find), text searching for lines matching a regular expression (grep), etc.
 
 ## File rename utilities
 
@@ -834,7 +846,27 @@ For simple, lightweight desktop search, you can use Gnome search tool or [Catfis
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) file manager also includes an excellent [Bulk Rename](https://docs.xfce.org/xfce/thunar/bulk-renamer/start) utility.
 
-<!--- TODO add text editors --->
+## Text editors
+
+[Gedit](https://wiki.gnome.org/Apps/Gedit) and [Kate](https://kate-editor.org/) are two of the nice default text editors available.
+
+[Geany](https://geany.org/) is a great lightweight text editor and Integrated Development Environment (IDE).
+
+Text editors with even richer functions inclure GitHub's [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) (free/paid) and [Brackets](http://brackets.io/).
+
+For historical reasons, I'll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
+
+## System security|Antivirus
+
+While GNU/Linux is generally considered as less prone to (and targeted by) Trojans, viruses, malware and other malicious threats, especially those created for Windows, it is advisable to consider your system's security.
+
+Although beyond the scope of this document, you should take steps to ensure secure web browsing, especially via some browser add-ons/extensions.
+
+[Rkhunter](http://rkhunter.sourceforge.net/) (Rootkit Hunter) is a Unix-based tool that scans for rootkits, backdoors and possible local exploits specific to GNU/Linux systems.
+
+More generally, you can use the open source antivirus engine [ClamAV](https://www.clamav.net/). By default, it lives in the command-line (terminal), but you can install its graphical front-end, [ClamTk](https://dave-theunsub.github.io/clamtk/) as well as its file manager addons (depending on your Desktop Environment: Gnome, KDE, Cinamon, XFCE, etc.), so that you can scan a file for threats just by right-clicking on it.
+
+Since most threats come from Windows programs, be extra careful when installing them. [CrossOver](https://www.codeweavers.com/) (paid), which helps run and install Windows applications on GNU/Linux, conveniently scans Windows programs that you install or run for viruses. Same goes for files (email attachments, etc.) that you open with such programs.
 
 ## Productivity tools selection
 
