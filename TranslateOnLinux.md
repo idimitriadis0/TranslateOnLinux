@@ -856,7 +856,7 @@ Text editors with even richer functions inclure GitHub's [Atom](https://atom.io/
 
 For historical reasons, I'll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
 
-## System security|Antivirus
+<!--- ## System security|Antivirus
 
 While GNU/Linux is generally considered as less prone to (and targeted by) Trojans, viruses, malware and other malicious threats, especially those created for Windows, it is advisable to consider your system's security.
 
@@ -866,7 +866,7 @@ Although beyond the scope of this document, you should take steps to ensure secu
 
 More generally, you can use the open source antivirus engine [ClamAV](https://www.clamav.net/). By default, it lives in the command-line (terminal), but you can install its graphical front-end, [ClamTk](https://dave-theunsub.github.io/clamtk/) as well as its file manager addons (depending on your Desktop Environment: Gnome, KDE, Cinamon, XFCE, etc.), so that you can scan a file for threats just by right-clicking on it.
 
-Since most threats come from Windows programs, be extra careful when installing them. [CrossOver](https://www.codeweavers.com/) (paid), which helps run and install Windows applications on GNU/Linux, conveniently scans Windows programs that you install or run for viruses. Same goes for files (email attachments, etc.) that you open with such programs.
+Since most threats come from Windows programs, be extra careful when installing them. [CrossOver](https://www.codeweavers.com/) (paid), which helps run and install Windows applications on GNU/Linux, conveniently scans Windows programs that you install or run for viruses. Same goes for files (email attachments, etc.) that you open with such programs. --->
 
 ## Productivity tools selection
 
