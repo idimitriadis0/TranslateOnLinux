@@ -8,6 +8,7 @@
 	- [Memsource Editor|Cloud](#memsource-editorcloud)
 	- [WordFast Pro 3|5](#wordfast-pro-35)
 	- [Swordfish Translation Editor](#swordfish-translation-editor)
+	- [Fluency Now](#fluency-now)
 	- [Heartsome Translation Studio](#heartsome-translation-studio)
 	- [WordFast Classic](#wordfast-classic)
 	- [Other](#other)
@@ -49,7 +50,6 @@
 	- [Desktop search|full text index](#desktop-searchfull-text-index)
 	- [File rename utilities](#file-rename-utilities)
 	- [Text editors](#text-editors)
-	- [System security|Antivirus](#system-securityantivirus)
 	- [Productivity tools selection](#productivity-tools-selection)
 		- [AutoKey (Py3)](#autokey-py3)
 		- [Reduce eye-strain](#reduce-eye-strain)
@@ -222,6 +222,40 @@ Free utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.ht
 **Demo version**: 30-day trial.
 **Cost:** [Online Store](http://www.maxprograms.com/store/buy.html).
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/swordfish_translation_editor/89).
+
+## Fluency Now
+
+Fluency Now (Professional or Enterprise edition) is an easy to use full-featured CAT tool suite that's affordable for freelancers and organizations alike.
+
+Some of its [product features](https://www.westernstandard.com/Fluency/TranslationSuite.aspx) include:
+
+- Easy to learn, customizable interface
+- Great file compatibility
+- Built-in terminology available in over 35 language pairs
+- Support for TMX, SDLTM, TTX,txt, MDB, ACCDB translation memories
+- Support for txt, TBX, SDLTB, and other terminology formats
+- Pseudo Translation
+- Alignment Tool
+- Transcription Tool
+- Multiple Machine translation engine support
+- TTS and Speech to command with extensive Accessibility support
+- Auto Correct, Auto Text, Term suggest, and TM suggestions while you type
+- Supports right to left languages
+- Customizable (dynamic) web resources
+- Live preview
+- Informative toolbars, statistics and project analysis
+- Quick help and technical support
+- HIPAA & HITECH Compliant
+- Support for Fluency TM & Term Server (Entrerprise Edition)
+- Support for Fluency Flow Project Management (Entrerprise Edition)
+
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** [Benefits & Features](https://www.westernstandard.com/Fluency/TranslationSuite.aspx).
+**Support and manual:** [Fluency 101](https://fluencytranslation.wordpress.com/fluency-101/), [video tutorials](https://www.westernstandard.com/Fluency/Video_Tutorials.aspx).
+**License:** Closed source.
+**Demo version**: 15-day trial.
+**Cost:** Monthly and yearly [subscription](https://www.westernstandard.com/Store/Purchase.aspx).
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/fluency_translation_suite_2013/55).
 
 ## Heartsome Translation Studio
 
