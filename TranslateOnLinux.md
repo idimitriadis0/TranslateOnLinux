@@ -71,7 +71,7 @@
 
 It is quite possible to work as a professional translator while running a GNU/Linux distribution as your chosen operating system.
 
-The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who (intend to) work on GNU/Linux. It should help them build a comprehensive toolkit to fit most translation needs.
+The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who (intend to) work on GNU/Linux. It should help them build a comprehensive toolbox to fit most translation needs.
 
 Inspiration for this list: the website [LinuxForTranslators.com](http://www.linuxfortranslators.org/) by Marc Prior, and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators, along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
 
@@ -177,13 +177,13 @@ Memsource is an easy and simple online CAT tool, which also offers a desktop edi
 Among other things, it offers an extensive file format support, with interesting file filter options and features a thorough support website. It also sports a useful document preview feature and can handle large remote TMs and termbases as well. It is used by some agencies who offer project-based licenses. The web version is reportedly quite slower than the desktop version.
 
 Online/Offline tool
-**Platforms:** GNU/Linux, Windows, OS X
-**Supported formats:** [file formats](https://help.memsource.com/hc/en-us/articles/360000446911-Supported-File-Formats)
-**Support and manual:** [Support](https://help.memsource.com/hc/en-us), [Memsource Cloud user manual](https://help.memsource.com/hc/en-us/sections/115000903671-Memsource-Cloud-User-Manual), [Desktop Editor user manual](https://help.memsource.com/hc/en-us/sections/115000903871-Desktop-Editor)
-**License:** Closed source
-**Demo**: 30-day trial / Free Personal edition (maximum two files at a time)
-**Cost:** [editions and pricing](https://www.memsource.com/pricing2)
-**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/memsource_cloud/40) [G2Crowd](https://www.g2crowd.com/products/memsource/reviews)
+**Platforms:** GNU/Linux, Windows, OS X.
+**Supported formats:** [file formats](https://help.memsource.com/hc/en-us/articles/360000446911-Supported-File-Formats).
+**Support and manual:** [Support](https://help.memsource.com/hc/en-us), [Memsource Cloud user manual](https://help.memsource.com/hc/en-us/sections/115000903671-Memsource-Cloud-User-Manual), [Desktop Editor user manual](https://help.memsource.com/hc/en-us/sections/115000903871-Desktop-Editor).
+**License:** Closed source.
+**Demo**: 30-day trial / Free Personal edition (maximum two files at a time).
+**Cost:** [editions and pricing](https://www.memsource.com/pricing2).
+**Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/memsource_cloud/40), [G2Crowd](https://www.g2crowd.com/products/memsource/reviews).
 
 ## WordFast Pro 3|5
 
@@ -211,7 +211,7 @@ Swordfish is compatible with other CAT tools, since it supports XLIFF (including
 
 Other features include In-Context Exact Matches, full interface customization, segment filtering, comfortable proofreading and TM/MT engines.
 
-The developer Maxprograms also offers a range of [localization software and utilities](https://www.maxprograms.com/store/buy.html), among which [Stingray](https://www.maxprograms.com/products/stingray.html) (document aligner) and a DITA translation manager and publisher.
+The developer, Maxprograms, also offers a range of [localization software and utilities](https://www.maxprograms.com/store/buy.html), among which [Stingray](https://www.maxprograms.com/products/stingray.html) (document aligner) and a DITA translation manager and publisher.
 
 Free utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.html) (Glossary manager and term extractor), [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) (Segmentation Rules editor), [XLIFFChecker](https://www.maxprograms.com/products/xliffchecker.html) and [TMXValidator](https://www.maxprograms.com/products/tmxvalidator.html).
 
@@ -261,7 +261,9 @@ Some of its [product features](https://www.westernstandard.com/Fluency/Translati
 
 [Heartsome](https://github.com/heartsome/translationstudio8) is a discontinued commercial CAT tool software that is now open sourced and offered gratis.
 
-The software starts getting old (it is no longer developed for more than 4 years now), but sports some nice capabilities that make it useful to keep around. It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8)) for editing TMX memories.
+The software starts getting old (it is no longer developed for more than 4 years now), but sports some nice capabilities that make it useful to keep around.
+
+It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8)) for editing TMX memories.
 
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** see GitHub page.
@@ -294,7 +296,7 @@ The software starts getting old (it is no longer developed for more than 4 years
 
 ## ONLINE CAT TOOLS
 
-The advent of Cloud/browser-based CAT tools has added several GNU/Linux compatible solutions to the existing arsenal.
+While problematic from a privacy and freedom point of view, the advent of Cloud/browser-based CAT tools has added several GNU/Linux compatible solutions to the existing arsenal.
 
 ## Memsource Cloud
 
@@ -359,7 +361,7 @@ Be sure to add the Chrome extension [Google Translator Toolkit Booster](https://
 
 ## Other
 
-Online browser-based localization platforms, of course, can be used on GNU/Linux: [Crowdin](https://crowdin.com/), [Transifex](https://www.transifex.com/), [Weblate](https://weblate.org/en/), [Pontoon](https://pontoon.mozilla.org/), [Zanata](http://zanata.org/), [Pootle](http://pootle.translatehouse.org/), [POEditor](https://poeditor.com/), [Webtranslateit](https://webtranslateit.com/en), etc.
+Not to mention the different online browser-based localization platforms which can be used on GNU/Linux: [Crowdin](https://crowdin.com/), [Transifex](https://www.transifex.com/), [Weblate](https://weblate.org/en/), [Pontoon](https://pontoon.mozilla.org/), [Zanata](http://zanata.org/), [Pootle](http://pootle.translatehouse.org/), [POEditor](https://poeditor.com/), [Webtranslateit](https://webtranslateit.com/en), etc.
 
 ## Translation related tasks and tools
 
@@ -409,15 +411,21 @@ CafeTran Espresso CAT tool offers a powerful workflow for performing various edi
 
 Diff tool for comparing and merging TMX translation memories.
 
+[Goldpan TMX/TBX Editor](https://logrusglobal.com/goldpan.html)(free, Windows VM only)
+
+The newer version of intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
+
 ### Segmentation|SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
 Examples of tools that support SRX files: OmegaT, CafeTran Espresso, Swordfish, WordFast Pro, and Memsource.
 
-[Okapi Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a cross-platform application that helps create and maintain segmentation rules in the SRX format. Such rules are used to break down translatable text into more meaningful parts. Ratel is part of the Okapi Framework, and can be used either as a standalone utility or from within Okapi Rainbow.
+[Okapi Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a free-libre/open source cross-platform application that helps create and maintain segmentation rules in the SRX format. Such rules are used to break down translatable text into more meaningful parts. Ratel is part of the Okapi Framework, and can be used either as a standalone utility or from within Okapi Rainbow.
 
 Maxprograms’ [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) is included in Stingray and Swordfish III installers. While these programs require a license to be used, the SRXEditor can be launched freely.
+
+Downloadable SRX rules: [OmegaT's default rules](https://raw.githubusercontent.com/omegat-org/omegat/master/src/org/omegat/core/segmentation/defaultRules.srx), [LanguageTool's segmentation rules](https://github.com/languagetool-org/languagetool/blob/master/languagetool-core/src/main/resources/org/languagetool/resource/segment.srx).
 
 ### Term extraction
 
@@ -450,6 +458,12 @@ Free, offline. Its term extraction utility offers flexible, configurable statist
 
 TODO
 
+<!--- TODO ### Word count
+
+[Count Anything](http://ginstrom.com/CountAnything/)
+
+Counts the words and characters in a variety of file formats (). --->
+
 ## Office software
 
 An Office suite represents an important part of a translator’s or reviser’s toolkit and is often a critical step in the translation workflow.
@@ -464,11 +478,11 @@ Useful Microsoft Office add-ins:
 - [CodeZapper](http://asap-traduction.com/CodeZapper) (one-time donation) is a set of Word VBA macros designed to “clean up” Word files before being imported into a standalone translation environment so that the files have fewer tags.
 - [TransTools](http://www.translatortools.net/) is a collection of tools for Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Microsoft Visio, Autodesk AutoCAD and other programs. These tools will help you at every step of the translation process – during the preparation of documents for translation, in the course of translation, and during QA and post-formatting. [Feature overview](http://www.translatortools.net/benefits.html).
 - [PlusTools](https://www.wordfast.net/wiki/PlusTools) is a free MS Word add-in that can handle multiple tasks, including preparing tagged files for translation, extracting terminology, and alignment.
-- [Grammarly](https://www.grammarly.com/office-addin/) is an EXE program that you can install along with MS Office. It automatically detects grammar, spelling, punctuation, word choice, and style mistakes in your writing (English only). Also available as a Chrome plugin and a web app.
+- [Grammarly](https://www.grammarly.com/office-addin/) (freemium) is an Windows program that you can install along with MS Office. It automatically detects grammar, spelling, punctuation, word choice, and style mistakes in your writing (English only). Also available as a Chrome plugin and a web app.
 
 [LibreOffice](https://www.libreoffice.org/)
 
-LibreOffice is an excellent Office suite in its own right. It can open and save MS Office documents, but compatibility is not always perfect, which is critical when it comes to delivering final documents and meeting client expectations. You might need to consider other options.
+LibreOffice is an excellent Office suite in its own right. It can open and save MS Office documents, but compatibility is not always perfect, which can be critical when it comes to delivering final documents and meeting client expectations. You may need to consider other options as well.
 
 [Feature/compatibility comparison](https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office) with Microsoft Office.
 
@@ -514,6 +528,8 @@ Mostly for collaboration or own documents, not necessarily meant to replace a co
 
 [Microsoft Office Online](https://www.office.com/) (online)
 
+Same as above.
+
 **A word on Microsoft fonts:**
 
 You’ll probably need a way to install Microsoft/Windows fonts on your Linux distribution to be able to work with the same fonts as other Microsoft Office users. These are mostly proprietary and cannot be distributed along with your GNU/Linux distribution.
@@ -526,20 +542,20 @@ If fonts don’t look good, you might need to learn how to improve anti-aliasing
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
-- [Grammarly](https://www.grammarly.com/) (EN) detects grammar, spelling, punctuation, word choice, and style mistakes in your writing. Available as a Chrome extension, as a Word add-in and a web app.
+- [Grammarly](https://www.grammarly.com/) (EN) (freemium) detects grammar, spelling, punctuation, word choice, and style mistakes in your writing. Available as a Chrome extension, as a Word add-in and a web app.
 - [Grammalecte](https://www.dicollecte.org/) (FR): free French grammar checker for LibreOffice, Thunderbird, Firefox, Chrome and CLI editors. Note: You must disable LanguageTool for Grammalecte to work in LibreOffice.
 - Other writing editors and writing aids (EN): [ProWritingAid](https://prowritingaid.com/), [Hemingway App](http://www.hemingwayapp.com/)
 - Other online proofreading tools (EN) include [GrammarChecker](https://grammarchecker.net/) and [GrammarLookup](https://www.grammarlookup.com/)
 - [Ludwig.guru](https://ludwig.guru/) (EN) is a linguistic search engine and contextualized translator
 
-Note: [PerfectIt](http://www.intelligentediting.com/) (EN) cannot be installed with Wine (as tested), it needs to be used in a Windows VM.
+Note: [PerfectIt](http://www.intelligentediting.com/) (EN) (paid) cannot be installed with Wine (as tested), it needs to be used in a Windows VM.
 
 ## QA tools
 
 Each CAT tool offers a built-in QA:
 
 - OmegaT features an very good “QA - Check rules” script.
-- CafeTran offers very rich [QA feature](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/2-Menu-and-Interface#qa).
+- CafeTran offers a very rich [QA feature](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/2-Menu-and-Interface#qa).
 - Memsource sports a [Quality Assurance pane](https://help.memsource.com/hc/en-us/articles/115003643072-Quality-Assurance-Pane) for a host of [QA checks](https://help.memsource.com/hc/en-us/articles/115003680771-Projects#Quality_Assurance_1).
 - [WFP 3](http://www.wordfast.com/WFP3/Wordfast_Pro_Help.htm) and [WFP 5](http://www.wordfast.com/WFP/5.4/Wordfast_Pro_Help.htm) offer Transcheck.
 - WordFast Classic has [Quality Assurance](https://www.wordfast.net/wiki/Quality_Assurance_Wordfast_Classic).
@@ -584,7 +600,7 @@ Here, it’s about working on the software program that handles the original fil
 
 [Okapi Framework](http://okapiframework.org/)
 
-The Okapi Framework is a cross-platform and free open-source set of components and applications that offer extensive support for localizing and translating documentation and software.
+The Okapi Framework is a cross-platform and free-libre/open source set of components and applications that offer extensive support for localizing and translating documentation and software.
 
 [Rainbow](http://okapiframework.org/wiki/index.php?title=Rainbow) is an Okapi application which allows you to launch different utilities to help you perform various localization-related tasks. It includes CheckMate and Ratel, which can also be launched as standalone utilities.
 
@@ -650,13 +666,13 @@ A toolkit with various terminal utilities for localization engineers, offering f
 
 Check the validity of your TMX documents on any platform.
 
-[XLIFFCHecker](https://www.maxprograms.com/products/xliffchecker.html)
+[XLIFFChecker](https://www.maxprograms.com/products/xliffchecker.html)
 
 Verify the validity of your XLIFF (XML Localisation Interchange File Format) documents in any platform
 
 ## Subtitling
 
-Professional subtitling software is mostly Windows only, I’m afraid. Here are some free alternatives for more occasional subtitling (although Aegisub is being used by professional subtitlers as well).
+Professional subtitling software is mostly Windows only, I’m afraid. Here are some free alternatives for more occasional subtitling (although Aegisub and, to a lesser extent, Subtitle Edit, are being used by professional subtitlers as well).
 
 [Aegisub](aegisub.org/)
 
@@ -674,7 +690,9 @@ Subtitle Edit is a free (open source) subtitle editor. It can read, write, and c
 
 Editor for text-based subtitles. Supports translating a subtitles side by side with the original.
 
-[Amara](https://amara.org/en/subtitling-platform/) offers an online subtitling platform.
+[Amara](https://amara.org/en/subtitling-platform/) also offers a very good online subtitling platform.
+
+[dotsub](https://dotsub.com/) is another web-based system for creating and viewing subtitles for videos in multiple languages across all platforms.
 
 ## Transcription
 
@@ -982,7 +1000,7 @@ Two applications aim to make it easy to install Windows programs in such separat
 - [PlayOnLinux](playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
 
 Some examples of useful translation-related applications that run well on Linux via Wine (mostly PlayOnLinux and Crossover) are the following:
-- Microsoft Office 2010, 2013 and 2016, Grammarly office add-in, [XBench](https://www.xbench.net/index.php/download), [AnyCount](https://www.anycount.com/) and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries.
+- Microsoft Office 2010, 2013 and 2016, Grammarly office add-in, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries.
 
 Many Windows programs that require specific versions of the .NET framework can be installed successfully after installing these first. Tip: Trial versions can be easily reinstalled since you can create separate machines with a few clicks.
 
