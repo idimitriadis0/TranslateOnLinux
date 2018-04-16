@@ -1019,7 +1019,8 @@ Running a VM requires assigning some of your computer RAM to Windows operation, 
 Other virtualization applications worth mentioning:
 
 Paid: [Parallels](https://www.parallels.com/)
-Free: [VMware](https://www.vmware.com/), [QEMU](https://www.qemu.org/)
+Free/Paid: [VMware](https://www.vmware.com/)
+Free: [QEMU](https://www.qemu.org/)
 
 ### Via Dual Boot | On a separate machine
 
