@@ -389,13 +389,13 @@ Many other CAT tools, such as WordFast Pro, OmegaT, CafeTran Espresso, SmartCat 
 
 Word documents (especially those coming from OCR’d files or PDF converted files) are often strewn with codes which produce unnecessary tags when imported in a CAT tool. This tagged information shows up in the translation grid as spurious codes{1}around{2}, or even in the mid{3}dle of, words, making sentences difficult to read and translate and generally negating many of the productivity benefits of the program. There are ways to get around this.
 
-[CodeZapper](http://asap-traduction.com/CodeZapper) (one-time donation) is a set of Word VBA macros designed to “clean up” Word files before being imported into a standalone translation environment so that the files have fewer tags.
+[CodeZapper](http://asap-traduction.com/CodeZapper) (€20 licence) is a set of Word VBA macros designed to “clean up” Word files before being imported into a standalone translation environment so that the files have fewer tags.
 
-[TransTools - Document Cleaner](http://www.translatortools.net/word-doccleaner.html) (free) Part of the TransTools set of MS Office add-ins, Document Cleaner is a collection of tools for the preparation of badly formatted documents for translation. It features a Tag cleaner tool, which attempts to strip unnecessary tags.
+[TransTools - Document Cleaner](http://www.translatortools.net/word-doccleaner.html) (freeware) Part of the TransTools set of MS Office add-ins, Document Cleaner is a collection of tools for the preparation of badly formatted documents for translation. It features a Tag cleaner tool, which attempts to strip unnecessary tags.
 
 [CafeTran Espresso](https://cafetran.com/) CAT tool offers a special filter to handle MS Word documents after OCR, which clears the source text of unnecessary formatting tags. It can prove useful anytime an MS Word document produces too many unnecessary tags.
 
-[OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s).
+[OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version should now include the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script, which has a GUI that lets the user select different options with which it should be run.
 
 ### Translation Memory (TMX) Editing|Maintainance
 
@@ -411,9 +411,9 @@ CafeTran Espresso CAT tool offers a powerful workflow for performing various edi
 
 Diff tool for comparing and merging TMX translation memories.
 
-[Goldpan TMX/TBX Editor](https://logrusglobal.com/goldpan.html)(free, Windows VM only)
+[Goldpan TMX/TBX Editor](https://logrusglobal.com/goldpan.html) (free, Windows VM only)
 
-The newer version of intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
+An intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
 
 ### Segmentation|SRX editors
 
