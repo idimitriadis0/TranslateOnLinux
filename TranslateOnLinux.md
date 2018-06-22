@@ -58,6 +58,7 @@
 		- [Time|project tracking](#timeproject-tracking)
 		- [Pomodoro timers](#pomodoro-timers)
 	- [Unit conversion](#unit-conversion)
+	- [On-screen keyboard](#on-screen-keyboard)
 	- [Running Windows applications](#running-windows-applications)
 		- [Natively on WINE](#natively-on-wine)
 		- [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine-vm)
@@ -71,7 +72,7 @@
 
 It is quite possible to work as a professional translator while running a GNU/Linux distribution as your chosen operating system.
 
-The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who (intend to) work on GNU/Linux. It should help them build a comprehensive toolbox to fit most translation needs.
+The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who wish to work on GNU/Linux. It should help them build a comprehensive toolbox to fit most translation needs.
 
 Inspiration for this list: the website [LinuxForTranslators.com](http://www.linuxfortranslators.org/) by Marc Prior, and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators, along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
 
@@ -139,7 +140,7 @@ Here are some highlights:
 - Matchboard: all resources at a glance
 - Context-aware Auto-assembling feature
 - Flexible Translation Memory handling and options, TMs can store segments and/or fragments
-- Easy glossary format and term management features (alternative to TM for storing fragments)
+- Easy (multi-lingual) glossary format and term management features (alternative to TM for storing fragments)
 - Total Recall for storing and recalling really big TMs (millions of segments)
 - Auto-completion, suggests words on the fly
 - Quick search bar for querying various resources
@@ -395,7 +396,7 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [CafeTran Espresso](https://cafetran.com/) CAT tool offers a special filter to handle MS Word documents after OCR, which clears the source text of unnecessary formatting tags. It can prove useful anytime an MS Word document produces too many unnecessary tags.
 
-[OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version should now include the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script, which has a GUI that lets the user select different options with which it should be run.
+[OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version now includes the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script for clearing excessive tags on Word documents. It offers a GUI that lets the user select different options with which it should be run.
 
 ### Translation Memory (TMX) Editing|Maintainance
 
@@ -541,12 +542,12 @@ If fonts don’t look good, you might need to learn how to improve anti-aliasing
 ## Language | Grammar checkers | Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
-- [LanguageTool](https://languagetool.org/languages/) (multiple languages): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
+- [LanguageTool](https://languagetool.org/languages/) (multiple languages, free and open source): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
 - [Grammarly](https://www.grammarly.com/) (EN) (freemium) detects grammar, spelling, punctuation, word choice, and style mistakes in your writing. Available as a Chrome extension, as a Word add-in and a web app.
-- [Grammalecte](https://www.dicollecte.org/) (FR): free French grammar checker for LibreOffice, Thunderbird, Firefox, Chrome and CLI editors. Note: You must disable LanguageTool for Grammalecte to work in LibreOffice.
+- [Grammalecte](https://www.dicollecte.org/) (FR): free and open source French grammar checker for LibreOffice, Thunderbird, Firefox, Chrome and CLI editors. Note: You must disable LanguageTool for Grammalecte to work in LibreOffice.
 - Other writing editors and writing aids (EN): [ProWritingAid](https://prowritingaid.com/), [Hemingway App](http://www.hemingwayapp.com/)
 - Other online proofreading tools (EN) include [GrammarChecker](https://grammarchecker.net/) and [GrammarLookup](https://www.grammarlookup.com/)
-- [Ludwig.guru](https://ludwig.guru/) (EN) is a linguistic search engine and contextualized translator
+- [Ludwig.guru](https://ludwig.guru/) (EN) is a linguistic search engine and contextualized translator.
 
 Note: [PerfectIt](http://www.intelligentediting.com/) (EN) (paid) cannot be installed with Wine (as tested), it needs to be used in a Windows VM.
 
@@ -690,7 +691,7 @@ Subtitle Edit is a free (open source) subtitle editor. It can read, write, and c
 
 Editor for text-based subtitles. Supports translating a subtitles side by side with the original.
 
-[Amara](https://amara.org/en/subtitling-platform/) also offers a very good online subtitling platform.
+[Amara](https://amara.org/en/subtitling-platform/) offers a very good online subtitling platform.
 
 [dotsub](https://dotsub.com/) is another web-based system for creating and viewing subtitles for videos in multiple languages across all platforms.
 
@@ -797,9 +798,9 @@ Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/
 
 ### PDF Editors
 
-[Master PDF Editor](https://code-industry.net/masterpdfeditor/) (Free for non-commercial use.)
+[Master PDF Editor](https://code-industry.net/masterpdfeditor/) (Free for non-commercial use)
 
-[Sejda PDF Editor](https://www.sejda.com/desktop) (Free, with some premium features.)
+[Sejda PDF Editor](https://www.sejda.com/desktop) (Free, with some premium features)
 
 [Qoppa PDF Studio](https://www.qoppa.com/pdfstudio/) (Paid)
 
@@ -938,7 +939,7 @@ Also available as a [Gnome shell extension](https://extensions.gnome.org/).
 
 [f.lux](https://justgetflux.com/)
 
-Note: Gnome Desktop environment also includes an integrated Night mode in Settings > Displays.
+Note: Gnome Desktop environment also sports an integrated Night mode in Settings > Displays.
 
 ### Clipboard managers
 
@@ -982,6 +983,10 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [ConvertAll](http://convertall.bellz.org/)
 
+## On-screen keyboard
+
+**Onboard** is an excellent on-screen (virtual) keyboard. Handy if you wish to remember how to type less frequent characters for your language.
+
 ## Running Windows applications
 
 ### Natively on WINE
@@ -1000,7 +1005,7 @@ Two applications aim to make it easy to install Windows programs in such separat
 - [PlayOnLinux](playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
 
 Some examples of useful translation-related applications that run well on Linux via Wine (mostly PlayOnLinux and Crossover) are the following:
-- Microsoft Office 2010, 2013 and 2016, Grammarly office add-in, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries.
+- Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries.
 
 Many Windows programs that require specific versions of the .NET framework can be installed successfully after installing these first. Tip: Trial versions can be easily reinstalled since you can create separate machines with a few clicks.
 
@@ -1033,6 +1038,7 @@ Happy translating!
 ## Updates
 
 20180408 Initial wiki upload
+20180622 Small update
 
 ## Feedback
 
