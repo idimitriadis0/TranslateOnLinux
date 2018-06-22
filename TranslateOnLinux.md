@@ -57,8 +57,8 @@
 		- [Screenshots](#screenshots)
 		- [Time|project tracking](#timeproject-tracking)
 		- [Pomodoro timers](#pomodoro-timers)
-	- [Unit conversion](#unit-conversion)
-	- [On-screen keyboard](#on-screen-keyboard)
+		- [Unit conversion](#unit-conversion)
+		- [On-screen keyboard](#on-screen-keyboard)
 	- [Running Windows applications](#running-windows-applications)
 		- [Natively on WINE](#natively-on-wine)
 		- [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine-vm)
@@ -979,11 +979,11 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Pomello](https://pomelloapp.com/)
 
-## Unit conversion
+### Unit conversion
 
 [ConvertAll](http://convertall.bellz.org/)
 
-## On-screen keyboard
+### On-screen keyboard
 
 **Onboard** is an excellent on-screen (virtual) keyboard. Handy if you wish to remember how to type less frequent characters for your language.
 
