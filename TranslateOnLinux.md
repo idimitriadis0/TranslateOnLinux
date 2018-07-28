@@ -686,8 +686,6 @@ The Okapi Framework is a cross-platform and free-libre/open source set of compon
 
 [Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a GUI application to create and maintain segmentation rules. Such rules are used to break down translatable text into more meaningful parts. Ratel uses Okapi’s SRX-based segmentation engine. SRX is the Segmentation Rules eXchange format.
 
-s
-
 [BootCaT](http://bootcat.dipintra.it/)
 
 Bootstrap Corpora And Terms from the Web. BootCaT is a free/libre software cross-platform Java application, which you can use to create specialized monolingual corpora on the fly. You can use a concordancer, such as AntConc, on the resulting corpus. Note: The [Sketch Engine](https://www.sketchengine.eu/) uses WebBootCaT among other features.
