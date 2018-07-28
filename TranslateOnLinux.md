@@ -19,6 +19,7 @@
 	- [Wordfast Anywhere](#wordfast-anywhere)
 	- [Lilt](#lilt)
 	- [Google Translation Toolkit](#google-translation-toolkit)
+	- [Wordbee](#wordbee)
 	- [Other](#other)
 	- [Translation related tasks and tools](#translation-related-tasks-and-tools)
 		- [Alignment](#alignment)
@@ -27,6 +28,9 @@
 		- [Segmentation|SRX editors](#segmentationsrx-editors)
 		- [Term extraction](#term-extraction)
 		- [Terminology management](#terminology-management)
+			- [File formats](#file-formats)
+			- [Tools](#tools)
+		- [Word count](#word-count)
 	- [Office software](#office-software)
 	- [Language | Grammar checkers | Writing aids](#language-grammar-checkers-writing-aids)
 	- [QA tools](#qa-tools)
@@ -55,6 +59,7 @@
 		- [Reduce eye-strain](#reduce-eye-strain)
 		- [Clipboard managers](#clipboard-managers)
 		- [Screenshots](#screenshots)
+		- [Screen recording|Screencasting](#screen-recordingscreencasting)
 		- [Time|project tracking](#timeproject-tracking)
 		- [Pomodoro timers](#pomodoro-timers)
 		- [Unit conversion](#unit-conversion)
@@ -360,6 +365,16 @@ Be sure to add the Chrome extension [Google Translator Toolkit Booster](https://
 **License:** Closed source.
 **Cost:** Free (Google account needed).
 
+## Wordbee
+
+[Wordbee](https://www.wordbee.com/) is an online Translation Project Management and Translation Editor. It is a complete CAT tool, price management, customer management, invoicing, and linguistic solution.
+
+**Supported formats**: [Supported file types](https://www.wordbee.com/file-formats/).
+**Support and webinars:** [Documentation](https://documents.wordbee.com/display/home/Welcome), [Support](https://wordbee.zendesk.com/hc/en-us), [Webinars](https://www.wordbee.com/events/webinars/).
+**License:** Closed source.
+**Demo:** 14-day free trial.
+**Cost:** Monthly or annual subscription.
+
 ## Other
 
 Not to mention the different online browser-based localization platforms which can be used on GNU/Linux: [Crowdin](https://crowdin.com/), [Transifex](https://www.transifex.com/), [Weblate](https://weblate.org/en/), [Pontoon](https://pontoon.mozilla.org/), [Zanata](http://zanata.org/), [Pootle](http://pootle.translatehouse.org/), [POEditor](https://poeditor.com/), [Webtranslateit](https://webtranslateit.com/en), etc.
@@ -457,10 +472,72 @@ Free, offline. Its term extraction utility offers flexible, configurable statist
 
 ### Terminology management
 
-TODO
+#### File formats
 
-<!--- TODO ### Word count
+**Excel | CSV/TSV | Tab-delimited TXT**
 
+Some simple glossary formats such as Excel files, CSV/TSV (Comma-separated values/Tab-separated values) files and tab-delimited text files may be all you need for your terminology management and terminology exchange needs.
+
+Excel and CSV/TSV files can simply be edited in office applications such as [Microsoft Excel](https://support.office.com/en-us/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba?ui=en-US&rs=en-US&ad=US), [LibreOffice Calc](https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files) (superior CSV/TSV handling compared to Excel). [Ron's Editor](https://www.ronsplace.eu/Products/RonsEditor), an excellent dedicated CSV editor with professional features (Feee/Lite and Pro versions available, with a 30-day trial) is Windows-only, but can be used with Wine after installing .Net Framework 4.5.2.
+
+Tab-delimited TXT files can be edited in any text editor, although it is recommended to simply rename them to .csv or .tsv, no other conversion needed.
+
+Most CAT tools support such files (and converting from one of these file formats to another is mostly trivial): [OmegaT](http://omegat.sourceforge.net/manual-latest/en/chapter.glossaries.html
+), CafeTran Espresso, [Matecat](https://www.matecat.com/support/managing-language-resources/add-glossary/), Memsource (Import/Export Excel), WordFast Pro (Tab delimited TXT), [Fluency Now](https://fluencytranslation.wordpress.com/fluency-now-adding-personal-terminology/), Google Translator Toolkit, etc.
+
+Swordfish uses the open Glossary Markup Language ([GlossML](https://www.maxprograms.com/glossml/glossml.pdf)) format. It offers a free glossary editor, [Anchovy](https://www.maxprograms.com/products/anchovy.html), which can import TMX, CSV and tab-del glossaries and export to GlosssML, CSV, HTML, TMX, TBX and XML.
+
+For conducting CAT-tool independent TM and glossary searches, [TMLookup](http://www.farkastranslations.com/tmlookup.php) is an open source tool designed to search (massive) bilingual and multilingual text databases (translation memories) and glossaries. For glossaries, it can import TXT and XLS files. It runs fine on Wine.
+
+**TBX**
+
+TBX, short for TermBase eXchange, is the international standard for representing and exchanging information about terms, words, and other lexical data. Here's a list of tools with some TBX support: http://www.tbxinfo.net/tbx-support/
+
+Several CAT tools can **import/read** TBX files: OmegaT, CafeTran Espresso, Memsource, WordFast Pro
+
+Heartsome TMX editor can **import and export to TBX** (but not directly edit), among other formats.
+
+Anchovy can **export** to TBX: [Anchovy](https://www.maxprograms.com/products/anchovy.html) (free).
+
+Virtaal can **edit/read** TBX files
+
+XBench (see below) can **import** TBX files and **convert** them to tab-delimited TXT files.
+
+[Goldpan TMX/TBX Editor](https://logrusglobal.com/goldpan.html) (installs but does not run correctly in Wine, needs a Windows VM) can **edit and export/save** TBX (and TMX) files
+
+**SDLTB**
+
+Trados Studio termbases (SDLTB) are writen in a proprietary format, created by SDL MultiTerm. Since SDL Trados/Multiterm are quite common, you might come accross these files fairly often.
+
+Some CAT tools support importing SDLTB files: Fluency Now and Memsource ([partly](https://wiki.memsource.com/wiki/TBX.XML))
+
+Tools for converting SDLTB files: [Trados Studio Resource Converter](http://www.vannellen.com/fortranslators.php) and [WfConverter](http://wordfast.fi/blog/cat-tools/2012/11/03/convert-sdltm-and-sdltb-without-studio-and-multiterm/)
+
+Tools for converting to SDLTB (among other conversions): [Glossary Converter](http://www.cerebus.de/glossaryconverter/) (Windows VM, or Wine with MS Office)
+
+#### Tools
+
+[XBench](https://www.xbench.net/) is a Terminology and QA tool.
+
+It features an older freeware non-unicode version (2.9) and a yearly subscription-based version 3.x in active development. The program is Windows-only but runs well on Wine.
+
+XBench supports a host of glossary, TM and bilingual formats. For Terminology, XBench can import/read Tab-delimited Text files, TBX, MultiTerm XML Glossaries, Wordfast Glossaries, etc.
+
+It can also be used to convert to TMX and Tab-delimited text files.
+
+[TODO More software]
+
+<!---
+
+Terminology management
+termbases.eu
+https://www.termbases.eu/page/view/pricing/
+
+### Word count
+
+https://t9ncounter.com/
+https://www.proz.com/forum/office_applications/293399-how_to_get_word_count_of_two_different_languages_in_a_single_ms_wordoff_2010_file.html
+ TODO
 [Count Anything](http://ginstrom.com/CountAnything/)
 
 Counts the words and characters in a variety of file formats (). --->
@@ -609,23 +686,7 @@ The Okapi Framework is a cross-platform and free-libre/open source set of compon
 
 [Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a GUI application to create and maintain segmentation rules. Such rules are used to break down translatable text into more meaningful parts. Ratel uses Okapi’s SRX-based segmentation engine. SRX is the Segmentation Rules eXchange format.
 
-[Trados Studio Resource Converter](http://www.vannellen.com/fortranslators.php)
-
-A Java GUI program that can be used to convert Trados Studio translation memories (SDLTM) to TMX or Trados Studio termbases (SDLTB) to CSV or TXT. All output files are encoded in UTF-8. The program is an executable JAR file which does not require installation.
-
-[WfConverter](http://wordfast.fi/blog/cat-tools/2012/11/03/convert-sdltm-and-sdltb-without-studio-and-multiterm/)
-
-A windows program (should work under Wine, see related section) for converting SDLTM (translation memories used by SDL Trados Studio) and SDLTB (term bases created by SDL MultiTerm) formats to TMX (for translation memories) and CSV (for termbases) without having to use SDL Trados Studio or SDL MultiTerm.
-
-[Glossary Converter](http://www.cerebus.de/glossaryconverter/)
-
-A tool to help translators make use of terminology in SDL Trados Studio. It converts between Excel spreadsheets (or some other glossary formats) and SDL MultiTerm termbases (as required in Trados Studio) with a minimum of effort. Install alongside Microsoft Office, or use in a Windows VM.
-
-[TMLookup](http://www.farkastranslations.com/tmlookup.php)
-
-An open source tool designed to search (massive) bilingual and multilingual text databases (translation memories) and glossaries. CAT tools tend to struggle with TMs that contain more than one or two million entries (some become unusably slow or fail completely with fewer than a million entries), and they generally can’t create or use multilingual TMs. TMLookup can handle any number of languages and it often returns search results in well under a second even if the database contains tens of millions of entries.
-
-Just run the .exe file under Wine (see related section).
+s
 
 [BootCaT](http://bootcat.dipintra.it/)
 
@@ -758,6 +819,10 @@ Free [for freelancers](https://protemos.com/freelance.html). Track translation o
 
 Project management and invoicing tool for Freelance translators, teams, and agencies. Online, subscription-based, 30-day trial.
 
+[BaccS](https://www.ibaccs.com/)
+
+Translation project management and invoicing tool. Offers an offline Windows-only version as well as an online version. Paid Freelance edition with permanent licence. Free for ProZ Plus members.
+
 I you are a ProZ.com member, you can also use the online [ProZ.com invoicing tool](https://www.proz.com/invoice/about).
 
 [Project Libre](http://www.projectlibre.com/product/projectlibre-open-source)
@@ -798,17 +863,21 @@ Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/
 
 ### PDF Editors
 
-[Master PDF Editor](https://code-industry.net/masterpdfeditor/) (Free for non-commercial use)
-
 [Sejda PDF Editor](https://www.sejda.com/desktop) (Free, with some premium features)
 
+[Foxit Reader](https://www.foxitsoftware.com/pdf-reader/) (Free) PDF reader (not editor) with some lite editing features such as PDF annotation and PDF sign.
+
+[PDF-XChange Editor](https://www.tracker-software.com/product/pdf-xchange-editor) (Free)
+
 [Qoppa PDF Studio](https://www.qoppa.com/pdfstudio/) (Paid)
+
+[Master PDF Editor](https://code-industry.net/masterpdfeditor/) (Paid)
 
 ### PDF Readers
 
 [Evince](https://wiki.gnome.org/Apps/Evince): Document viewer for multiple document formats. Supports PDF, PostScript, DjVu, TIFF, and DVI.
 
-[Foxit Reader](https://www.foxitsoftware.com/pdf-reader/): Small and fast PDF viewer.
+[Foxit Reader](https://www.foxitsoftware.com/pdf-reader/): PDF reader (not editor) with some lite editing features such as PDF annotation and PDF sign/protect.
 
 [Acroread](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html): Acrobat Reader 9 for Linux. You can install [abracadabraCompteur 2016](https://www.abracadabrapdf.net/utilitaires/utilitaires-reader/abracadabracompteur/) plugin for PDF word count.
 
@@ -963,6 +1032,16 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Flameshot](https://github.com/lupoDharkael/flameshot)
 
+### Screen recording|Screencasting
+
+[SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
+
+[Open Broadcaster Software](https://obsproject.com/) Full-featured cross-platform screen recording and live streaming software.
+
+[recordMyDesktop](http://recordmydesktop.sourceforge.net/about.php)
+
+[Peek](https://github.com/phw/peek) animated GIF Screen Recorder
+
 ### Time|project tracking
 
 [Project Hamster](https://github.com/projecthamster/)
@@ -1005,7 +1084,7 @@ Two applications aim to make it easy to install Windows programs in such separat
 - [PlayOnLinux](playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
 
 Some examples of useful translation-related applications that run well on Linux via Wine (mostly PlayOnLinux and Crossover) are the following:
-- Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries.
+- Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries. [Ron's Editor](https://www.ronsplace.eu/Products/RonsEditor) excellent CSV File Editor works after installing .Net Framework 4.5.2.
 
 Many Windows programs that require specific versions of the .NET framework can be installed successfully after installing these first. Tip: Trial versions can be easily reinstalled since you can create separate machines with a few clicks.
 
@@ -1039,6 +1118,7 @@ Happy translating!
 
 20180408 Initial wiki upload
 20180622 Small update
+20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
 
 ## Feedback
 
