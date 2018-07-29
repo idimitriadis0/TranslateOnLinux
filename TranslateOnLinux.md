@@ -460,7 +460,7 @@ Free, online. Languages: English, French, Italian, Portuguese, Spanish. The resu
 
 [Tilde terminology](https://term.tilde.com/) (powered by Taas)
 
-Free/Premium, online, 25 languages. Various options to choose from. By default, it uses TWSC (Tilde wrapper system for CollTerm) based on linguistic analysis enriched by statistical features. Extraction time somewhat long but quite accurate. By specifying a subject domain, some term candidates are matched with translations from a variety of sources for target translation lookup.
+Free/Premium, online, 25 languages. Various options to choose from. By default, it uses TWSC (Tilde wrapper system for CollTerm) based on linguistic analysis enriched by statistical features. Extraction time somewhat long, but results quite accurate. By specifying a subject domain, some term candidates are matched with translations from a variety of sources for target translation lookup.
 
 [The Sketch Engine](https://www.sketchengine.co.uk/)
 
@@ -476,7 +476,7 @@ Free, offline. Its term extraction utility offers flexible, configurable statist
 
 **Excel | CSV/TSV | Tab-delimited TXT**
 
-Some simple glossary formats such as Excel files, CSV/TSV (Comma-separated values/Tab-separated values) files and tab-delimited text files may be all you need for your terminology management and terminology exchange needs.
+Some simple glossary formats such as Excel files, CSV/TSV (Comma-separated values/Tab-separated values) files and tab-delimited text files may be all you need for your terminology management and glossary exchange needs.
 
 Excel and CSV/TSV files can simply be edited in office applications such as [Microsoft Excel](https://support.office.com/en-us/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba?ui=en-US&rs=en-US&ad=US), [LibreOffice Calc](https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files) (superior CSV/TSV handling compared to Excel). [Ron's Editor](https://www.ronsplace.eu/Products/RonsEditor), an excellent dedicated CSV editor with professional features (Feee/Lite and Pro versions available, with a 30-day trial) is Windows-only, but can be used with Wine after installing .Net Framework 4.5.2.
 
