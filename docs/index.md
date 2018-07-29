@@ -25,7 +25,7 @@
 		- [Alignment](#alignment)
 		- [Handling tags](#handling-tags)
 		- [Translation Memory (TMX) Editing / Maintainance](#translation-memory-tmx-editing-maintainance)
-		- [Segmentation|SRX editors](#segmentationsrx-editors)
+		- [Segmentation / SRX editors](#segmentation-srx-editors)
 		- [Term extraction](#term-extraction)
 		- [Terminology management](#terminology-management)
 			- [File formats](#file-formats)
@@ -431,7 +431,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 An intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
 
-### Segmentation|SRX editors
+### Segmentation / SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
