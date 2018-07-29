@@ -74,7 +74,6 @@
 <!-- /TOC -->
 
 # TranslateOnLinux
-test
 
 It is quite possible to work as a professional translator while running a GNU/Linux distribution as your chosen operating system.
 
