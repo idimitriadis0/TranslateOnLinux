@@ -269,7 +269,7 @@ Some of its [product features](https://www.westernstandard.com/Fluency/Translati
 
 The software starts getting old (it is no longer developed for more than 4 years now), but sports some nice capabilities that make it useful to keep around.
 
-It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8)) for editing TMX memories.
+It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) for editing TMX memories.
 
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** see GitHub page.
@@ -415,13 +415,13 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 ### Translation Memory (TMX) Editing|Maintainance
 
+[CafeTran Espresso](http://cafetran.com/) (paid software // free to use TMX editing feature)
+
+CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. It probably represents the best way to edit and maintain your TMX memories in GNU/Linux. Demo's TM limits do not apply to the "Edit translation memory" workflow.
+
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
 A powerful TM maintenance tool for all CAT software. It provides many useful and practical functions besides common editing features, allowing you to perform TM maintenance tasks easily, simply and all with one tool.
-
-[CafeTran Espresso](http://cafetran.com/) (paid)
-
-CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. Its demo is limited to 1000 translation units for TMs, so its TMX editing function is mostly useful for licensed users, but worth checking for small project memories.
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge)
 
