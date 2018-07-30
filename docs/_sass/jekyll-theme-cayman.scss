@@ -2,7 +2,7 @@
 @import "rouge-github";
 @import "variables";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -29,7 +29,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto Slab", "Serif";
+  font-family: "Lato", "sans-serif";
   font-size: 13px;
   line-height: 1.6;
   color: $body-text-color;
