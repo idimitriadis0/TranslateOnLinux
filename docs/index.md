@@ -176,7 +176,7 @@ Here are some highlights:
 **Cost:** [Licensing options](https://www.cafetran.com/get-cafetran/) // Also, full access for [ProZ.com Plus members](https://www.proz.com/pages/Plus-subscriber-checklist).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/cafetran_espresso/97).
 
-## Memsource Editor & Cloud
+## Memsource Editor/Cloud
 
 Memsource is an easy and simple online CAT tool, which also offers a desktop editor (compatible with Linux), hence its inclusion in this section. It provides a complete translation environment that allows you to set up your own workflow, and share projects with your vendors.
 
@@ -191,7 +191,7 @@ Online/Offline tool
 **Cost:** [editions and pricing](https://www.memsource.com/pricing2).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/memsource_cloud/40), [G2Crowd](https://www.g2crowd.com/products/memsource/reviews).
 
-## WordFast Pro 3 & 5
+## WordFast Pro
 
 WordFast Pro is the only major commercial TM tool that is truly cross-platform. It is available as a standalone application (in contrast to WordFast Classic, which is Word-based).
 
@@ -413,7 +413,7 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version now includes the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script for clearing excessive tags on Word documents. It offers a GUI that lets the user select different options with which it should be run.
 
-### Translation Memory (TMX) Editing & Maintainance
+### Translation Memory (TMX) Editing/Maintainance
 
 [CafeTran Espresso](http://cafetran.com/) (paid software // free to use TMX editing feature)
 
@@ -431,7 +431,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 An intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
 
-### Segmentation - SRX editors
+### Segmentation/SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
@@ -616,7 +616,7 @@ Copying the fonts folder from a Windows machine and placing it in the hidden .fo
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
-## Language - Grammar checkers - Writing aids
+## Language/Grammar checkers/Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages, free and open source): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
@@ -650,7 +650,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
 - [Verifika](https://e-verifika.com/) (paid, 14-day trial) can be installed, but does not run in Wine, it needs to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
-## Proofreading & Revising (Track changes, compare documents)
+## Proofreading/Revising (Track changes, compare documents)
 
 <!--- TODO Expand this section--->
 
@@ -938,7 +938,7 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge): Diff tool for comparing and merging TMX translation memories.
 
-## Desktop search - Full text index
+## Desktop search/Full text index
 
 [DocFetcher](http://docfetcher.sourceforge.net/en/index.html)
 
@@ -1030,7 +1030,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Flameshot](https://github.com/lupoDharkael/flameshot)
 
-### Screen recording - Screencasting
+### Screen recording/Screencasting
 
 [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
 
@@ -1104,7 +1104,7 @@ Paid: [Parallels](https://www.parallels.com/)
 Free/Paid: [VMware](https://www.vmware.com/)
 Free: [QEMU](https://www.qemu.org/)
 
-### Via Dual Boot - On a separate machine
+### Via Dual Boot/On a separate machine
 
 Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation, without the need of rebooting and using Windows.
 
