@@ -1,7 +1,8 @@
 @import "normalize";
 @import "rouge-github";
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -28,7 +29,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Serif";
   font-size: 14px;
   line-height: 1.5;
   color: $body-text-color;
