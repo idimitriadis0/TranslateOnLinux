@@ -27,6 +27,8 @@
 		- [Translation Memory (TMX) Editing/Maintainance](#translation-memory-tmx-editingmaintainance)
 		- [Segmentation/SRX editors](#segmentationsrx-editors)
 		- [Term extraction](#term-extraction)
+		- [Monolingual term extraction](#monolingual-term-extraction)
+			- [Bilingual term extraction](#bilingual-term-extraction)
 		- [Terminology management](#terminology-management)
 			- [File formats](#file-formats)
 			- [Tools](#tools)
@@ -417,11 +419,15 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [CafeTran Espresso](http://cafetran.com/) (paid software // free to use TMX editing feature)
 
-CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. It probably represents the best way to edit and maintain your TMX memories in GNU/Linux. Demo's TM limits do not apply to the "Edit translation memory" workflow.
+CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. Demo's TM limits do not apply to the "Edit translation memory" workflow.
 
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
 A powerful TM maintenance tool for all CAT software. It provides many useful and practical functions besides common editing features, allowing you to perform TM maintenance tasks easily, simply and all with one tool.
+
+[TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (paid, 30-day free trial)
+
+Maxprograms TMXEditor is a cross-platofrm desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge)
 
@@ -447,7 +453,7 @@ Downloadable SRX rules: [OmegaT's default rules](https://raw.githubusercontent.c
 
 Monolingual term extraction attempts to analyze a text or corpus in order to identify candidate terms, while bilingual term extraction analyses existing source texts along with their translations in an attempt to identify potential terms and their equivalents.
 
-Most tools included here focus on monolingual text extraction, which can be used in the process of identifying specialized terms and seeking their equivalents.
+### Monolingual term extraction
 
 [Prospector](https://logrusglobal.com/prospector.html)
 
@@ -464,11 +470,23 @@ Free/Premium, online, 25 languages. Various options to choose from. By default, 
 
 [The Sketch Engine](https://www.sketchengine.co.uk/)
 
-Subscription-based, online. Several supported languages. Monolingual and bilingual term extraction. Also offers a simpler [OneClick term extractor](https://terms.sketchengine.co.uk/) for single word and multiword candidates.
+Subscription-based, online. Several supported languages. Monolingual and bilingual term extraction supported. Also offers a simpler [OneClick term extractor](https://terms.sketchengine.co.uk/) for single word and multiword candidates.
 
 [Okapi Framework - Rainbow](http://okapiframework.org/wiki/index.php?title=Rainbow)
 
 Free, offline. Its term extraction utility offers flexible, configurable statistical analysis. Supports all languages which use scripts with space-delimited words.
+
+#### Bilingual term extraction
+
+[The Sketch Engine](https://www.sketchengine.co.uk/)
+
+Subscription-based, online. Several supported languages. Monolingual and bilingual term extraction supported.
+
+[Anchovy](https://www.maxprograms.com/products/anchovy.html)
+
+Anchovy is an offline multilingual cross-platform glossary editor and bilingual term extraction tool based on the open Glossary Markup Language (GlossML) format.
+
+Anchovy is included in [Swordfish III](https://www.maxprograms.com/products/swordfish.html) installers as free plugin and handles various import and export file formats.
 
 ### Terminology management
 
@@ -1114,9 +1132,10 @@ Happy translating!
 
 ## Updates
 
-20180408 Initial wiki upload
-20180622 Small update
-20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
+- 20180408 Initial wiki upload
+- 20180622 Small update
+- 20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
+- 20180731 Added TMXEditor under TMX editing and Anchovy under Term extraction
 
 ## Feedback
 

@@ -5,8 +5,8 @@
 	- [OFFLINE CAT TOOLS](#offline-cat-tools)
 	- [OmegaT](#omegat)
 	- [CafeTran Espresso](#cafetran-espresso)
-	- [Memsource Editor|Cloud](#memsource-editorcloud)
-	- [WordFast Pro 3|5](#wordfast-pro-35)
+	- [Memsource Editor/Cloud](#memsource-editorcloud)
+	- [WordFast Pro](#wordfast-pro)
 	- [Swordfish Translation Editor](#swordfish-translation-editor)
 	- [Fluency Now](#fluency-now)
 	- [Heartsome Translation Studio](#heartsome-translation-studio)
@@ -24,23 +24,25 @@
 	- [Translation related tasks and tools](#translation-related-tasks-and-tools)
 		- [Alignment](#alignment)
 		- [Handling tags](#handling-tags)
-		- [Translation Memory (TMX) Editing|Maintainance](#translation-memory-tmx-editingmaintainance)
-		- [Segmentation|SRX editors](#segmentationsrx-editors)
+		- [Translation Memory (TMX) Editing/Maintainance](#translation-memory-tmx-editingmaintainance)
+		- [Segmentation/SRX editors](#segmentationsrx-editors)
 		- [Term extraction](#term-extraction)
+		- [Monolingual term extraction](#monolingual-term-extraction)
+			- [Bilingual term extraction](#bilingual-term-extraction)
 		- [Terminology management](#terminology-management)
 			- [File formats](#file-formats)
 			- [Tools](#tools)
 		- [Word count](#word-count)
 	- [Office software](#office-software)
-	- [Language | Grammar checkers | Writing aids](#language-grammar-checkers-writing-aids)
+	- [Language/Grammar checkers/Writing aids](#languagegrammar-checkerswriting-aids)
 	- [QA tools](#qa-tools)
-	- [Proofreading|Revising (Track changes, compare documents)](#proofreadingrevising-track-changes-compare-documents)
+	- [Proofreading/Revising (Track changes, compare documents)](#proofreadingrevising-track-changes-compare-documents)
 	- [Various localization-related utilities](#various-localization-related-utilities)
 	- [Subtitling](#subtitling)
 	- [Transcription](#transcription)
 	- [Dictionary lookup](#dictionary-lookup)
-	- [Project management|Invoicing](#project-managementinvoicing)
-	- [DTP | Image localization](#dtp-image-localization)
+	- [Project management & Invoicing](#project-management-invoicing)
+	- [DTP - Image localization](#dtp-image-localization)
 	- [Speech recognition (STT)](#speech-recognition-stt)
 	- [Text-to-speech (TTS)](#text-to-speech-tts)
 	- [PDFs](#pdfs)
@@ -49,9 +51,9 @@
 		- [PDF-related utilities](#pdf-related-utilities)
 		- [PDF TO TEXT](#pdf-to-text)
 		- [OCR](#ocr)
-	- [E-book management|conversion](#e-book-managementconversion)
-	- [File|Folder comparison (DIFF) tools](#filefolder-comparison-diff-tools)
-	- [Desktop search|full text index](#desktop-searchfull-text-index)
+	- [E-book management & conversion](#e-book-management-conversion)
+	- [File/Folder comparison (DIFF) tools](#filefolder-comparison-diff-tools)
+	- [Desktop search/Full text index](#desktop-searchfull-text-index)
 	- [File rename utilities](#file-rename-utilities)
 	- [Text editors](#text-editors)
 	- [Productivity tools selection](#productivity-tools-selection)
@@ -59,15 +61,15 @@
 		- [Reduce eye-strain](#reduce-eye-strain)
 		- [Clipboard managers](#clipboard-managers)
 		- [Screenshots](#screenshots)
-		- [Screen recording|Screencasting](#screen-recordingscreencasting)
-		- [Time|project tracking](#timeproject-tracking)
+		- [Screen recording/Screencasting](#screen-recordingscreencasting)
+		- [Time/Project tracking](#timeproject-tracking)
 		- [Pomodoro timers](#pomodoro-timers)
 		- [Unit conversion](#unit-conversion)
 		- [On-screen keyboard](#on-screen-keyboard)
 	- [Running Windows applications](#running-windows-applications)
 		- [Natively on WINE](#natively-on-wine)
 		- [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine-vm)
-		- [Via Dual Boot | On a separate machine](#via-dual-boot-on-a-separate-machine)
+		- [Via Dual Boot/On a separate machine](#via-dual-booton-a-separate-machine)
 	- [Updates](#updates)
 	- [Feedback](#feedback)
 
@@ -176,7 +178,7 @@ Here are some highlights:
 **Cost:** [Licensing options](https://www.cafetran.com/get-cafetran/) // Also, full access for [ProZ.com Plus members](https://www.proz.com/pages/Plus-subscriber-checklist).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/cafetran_espresso/97).
 
-## Memsource Editor|Cloud
+## Memsource Editor/Cloud
 
 Memsource is an easy and simple online CAT tool, which also offers a desktop editor (compatible with Linux), hence its inclusion in this section. It provides a complete translation environment that allows you to set up your own workflow, and share projects with your vendors.
 
@@ -191,7 +193,7 @@ Online/Offline tool
 **Cost:** [editions and pricing](https://www.memsource.com/pricing2).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/memsource_cloud/40), [G2Crowd](https://www.g2crowd.com/products/memsource/reviews).
 
-## WordFast Pro 3|5
+## WordFast Pro
 
 WordFast Pro is the only major commercial TM tool that is truly cross-platform. It is available as a standalone application (in contrast to WordFast Classic, which is Word-based).
 
@@ -413,15 +415,19 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version now includes the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script for clearing excessive tags on Word documents. It offers a GUI that lets the user select different options with which it should be run.
 
-### Translation Memory (TMX) Editing|Maintainance
+### Translation Memory (TMX) Editing/Maintainance
 
 [CafeTran Espresso](http://cafetran.com/) (paid software // free to use TMX editing feature)
 
-CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. It probably represents the best way to edit and maintain your TMX memories in GNU/Linux. Demo's TM limits do not apply to the "Edit translation memory" workflow.
+CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. Demo's TM limits do not apply to the "Edit translation memory" workflow.
 
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
 A powerful TM maintenance tool for all CAT software. It provides many useful and practical functions besides common editing features, allowing you to perform TM maintenance tasks easily, simply and all with one tool.
+
+[TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (paid, 30-day free trial)
+
+Maxprograms TMXEditor is a cross-platofrm desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge)
 
@@ -431,7 +437,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 An intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
 
-### Segmentation|SRX editors
+### Segmentation/SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
@@ -447,7 +453,7 @@ Downloadable SRX rules: [OmegaT's default rules](https://raw.githubusercontent.c
 
 Monolingual term extraction attempts to analyze a text or corpus in order to identify candidate terms, while bilingual term extraction analyses existing source texts along with their translations in an attempt to identify potential terms and their equivalents.
 
-Most tools included here focus on monolingual text extraction, which can be used in the process of identifying specialized terms and seeking their equivalents.
+### Monolingual term extraction
 
 [Prospector](https://logrusglobal.com/prospector.html)
 
@@ -464,17 +470,29 @@ Free/Premium, online, 25 languages. Various options to choose from. By default, 
 
 [The Sketch Engine](https://www.sketchengine.co.uk/)
 
-Subscription-based, online. Several supported languages. Monolingual and bilingual term extraction. Also offers a simpler [OneClick term extractor](https://terms.sketchengine.co.uk/) for single word and multiword candidates.
+Subscription-based, online. Several supported languages. Monolingual and bilingual term extraction supported. Also offers a simpler [OneClick term extractor](https://terms.sketchengine.co.uk/) for single word and multiword candidates.
 
 [Okapi Framework - Rainbow](http://okapiframework.org/wiki/index.php?title=Rainbow)
 
 Free, offline. Its term extraction utility offers flexible, configurable statistical analysis. Supports all languages which use scripts with space-delimited words.
 
+#### Bilingual term extraction
+
+[The Sketch Engine](https://www.sketchengine.co.uk/)
+
+Subscription-based, online. Several supported languages. Monolingual and bilingual term extraction supported.
+
+[Anchovy](https://www.maxprograms.com/products/anchovy.html)
+
+Anchovy is an offline multilingual cross-platform glossary editor and bilingual term extraction tool based on the open Glossary Markup Language (GlossML) format.
+
+Anchovy is included in [Swordfish III](https://www.maxprograms.com/products/swordfish.html) installers as free plugin and handles various import and export file formats.
+
 ### Terminology management
 
 #### File formats
 
-**Excel | CSV/TSV | Tab-delimited TXT**
+**Excel / CSV/TSV / Tab-delimited TXT**
 
 Some simple glossary formats such as Excel files, CSV/TSV (Comma-separated values/Tab-separated values) files and tab-delimited text files may be all you need for your terminology management and glossary exchange needs.
 
@@ -616,7 +634,7 @@ Copying the fonts folder from a Windows machine and placing it in the hidden .fo
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
-## Language | Grammar checkers | Writing aids
+## Language/Grammar checkers/Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages, free and open source): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
@@ -650,7 +668,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
 - [Verifika](https://e-verifika.com/) (paid, 14-day trial) can be installed, but does not run in Wine, it needs to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
-## Proofreading|Revising (Track changes, compare documents)
+## Proofreading/Revising (Track changes, compare documents)
 
 <!--- TODO Expand this section--->
 
@@ -805,7 +823,7 @@ Here’s just one: [MagicSearch.com](http://magicsearch.org/) is a multilingual 
 
 Tip: Set “One-page results” to OFF, to speed up queries. Click on the gear to select which resources to use (and hide the others), and reorder them as you see fit. MagicSearch is also available as a browser extension.
 
-## Project management|Invoicing
+## Project management & Invoicing
 
 Project management tools don’t have to be translation-specific, although it may help. Also, depending on your country of residence and tax requirements, you can use different more general invoicing tools.
 
@@ -827,7 +845,7 @@ I you are a ProZ.com member, you can also use the online [ProZ.com invoicing too
 
 An open source alternative to Microsoft Projects.
 
-## DTP | Image localization
+## DTP - Image localization
 
 There is no QuarkXpress, Adobe InDesign, Photoshop or Illustrator for GNU/Linux.
 
@@ -918,7 +936,7 @@ One of the easiest and most feature rich is [gImageReader](https://github.com/ma
 
 When it comes to image scan post-processing, or pre-processing for use in a program like ABBYY FineReader (to improve OCR, but also for creating scanned ebooks), there is nothing like [Scantailor](http://scantailor.org/). Or maybe there is: [Scantailor Advanced](https://github.com/4lex4/scantailor-advanced/releases). The wiki is [here](https://github.com/4lex4/scantailor-advanced).
 
-## E-book management|conversion
+## E-book management & conversion
 
 [Calibre](https://calibre-ebook.com/) is an excellent e-book management application for organizing, viewing, converting and editing e-books. Since linguists tend to keep many (e)books around, it’s definitely worth looking into it.
 
@@ -926,7 +944,7 @@ When it comes to image scan post-processing, or pre-processing for use in a prog
 
 Interested in translating e-books? A solution is described [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#epub--mobi--azw--e-book).
 
-## File|Folder comparison (DIFF) tools
+## File/Folder comparison (DIFF) tools
 
 [Meld](http://meldmerge.org/): Visual diff and merge tool for files, directories, and version controlled projects.
 
@@ -938,7 +956,7 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge): Diff tool for comparing and merging TMX translation memories.
 
-## Desktop search|full text index
+## Desktop search/Full text index
 
 [DocFetcher](http://docfetcher.sourceforge.net/en/index.html)
 
@@ -1030,7 +1048,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Flameshot](https://github.com/lupoDharkael/flameshot)
 
-### Screen recording|Screencasting
+### Screen recording/Screencasting
 
 [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
 
@@ -1040,7 +1058,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Peek](https://github.com/phw/peek) animated GIF Screen Recorder
 
-### Time|project tracking
+### Time/Project tracking
 
 [Project Hamster](https://github.com/projecthamster/)
 
@@ -1104,7 +1122,7 @@ Paid: [Parallels](https://www.parallels.com/)
 Free/Paid: [VMware](https://www.vmware.com/)
 Free: [QEMU](https://www.qemu.org/)
 
-### Via Dual Boot | On a separate machine
+### Via Dual Boot/On a separate machine
 
 Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation, without the need of rebooting and using Windows.
 
@@ -1114,9 +1132,10 @@ Happy translating!
 
 ## Updates
 
-20180408 Initial wiki upload
-20180622 Small update
-20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
+- 20180408 Initial wiki upload
+- 20180622 Small update
+- 20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
+- 20180731 Added TMXEditor under TMX editing and Anchovy under Term extraction
 
 ## Feedback
 
