@@ -511,7 +511,7 @@ For conducting CAT-tool independent TM and glossary searches, [TMLookup](http://
 
 TBX, short for TermBase eXchange, is the international standard for representing and exchanging information about terms, words, and other lexical data. Here's a list of tools with some TBX support: http://www.tbxinfo.net/tbx-support/
 
-Several CAT tools can **import/read** TBX files: OmegaT, CafeTran Espresso, Memsource, WordFast Pro
+Several CAT tools can **import/read** TBX files: OmegaT, CafeTran Espresso, Memsource, WordFast Pro, Swordfish, etc.
 
 Heartsome TMX editor can **import and export to TBX** (but not directly edit), among other formats.
 
