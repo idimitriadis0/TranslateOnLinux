@@ -27,7 +27,7 @@
 		- [Translation Memory (TMX) Editing/Maintainance](#translation-memory-tmx-editingmaintainance)
 		- [Segmentation/SRX editors](#segmentationsrx-editors)
 		- [Term extraction](#term-extraction)
-		- [Monolingual term extraction](#monolingual-term-extraction)
+			- [Monolingual term extraction](#monolingual-term-extraction)
 			- [Bilingual term extraction](#bilingual-term-extraction)
 		- [Terminology management](#terminology-management)
 			- [File formats](#file-formats)
@@ -453,7 +453,7 @@ Downloadable SRX rules: [OmegaT's default rules](https://raw.githubusercontent.c
 
 Monolingual term extraction attempts to analyze a text or corpus in order to identify candidate terms, while bilingual term extraction analyses existing source texts along with their translations in an attempt to identify potential terms and their equivalents.
 
-### Monolingual term extraction
+#### Monolingual term extraction
 
 [Prospector](https://logrusglobal.com/prospector.html)
 
