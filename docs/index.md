@@ -18,6 +18,7 @@
 	- [Smartcat](#smartcat)
 	- [Wordfast Anywhere](#wordfast-anywhere)
 	- [Lilt](#lilt)
+	- [XTM Cloud](#xtm-cloud)
 	- [Google Translation Toolkit](#google-translation-toolkit)
 	- [Wordbee](#wordbee)
 	- [Other](#other)
@@ -355,6 +356,17 @@ The completely open source version can also be [installed offline or in a VM](ht
 **Demo:** 14-day free trial.
 **Cost:** Translator monthly or annual [subscription](https://lilt.com/pricing/translator).
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/lilt/142).
+
+## XTM Cloud
+
+XTM International develops XTM, a complete online Translation Management System (TMS) with an integrated Computer Aided Translation (CAT), targeted at enterprises, LSPs and freelance translators. The centrally shared TM, terminology, workflow and translator workbench are all accessed via a browser. While XTM is cost effective and easy to use, it is a scalable system, that is built for collaboration and incorporates a comprehensive API.
+
+**Supported formats**: [file formats](https://xtm.cloud/faq/xtm-cloud-file-types/).
+**Support and manual:** [XTM Academy](https://xtm.cloud/academy/) provides access to knowledge base articles, webinars, tutorials, online documentation release notes, and [support](https://support.xtm-intl.com/en/support/home).
+**License:** Closed source.
+**Demo:** 30-day free [trial](https://xtm.cloud/trial/).
+**Cost:** Monthly, quarterly  or annual [subscription pricing](https://xtm.cloud/pricing/) depending on the Account type (Freelance, Group, Entreprise), Duration, Number of users and Words/month.
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/xtm_cloud/91), [Capterra](https://www.capterra.fr/software/157254/xtm-cloud).
 
 ## Google Translation Toolkit
 
@@ -1136,6 +1148,7 @@ Happy translating!
 - 20180622 Small update
 - 20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
 - 20180731 Added TMXEditor under TMX editing and Anchovy under Term extraction
+- 20180830 Added XTM Cloud in Online CAT tools
 
 ## Feedback
 
