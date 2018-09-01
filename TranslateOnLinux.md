@@ -366,7 +366,7 @@ XTM International develops XTM, a complete online Translation Management System 
 **License:** Closed source.
 **Demo:** 30-day free [trial](https://xtm.cloud/trial/).
 **Cost:** Monthly, quarterly  or annual [subscription pricing](https://xtm.cloud/pricing/) depending on the Account type (Freelance, Group, Entreprise), Duration, Number of users and Words/month.
-**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/xtm_cloud/91).
+**Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/xtm_cloud/91), [Capterra](https://www.capterra.fr/software/157254/xtm-cloud).
 
 ## Google Translation Toolkit
 
@@ -901,6 +901,20 @@ Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/
 
 [Master PDF Editor](https://code-industry.net/masterpdfeditor/) (Paid)
 
+[Infix PDF Editor/TransPDF](https://www.iceni.com/infix.htm) (Paid, free for TransPDF editing)
+
+Inceni's Infix is a PDF Editor for Windows which works well under Wine (see related section below). Just deselect the PDF printer option during installation.
+
+This software is of special interest to translators because it can be used along with [TransPDF](https://transpdf.iceni.com/), a free/pay as you go online service which handles [PDF files translation](https://www.iceni.com/translation.htm): it offers to convert the PDF to the XLIFF format which can then be translated in a CAT tool, in order to produce a translated PDF file that closely follows the original layout.
+
+PDFs translated via TransPDF can be edited using the free demo version of Infix PDF Editor. This is very handy for making final adjustments to spacing and layout ready for clients.
+
+Users of the paid Infix version can use TransPDF free of charge.
+
+TransPDF also offers a paid OCR feature for non-editable PDFs.
+
+For a thorough review of solutions for handling PDFs in translation, see [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#pdf).
+
 ### PDF Readers
 
 [Evince](https://wiki.gnome.org/Apps/Evince): Document viewer for multiple document formats. Supports PDF, PostScript, DjVu, TIFF, and DVI.
@@ -1149,6 +1163,7 @@ Happy translating!
 - 20180728 Added terminology management section/CAT tools > Wordbee/Screen recording software, and minor edits
 - 20180731 Added TMXEditor under TMX editing and Anchovy under Term extraction
 - 20180830 Added XTM Cloud in Online CAT tools
+- 20180901 Added Infix PDF Editor and TransPDF
 
 ## Feedback
 
