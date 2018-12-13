@@ -698,7 +698,7 @@ You can, however, suggest the use of [TQAuditor](https://cloud.tqauditor.com/qui
 
 **(Track) changes (in an exported bilingual Word/RTF)**
 
-Working on exported bilingual Word or RTF files offers the advantage that the reviewer does not need to own the original CAT tool, or any CAT tool, for that matter. The disadvantage being that the reviewer is left without the convenience (and TM and other resources) of a CAT tool. If you receive a bilingual Word or RTF for external review, you can just use your Office suite Text processing application (MS Word, LibreOffice Writer, WPS Writer etc.) to complete the review. Provided that bilingual review files can be opened in LibreOffice (SDL Trados files may not be compatible, it seems), it’s good to know that its track changes/compare document feature is compatible with MS Office, at least with some precautions (like ensuring you use the same author name and initials in both programs). If you don’t use Track changes, Compare document feature can be used to create a document with the modifications made.
+Working on exported bilingual Word or RTF files offers the advantage that the reviewer does not need to own the original CAT tool, or any CAT tool, for that matter. The disadvantage being that the reviewer is left without the convenience (and TM and other resources) of a CAT tool. If you receive a bilingual Word or RTF for external review, you can just use your Office suite Text processing application (MS Word, LibreOffice Writer, WPS Writer etc.) to complete the review. Provided that bilingual review files can be opened in LibreOffice (SDL Trados files may not be compatible, it seems), it’s good to know that its track changes/compare document feature is compatible with MS Office, at least with some precautions (like ensuring you use the same author name and initials in both programs, see archived link [here](https://web.archive.org/web/20180104151847/http://www.techandlife.com/2015/04/compatibility-of-tracked-changes-and-comments-between-word-and-libreoffice-writer/)). If you don’t use Track changes, Compare document feature can be used to create a document with the modifications made.
 
 **(Track) changes (in the target document)**
 
@@ -1185,7 +1185,7 @@ Happy translating!
 - 20180830 Added XTM Cloud in Online CAT tools
 - 20180901 Added Infix PDF Editor and TransPDF
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
-- 20181213 Removed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR. 
+- 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
 
 ## Feedback
 
