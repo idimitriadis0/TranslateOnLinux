@@ -698,7 +698,7 @@ You can, however, suggest the use of [TQAuditor](https://cloud.tqauditor.com/qui
 
 **(Track) changes (in an exported bilingual Word/RTF)**
 
-Working on exported bilingual Word or RTF files offers the advantage that the reviewer does not need to own the original CAT tool, or any CAT tool, for that matter. The disadvantage being that the reviewer is left without the convenience (and TM and other resources) of a CAT tool. If you receive a bilingual Word or RTF for external review, you can just use your Office suite Text processing application (MS Word, LibreOffice Writer, etc.) to complete the review. Provided that bilingual review files can be opened in LibreOffice (SDL Trados files may not be compatible, it seems), it’s good to know that its track changes/compare document feature is compatible with MS Office, at least with some precautions ([see here](http://www.techandlife.com/2015/04/compatibility-of-tracked-changes-and-comments-between-word-and-libreoffice-writer/) for a report). If you don’t use Track changes, Compare document feature can be used to create a document with the modifications made.
+Working on exported bilingual Word or RTF files offers the advantage that the reviewer does not need to own the original CAT tool, or any CAT tool, for that matter. The disadvantage being that the reviewer is left without the convenience (and TM and other resources) of a CAT tool. If you receive a bilingual Word or RTF for external review, you can just use your Office suite Text processing application (MS Word, LibreOffice Writer, WPS Writer etc.) to complete the review. Provided that bilingual review files can be opened in LibreOffice (SDL Trados files may not be compatible, it seems), it’s good to know that its track changes/compare document feature is compatible with MS Office, at least with some precautions (like ensuring you use the same author name and initials in both programs). If you don’t use Track changes, Compare document feature can be used to create a document with the modifications made.
 
 **(Track) changes (in the target document)**
 
@@ -945,6 +945,8 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 For converting editable PDFs to Docx, most PDF conversion utilities require using a Windows VM.
 
+[Able2extract Professional](https://www.investintech.com/prod_a2e.htm) is a closed source paid software that offers a Linux desktop version. It lets you convert, create and edit PDF documents. Conversion works for PDF to Word, Excdel, PowerPoint, AutoCAD, Images, Publisher and LibreOffice documents (ODT, ODS and ODP). It sports an OCR feature as well, including extracting scanned PDF tables into Excel.
+
 [Foxit PDF to word online converter](https://www.foxitsoftware.com/pdf-to-word-converter/) produces excellent results.
 [CloudConvert](https://cloudconvert.com/) online converter does a very nice job as well, with the added bonus that it also handles a host of different file conversion types and offers an API (you can create a script).
 
@@ -956,7 +958,9 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 ### OCR
 
-Unfortunately, no native OCR solution can match ABBYY FineReader and other proprietary software.
+Native OCR solutions usually lag behind ABBYY FineReader and other proprietary software.
+
+[Able2extract Professional](https://www.investintech.com/prod_a2e.htm) is a paid software that offers PDF conversion, creation and editing with OCR capabilities, including extracting scanned PDF tables into Excel (7-day free trial available).
 
 [ABBYY FineReader](https://www.abbyy.com/en-me/finereader/) and other programs (such as Adobe Acrobat Pro, Nuance OmniPage, Readiris and Wondershare PDFelement) can be used in a Windows VM, see related section. Some earlier versions of ABBYY FineReader (up to version 10) are reportedly working via Wine, see related section.
 
@@ -1181,6 +1185,7 @@ Happy translating!
 - 20180830 Added XTM Cloud in Online CAT tools
 - 20180901 Added Infix PDF Editor and TransPDF
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
+- 20181213 Removed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR. 
 
 ## Feedback
 
