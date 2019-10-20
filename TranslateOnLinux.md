@@ -17,7 +17,6 @@
 	- [MateCat](#matecat)
 	- [Smartcat](#smartcat)
 	- [Wordfast Anywhere](#wordfast-anywhere)
-	- [Lilt](#lilt)
 	- [XTM Cloud](#xtm-cloud)
 	- [Google Translation Toolkit](#google-translation-toolkit)
 	- [Wordbee](#wordbee)
@@ -78,11 +77,11 @@
 
 # TranslateOnLinux
 
-It is quite possible to work as a professional translator while running a GNU/Linux distribution as your chosen operating system.
+It is entirely possible to work as a professional translator while running a GNU/Linux distribution as your chosen operating system.
 
-The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who wish to work on GNU/Linux. It should help them build a comprehensive toolbox to fit most translation needs.
+The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who wish to work on a GNU/Linux computer. The listed software should provide a comprehensive toolbox to fit most translation needs.
 
-Inspiration for this list: the website [LinuxForTranslators.com](http://www.linuxfortranslators.org/) by Marc Prior, and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators, along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
+Inspiration for this list: the website [LinuxForTranslators.com](http://www.linuxfortranslators.org/) by Marc Prior, and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators, by [Peter Sandrini](http://www.petersandrini.net/en-index.html), along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
 
 *Curated by [Jean Dimitriadis](https://www.proz.com/translator/2042360) (EN-FR/EL-FR translator).*
 
@@ -148,7 +147,7 @@ Here are some highlights:
 - Matchboard: all resources at a glance
 - Context-aware Auto-assembling feature
 - Flexible Translation Memory handling and options, TMs can store segments and/or fragments
-- Easy (multi-lingual) glossary format and term management features (alternative to TM for storing fragments)
+- Easy (multilingual) glossary format and term management features (alternative to TM for storing fragments)
 - Total Recall for storing and recalling really big TMs (millions of segments)
 - Auto-completion, suggests words on the fly
 - Quick search bar for querying various resources
@@ -234,7 +233,7 @@ Free utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.ht
 
 ## Fluency Now
 
-Fluency Now (Professional or Enterprise edition) is an easy to use full-featured CAT tool suite that's affordable for freelancers and organizations alike.
+Fluency Now (Professional or Enterprise edition) is an easy to use full-featured CAT tool suite that’s affordable for freelancers and organizations alike.
 
 Some of its [product features](https://www.westernstandard.com/Fluency/TranslationSuite.aspx) include:
 
@@ -347,7 +346,8 @@ The completely open source version can also be [installed offline or in a VM](ht
 **Cost:** Free (registration needed).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_anywhere/29).
 
-## Lilt
+<!--- ## Lilt
+
 [Lilt](https://lilt.com/) is machine-assisted translation platform that helps businesses, agencies, and individuals optimize translation speed, quality, and cost. It uses predictive typing as well as its own Adaptive MT engine that learns in real-time while you work.
 
 **Supported formats**: [file formats](https://lilt.com/kb/file-formats).
@@ -357,6 +357,8 @@ The completely open source version can also be [installed offline or in a VM](ht
 **Cost:** Translator monthly or annual [subscription](https://lilt.com/pricing/translator).
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/lilt/142).
 
+ --->
+
 ## XTM Cloud
 
 XTM International develops XTM, a complete online Translation Management System (TMS) with an integrated Computer Aided Translation (CAT), targeted at enterprises, LSPs and freelance translators. The centrally shared TM, terminology, workflow and translator workbench are all accessed via a browser. While XTM is cost effective and easy to use, it is a scalable system, that is built for collaboration and incorporates a comprehensive API.
@@ -365,7 +367,7 @@ XTM International develops XTM, a complete online Translation Management System 
 **Support and manual:** [XTM Academy](https://xtm.cloud/academy/) provides access to knowledge base articles, webinars, tutorials, online documentation release notes, and [support](https://support.xtm-intl.com/en/support/home).
 **License:** Closed source.
 **Demo:** 30-day free [trial](https://xtm.cloud/trial/).
-**Cost:** Monthly, quarterly  or annual [subscription pricing](https://xtm.cloud/pricing/) depending on the Account type (Freelance, Group, Entreprise), Duration, Number of users and Words/month.
+**Cost:** Monthly, quarterly or annual [subscription pricing](https://xtm.cloud/pricing/) depending on the Account type (Freelance, Group, Entreprise), Duration, Number of users and Words/month.
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/xtm_cloud/91), [Capterra](https://www.capterra.fr/software/157254/xtm-cloud).
 
 ## Google Translation Toolkit
@@ -431,7 +433,7 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [CafeTran Espresso](http://cafetran.com/) (paid software // free to use TMX editing feature)
 
-CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. Demo's TM limits do not apply to the "Edit translation memory" workflow.
+CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. Demo’s TM limits do not apply to the “Edit translation memory” workflow.
 
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
@@ -439,7 +441,7 @@ A powerful TM maintenance tool for all CAT software. It provides many useful and
 
 [TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (paid, 30-day free trial)
 
-Maxprograms TMXEditor is a cross-platofrm desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
+Maxprograms TMXEditor is a cross-platform desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge)
 
@@ -447,7 +449,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 [Goldpan TMX/TBX Editor](https://logrusglobal.com/goldpan.html) (free, Windows VM only)
 
-An intuitive and multi-functional TMX/TBX file editor from Logrus Global Software Development Team.
+An intuitive and multifunctional TMX/TBX file editor from Logrus Global Software Development Team.
 
 ### Segmentation/SRX editors
 
@@ -459,7 +461,7 @@ Examples of tools that support SRX files: OmegaT, CafeTran Espresso, Swordfish, 
 
 Maxprograms’ [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) is included in Stingray and Swordfish III installers. While these programs require a license to be used, the SRXEditor can be launched freely.
 
-Downloadable SRX rules: [OmegaT's default rules](https://raw.githubusercontent.com/omegat-org/omegat/master/src/org/omegat/core/segmentation/defaultRules.srx), [LanguageTool's segmentation rules](https://github.com/languagetool-org/languagetool/blob/master/languagetool-core/src/main/resources/org/languagetool/resource/segment.srx).
+Downloadable SRX rules: [OmegaT’s default rules](https://raw.githubusercontent.com/omegat-org/omegat/master/src/org/omegat/core/segmentation/defaultRules.srx), [LanguageTool’s segmentation rules](https://github.com/languagetool-org/languagetool/blob/master/languagetool-core/src/main/resources/org/languagetool/resource/segment.srx).
 
 ### Term extraction
 
@@ -508,7 +510,7 @@ Anchovy is included in [Swordfish III](https://www.maxprograms.com/products/swor
 
 Some simple glossary formats such as Excel files, CSV/TSV (Comma-separated values/Tab-separated values) files and tab-delimited text files may be all you need for your terminology management and glossary exchange needs.
 
-Excel and CSV/TSV files can simply be edited in office applications such as [Microsoft Excel](https://support.office.com/en-us/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba?ui=en-US&rs=en-US&ad=US), [LibreOffice Calc](https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files) (superior CSV/TSV handling compared to Excel). [Ron's Editor](https://www.ronsplace.eu/Products/RonsEditor), an excellent dedicated CSV editor with professional features (Feee/Lite and Pro versions available, with a 30-day trial) is Windows-only, but can be used with Wine after installing .Net Framework 4.5.2.
+Excel and CSV/TSV files can simply be edited in office applications such as [Microsoft Excel](https://support.office.com/en-us/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba?ui=en-US&rs=en-US&ad=US), [LibreOffice Calc](https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files) (superior CSV/TSV handling compared to Excel). [Ron’s Editor](https://www.ronsplace.eu/Products/RonsEditor), an excellent dedicated CSV editor with professional features (Feee/Lite and Pro versions available, with a 30-day trial) is Windows-only, but can be used with Wine after installing .Net Framework 4.5.2.
 
 Tab-delimited TXT files can be edited in any text editor, although it is recommended to simply rename them to .csv or .tsv, no other conversion needed.
 
@@ -517,11 +519,11 @@ Most CAT tools support such files (and converting from one of these file formats
 
 Swordfish uses the open Glossary Markup Language ([GlossML](https://www.maxprograms.com/glossml/glossml.pdf)) format. It offers a free glossary editor, [Anchovy](https://www.maxprograms.com/products/anchovy.html), which can import TMX, CSV and tab-del glossaries and export to GlosssML, CSV, HTML, TMX, TBX and XML.
 
-For conducting CAT-tool independent TM and glossary searches, [TMLookup](http://www.farkastranslations.com/tmlookup.php) is an open source tool designed to search (massive) bilingual and multilingual text databases (translation memories) and glossaries. For glossaries, it can import TXT and XLS files. It runs fine on Wine.
+For conducting CAT-tool independent TM and glossary searches, [TMLookup](http://www.farkastranslations.com/tmlookup.php) is an open-source tool designed to search (massive) bilingual and multilingual text databases (translation memories) and glossaries. For glossaries, it can import TXT and XLS files. It runs fine on Wine.
 
 **TBX**
 
-TBX, short for TermBase eXchange, is the international standard for representing and exchanging information about terms, words, and other lexical data. Here's a list of tools with some TBX support: http://www.tbxinfo.net/tbx-support/
+TBX, short for TermBase eXchange, is the international standard for representing and exchanging information about terms, words, and other lexical data. Here’s a list of tools with some TBX support: http://www.tbxinfo.net/tbx-support/
 
 Several CAT tools can **import/read** TBX files: OmegaT, CafeTran Espresso, Memsource, WordFast Pro, Swordfish, etc.
 
@@ -537,7 +539,7 @@ XBench (see below) can **import** TBX files and **convert** them to tab-delimite
 
 **SDLTB**
 
-Trados Studio termbases (SDLTB) are writen in a proprietary format, created by SDL MultiTerm. Since SDL Trados/Multiterm are quite common, you might come accross these files fairly often.
+Trados Studio termbases (SDLTB) are written in a proprietary format, created by SDL MultiTerm. Since SDL Trados/Multiterm are quite common, you might come accross these files fairly often.
 
 Some CAT tools support importing SDLTB files: Fluency Now and Memsource ([partly](https://wiki.memsource.com/wiki/TBX.XML))
 
@@ -555,9 +557,7 @@ XBench supports a host of glossary, TM and bilingual formats. For Terminology, X
 
 It can also be used to convert to TMX and Tab-delimited text files.
 
-[TODO More software]
-
-<!---
+<!--- [TODO More software]
 
 Terminology management
 termbases.eu
@@ -678,7 +678,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - The Freeware version 2.9 works fine on Wine, although it does not offer Unicode support.
   - The paid version XBench 3.x seems to work fine as well.
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
-- [Verifika](https://e-verifika.com/) (paid, 14-day trial) can be installed, but does not run in Wine, it needs to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
+- [Verifika](https://e-verifika.com/) (paid, 14-day trial) 32-bit edition can be installed, but may not run in Wine. Probably to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
 ## Proofreading/Revising (Track changes, compare documents)
 
@@ -686,7 +686,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
 
 Reviewing translations and proofreading can either be done within a CAT tool, especially with the Track Changes feature, via an exported Word or RTF bilingual table or on the exported target document itself.
 
-Let’s take each scenario separately :
+Let’s take each scenario separately:
 
 **Track changes (in a CAT tool):**
 
@@ -698,7 +698,7 @@ You can, however, suggest the use of [TQAuditor](https://cloud.tqauditor.com/qui
 
 **(Track) changes (in an exported bilingual Word/RTF)**
 
-Working on exported bilingual Word or RTF files offers the advantage that the reviewer does not need to own the original CAT tool, or any CAT tool, for that matter. The disadvantage being that the reviewer is left without the convenience (and TM and other resources) of a CAT tool. If you receive a bilingual Word or RTF for external review, you can just use your Office suite Text processing application (MS Word, LibreOffice Writer, etc.) to complete the review. Provided that bilingual review files can be opened in LibreOffice (SDL Trados files may not be compatible, it seems), it’s good to know that its track changes/compare document feature is compatible with MS Office, at least with some precautions ([see here](http://www.techandlife.com/2015/04/compatibility-of-tracked-changes-and-comments-between-word-and-libreoffice-writer/) for a report). If you don’t use Track changes, Compare document feature can be used to create a document with the modifications made.
+Working on exported bilingual Word or RTF files offers the advantage that the reviewer does not need to own the original CAT tool, or any CAT tool, for that matter. The disadvantage being that the reviewer is left without the convenience (and TM and other resources) of a CAT tool. If you receive a bilingual Word or RTF for external review, you can just use your Office suite Text processing application (MS Word, LibreOffice Writer, WPS Writer etc.) to complete the review. Provided that bilingual review files can be opened in LibreOffice (SDL Trados files may not be compatible, it seems), it’s good to know that its track changes/compare document feature is compatible with MS Office, at least with some precautions (like ensuring you use the same author name and initials in both programs, see archived link [here](https://web.archive.org/web/20180104151847/http://www.techandlife.com/2015/04/compatibility-of-tracked-changes-and-comments-between-word-and-libreoffice-writer/)). If you don’t use Track changes, Compare document feature can be used to create a document with the modifications made.
 
 **(Track) changes (in the target document)**
 
@@ -746,7 +746,7 @@ Any2UTF8 is a simple program to convert plain text file in any character encodin
 
 [HTTRack/WebHTTRack](https://www.httrack.com/)
 
-A free (GPL, libre/free software) and easy-to-use offline browser utility allowing you to copy a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site’s relative link-structure. Simply open a page of the “mirrored” website in your browser, and you can browse the site from link to link as if you were viewing it online. Useful for some website translation scenarios.
+A free (GPL, libre/free software) and easy-to-use offline browser utility allowing you to copy a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site’s relative link structure. Simply open a page of the “mirrored” website in your browser, and you can browse the site from link to link as if you were viewing it online. Useful for some website translation scenarios.
 
 [Translate Toolkit](http://toolkit.translatehouse.org/)
 
@@ -766,7 +766,7 @@ Professional subtitling software is mostly Windows only, I’m afraid. Here are 
 
 [Aegisub](aegisub.org/)
 
-Aegisub is a free, cross-platform open source tool for creating and modifying subtitles. Aegisub makes it quick and easy to time subtitles to audio and features many powerful tools for styling them, including a built-in real-time video preview.
+Aegisub is a free, cross-platform open-source tool for creating and modifying subtitles. Aegisub makes it quick and easy to time subtitles to audio and features many powerful tools for styling them, including a built-in real-time video preview.
 
 Probably the most advanced and powerful free subtitling tool out there. Excellent for time-spotting.
 
@@ -829,6 +829,8 @@ With a bit of Google search, you can find different (mostly monolingual) Babylon
 
 Other Dictionary applications exist on GNU/Linux, but they are nowhere near GoldenDict in functionality.
 
+For dictionary file conversion, make sure to check out [PyGlossary](https://github.com/ilius/pyglossary), a tool for converting dictionary files aka glossaries with various formats for different dictionary applications.
+
 Depending on your language pairs and subject fields, there are multiple dictionaries, glossaries, corpora, terminology banks, concordancers, etc. available online. Listing them is beyond the scope of this document.
 
 Here’s just one: [MagicSearch.com](http://magicsearch.org/) is a multilingual metasearch engine which allows you to search multiple sources (dictionaries, corpora, machine translation engines, concordancers, search engines) with a single click. Select a language pair and submit a search (select the same source and target language for monolingual searches). MagicSearch will display a single scrollable page with multiple sources. You can click on each source button as it changes its color (=loads) to move to the respective source. MagicSearch remembers the language pair you selected the next time you visit the site (using a cookie).
@@ -853,6 +855,10 @@ Translation project management and invoicing tool. Offers an offline Windows-onl
 
 I you are a ProZ.com member, you can also use the online [ProZ.com invoicing tool](https://www.proz.com/invoice/about).
 
+[Flantie](https://www.flantie.com/)
+
+Flantie is an easy to use online task and invoice management system for translators and interpreters. It offers both a Free and and a Pro plan.
+
 [Project Libre](http://www.projectlibre.com/product/projectlibre-open-source)
 
 An open source alternative to Microsoft Projects.
@@ -873,9 +879,11 @@ Along with some other software and utilities, they can, however, prove useful fo
 
 <!--- TODO --->
 
-Speech recognition is quite lacking in GNU/Linux. At present, few options compare to Nuance’s Dragon Naturally Speaking, which does not run natively.
+Speech recognition is quite lacking in GNU/Linux. At present, few options compare to Nuance’s Dragon Naturally Speaking, which does not run natively (although some editions are reported to be usable under Wine).
 
-Some solutions, such as the [Voice notebook](https://voicenotebook.com/), use Google Speech API, which also is used in Google Docs (CafeTran offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+Online solutions, such as [Voice notebook](https://voicenotebook.com/), make often use of the Google Speech API, which is also built-in Google Docs (CafeTran Espresso offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+
+Currently, one of the best ways to integrate speech recognition into your GNU/Linux workflow is to use an Android phone. Indeed, the smartphones' mic is optimized for recording voice and for noise suppression. Plus, you can apply voice typing across the desktop.
 
 ## Text-to-speech (TTS)
 
@@ -897,19 +905,21 @@ Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/
 
 [PDF-XChange Editor](https://www.tracker-software.com/product/pdf-xchange-editor) (Free)
 
+[Able2Extract](https://www.investintech.com/prod_a2e.htm) (Paid) lets you convert, OCR, create and edit PDF documents.
+
 [Qoppa PDF Studio](https://www.qoppa.com/pdfstudio/) (Paid)
 
 [Master PDF Editor](https://code-industry.net/masterpdfeditor/) (Paid)
 
 [Infix PDF Editor/TransPDF](https://www.iceni.com/infix.htm) (Paid, free for TransPDF editing)
 
-Inceni's Infix is a PDF Editor for Windows which works well under Wine (see related section below). Just deselect the PDF printer option during installation.
+Inceni’s Infix is a PDF Editor for Windows which works well under Wine (see related section below). Just deselect the PDF printer option during installation.
 
 This software is of special interest to translators because it can be used along with [TransPDF](https://transpdf.iceni.com/), a free/pay as you go online service which handles [PDF files translation](https://www.iceni.com/translation.htm): it offers to convert the PDF to the XLIFF format which can then be translated in a CAT tool, in order to produce a translated PDF file that closely follows the original layout.
 
 PDFs translated via TransPDF can be edited using the free demo version of Infix PDF Editor. This is very handy for making final adjustments to spacing and layout ready for clients.
 
-Users of the paid Infix version can use TransPDF free of charge.
+Users of the paid Infix version can use TransPDF free of charge. [ProZ Plus](http://www.proz.com/about-plus-package) members enjoy free 10 credits (equivalent to 10 PDF pages) per month, along with [discounted credits](https://go.proz.com/transpdf-credit-purchase) purchase.
 
 TransPDF also offers a paid OCR feature for non-editable PDFs.
 
@@ -929,7 +939,7 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 [PDFSam](https://pdfsam.org/): Split, merge, extract pages, rotate and mix PDF files.
 
-[PDF Chain](http://pdfchain.sourceforge.net/): A graphical interface allowing to manipulate PDF documents (concatenate, burst, watermark, attach files...)
+[PDF Chain](http://pdfchain.sourceforge.net/): A graphical interface allowing to manipulate PDF documents (concatenate, burst, watermark, attach files…)
 
 [PDF Mod](https://wiki.gnome.org/action/show/Apps/PdfMod?action=show&redirect=PdfMod): Modify PDF documents: Reorder, rotate, and remove pages, export images from a document, edit the title, subject, author, and keywords, and combine documents via drag and drop.
 
@@ -938,6 +948,8 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 ### PDF TO TEXT
 
 For converting editable PDFs to Docx, most PDF conversion utilities require using a Windows VM.
+
+[Able2extract Professional](https://www.investintech.com/prod_a2e.htm) is a closed source paid software that offers a Linux desktop version. It lets you convert, create and edit PDF documents. Conversion works for PDF to Word, Excdel, PowerPoint, AutoCAD, Images, Publisher and LibreOffice documents (ODT, ODS and ODP). It sports an OCR feature as well, including extracting scanned PDF tables into Excel.
 
 [Foxit PDF to word online converter](https://www.foxitsoftware.com/pdf-to-word-converter/) produces excellent results.
 [CloudConvert](https://cloudconvert.com/) online converter does a very nice job as well, with the added bonus that it also handles a host of different file conversion types and offers an API (you can create a script).
@@ -950,7 +962,9 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 ### OCR
 
-Unfortunately, no native OCR solution can match ABBYY FineReader and other proprietary software.
+Native OCR solutions usually lag behind ABBYY FineReader and other proprietary software.
+
+[Able2extract Professional](https://www.investintech.com/prod_a2e.htm) is a paid software that offers PDF conversion, creation and editing with OCR capabilities, including extracting scanned PDF tables into Excel (7-day free trial available).
 
 [ABBYY FineReader](https://www.abbyy.com/en-me/finereader/) and other programs (such as Adobe Acrobat Pro, Nuance OmniPage, Readiris and Wondershare PDFelement) can be used in a Windows VM, see related section. Some earlier versions of ABBYY FineReader (up to version 10) are reportedly working via Wine, see related section.
 
@@ -988,6 +1002,14 @@ Interested in translating e-books? A solution is described [here](https://github
 
 Allows you to index select directories and search the contents of files on your computer. Great for ad hoc indexing your documentary research, your ebook library, etc.
 
+[FSearch](https://github.com/cboxdoerfer/fsearch)
+
+A fast and lightweight file search utility based on GTK+3. Similar to the (Windows only) Everything Search Engine, it provides instant (as you type) results, with RegEx and filter support among other features.
+
+[AngrySearch](https://github.com/DoTheEvo/ANGRYsearch)
+
+A fast file search utility based on QT5, that attempts to provide a Linux version of the Everything Search Engine available for Windows.
+
 [Recoll](https://www.lesbonscomptes.com/recoll/)
 
 Recoll finds keywords inside documents as well as file names (uses indexing).
@@ -1016,9 +1038,9 @@ Of course, there are also powerful command-line utilities for searching files (f
 
 [Geany](https://geany.org/) is a great lightweight text editor and Integrated Development Environment (IDE).
 
-Text editors with even richer functions inclure GitHub's [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) (free/paid) and [Brackets](http://brackets.io/).
+Text editors with even richer functions inclure GitHub’s [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) (free/paid) and [Brackets](http://brackets.io/).
 
-For historical reasons, I'll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
+For historical reasons, I’ll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
 
 <!--- ## System security|Antivirus
 
@@ -1088,6 +1110,8 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Project Hamster](https://github.com/projecthamster/)
 
+[TimeCamp](https://www.timecamp.com/)
+
 [RescueTime](https://www.rescuetime.com/)
 
 [Toggl](https://toggl.com)
@@ -1126,7 +1150,7 @@ Two applications aim to make it easy to install Windows programs in such separat
 - [PlayOnLinux](playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
 
 Some examples of useful translation-related applications that run well on Linux via Wine (mostly PlayOnLinux and Crossover) are the following:
-- Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open source tool to search bilingual and multilingual text databases (translation memories) and glossaries. [Ron's Editor](https://www.ronsplace.eu/Products/RonsEditor) excellent CSV File Editor works after installing .Net Framework 4.5.2.
+- Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open-source tool to search bilingual and multilingual text databases (translation memories) and glossaries. [Ron’s Editor](https://www.ronsplace.eu/Products/RonsEditor) excellent CSV File Editor works after installing .Net Framework 4.5.2.
 
 Many Windows programs that require specific versions of the .NET framework can be installed successfully after installing these first. Tip: Trial versions can be easily reinstalled since you can create separate machines with a few clicks.
 
@@ -1164,6 +1188,9 @@ Happy translating!
 - 20180731 Added TMXEditor under TMX editing and Anchovy under Term extraction
 - 20180830 Added XTM Cloud in Online CAT tools
 - 20180901 Added Infix PDF Editor and TransPDF
+- 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
+- 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
+- 20191020 Minor update.
 
 ## Feedback
 

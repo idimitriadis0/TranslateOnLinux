@@ -174,7 +174,7 @@ Here are some highlights:
 **Supported formats:** [file formats](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#file-formats-overview).
 **Support:** [Solutions](https://cafetran.freshdesk.com/support/solutions) (Knowledge Base), [Official forum and support](https://cafetran.freshdesk.com/support/discussions), [Reference documents](https://github.com/idimitriadis0/TheCafeTranFiles/wiki).
 **License:** Closed source.
-**Demo version:** no time limit, TM files up to 1000 TUs in total and glossaries no larger than 500 terms. No limits for TMX editing.
+**Demo version:** no time limit, TM files up to 1000 TUs in total and glossaries no larger than 500 terms.
 **Cost:** [Licensing options](https://www.cafetran.com/get-cafetran/) // Also, full access for [ProZ.com Plus members](https://www.proz.com/pages/Plus-subscriber-checklist).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/cafetran_espresso/97).
 
@@ -879,9 +879,11 @@ Along with some other software and utilities, they can, however, prove useful fo
 
 <!--- TODO --->
 
-Speech recognition is quite lacking in GNU/Linux. At present, few options compared to Nuance’s Dragon Naturally Speaking, which does not run natively.
+Speech recognition is quite lacking in GNU/Linux. At present, few options compare to Nuance’s Dragon Naturally Speaking, which does not run natively (although some editions are reported to be usable under Wine).
 
-Some solutions, such as the [Voice notebook](https://voicenotebook.com/), use Google Speech API, which also is used in Google Docs (CafeTran offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+Online solutions, such as [Voice notebook](https://voicenotebook.com/), make often use of the Google Speech API, which is also built-in Google Docs (CafeTran Espresso offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+
+Currently, one of the best ways to integrate speech recognition into your GNU/Linux workflow is to use an Android phone. Indeed, the smartphones' mic is optimized for recording voice and for noise suppression. Plus, you can apply voice typing across the desktop.
 
 ## Text-to-speech (TTS)
 
@@ -902,6 +904,8 @@ Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/
 [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/) (Free) PDF reader (not editor) with some lite editing features such as PDF annotation and PDF sign.
 
 [PDF-XChange Editor](https://www.tracker-software.com/product/pdf-xchange-editor) (Free)
+
+[Able2Extract](https://www.investintech.com/prod_a2e.htm) (Paid) lets you convert, OCR, create and edit PDF documents.
 
 [Qoppa PDF Studio](https://www.qoppa.com/pdfstudio/) (Paid)
 
@@ -1186,6 +1190,7 @@ Happy translating!
 - 20180901 Added Infix PDF Editor and TransPDF
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
+- 20191020 Minor update.
 
 ## Feedback
 
