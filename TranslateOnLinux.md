@@ -18,7 +18,6 @@
 	- [Smartcat](#smartcat)
 	- [Wordfast Anywhere](#wordfast-anywhere)
 	- [XTM Cloud](#xtm-cloud)
-	- [Google Translation Toolkit](#google-translation-toolkit)
 	- [Wordbee](#wordbee)
 	- [Other](#other)
 	- [Translation related tasks and tools](#translation-related-tasks-and-tools)
@@ -369,17 +368,6 @@ XTM International develops XTM, a complete online Translation Management System 
 **Demo:** 30-day free [trial](https://xtm.cloud/trial/).
 **Cost:** Monthly, quarterly or annual [subscription pricing](https://xtm.cloud/pricing/) depending on the Account type (Freelance, Group, Entreprise), Duration, Number of users and Words/month.
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/xtm_cloud/91), [Capterra](https://www.capterra.fr/software/157254/xtm-cloud).
-
-## Google Translation Toolkit
-
-[Google Translation Toolkit](https://translate.google.com/toolkit) is a web application that integrates Google Translate suggestions. With the Google Translator Toolkit, translators can organize their work and use shared translations, glossaries and translation memories.
-
-Be sure to add the Chrome extension [Google Translator Toolkit Booster](https://chrome.google.com/webstore/detail/google-translator-toolkit/pjankaakojbendjaejlcnpgeldmfpjed?hl=en). GTT Booster improves on Google Translator Toolkit by transforming the experience into something more similar to an industry CAT tool.
-
-**Supported formats**: [Supported file formats & size limits](https://support.google.com/translatortoolkit/answer/6306382?hl=en).
-**Support and manual:** [Translator Toolkit Help](https://support.google.com/translatortoolkit#topic=6306364).
-**License:** Closed source.
-**Cost:** Free (Google account needed).
 
 ## Wordbee
 
@@ -1190,7 +1178,7 @@ Happy translating!
 - 20180901 Added Infix PDF Editor and TransPDF
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
-- 20191020 Minor update.
+- 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Google Translation toolkit will be soon decommissioned, so it has been removed.
 
 ## Feedback
 
