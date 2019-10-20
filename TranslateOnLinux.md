@@ -423,7 +423,7 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 A powerful TM maintenance tool for all CAT software. It provides many useful and practical functions besides common editing features, allowing you to perform TM maintenance tasks easily, simply and all with one tool.
 
-[Okapi Olifant](http://okapi.sourceforge.net/Release/Olifant/ReadMe.htm)
+[Okapi Olifant](http://okapi.sourceforge.net/Release/Olifant/ReadMe.htm) (free)
 
 An excellent free Translation Memory Editor. Caveat: it's current version is based on the old (2009) Windows-only .NET version of Okapi framework (a new Java-based version is in the works). Upside: It can be installed via Wine (or PlayOnLinux/CrossOver), provided that you have .NET framework 2.0 or later installed (on your Wine bottle/prefix). [Online documentation](http://okapi.sourceforge.net/Release/Olifant/Help/).
 
