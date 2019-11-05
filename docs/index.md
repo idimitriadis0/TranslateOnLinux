@@ -55,6 +55,7 @@
 	- [Desktop search/Full text index](#desktop-searchfull-text-index)
 	- [File rename utilities](#file-rename-utilities)
 	- [Text editors](#text-editors)
+	- [System security|Antivirus](#system-securityantivirus)
 	- [Productivity tools selection](#productivity-tools-selection)
 		- [AutoKey (Py3)](#autokey-py3)
 		- [Reduce eye-strain](#reduce-eye-strain)
@@ -65,7 +66,8 @@
 		- [Pomodoro timers](#pomodoro-timers)
 		- [Unit conversion](#unit-conversion)
 		- [On-screen keyboard](#on-screen-keyboard)
-	- [Running Windows applications](#running-windows-applications)
+	- [Running GNU/Linux on Windows](#running-gnulinux-on-windows)
+	- [Running Windows applications on Linux](#running-windows-applications-on-linux)
 		- [Natively on WINE](#natively-on-wine)
 		- [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine-vm)
 		- [Via Dual Boot/On a separate machine](#via-dual-booton-a-separate-machine)
@@ -115,7 +117,7 @@ Some highlights include:
 - Spell checking (Hunspell)
 - Linguistic/grammar checking (LanguageTool)
 - Dictionaries (mono and multilingual) in StarDict and Lingvo DSL formats (although GoldenDict might be a better external alternative, see Dictionaries section)
-- Machine translation (Google Translate, Microsoft Translator, Apertium, Yandex, MyMemory, etc.)
+- Machine translation (Google Translate, Microsoft Translator, DeepL, Apertium, Yandex, MyMemory, IBM Watson, etc.)
 - More than 30 supported file formats
 - Public API for plugins: Additional file formats (Okapi), Local machine translation (Apertium)
 - Running scripts written in Groovy and JavaScript, further extending its capabilities (example: a script offers an extensive QA feature)
@@ -159,7 +161,7 @@ Here are some highlights:
 - Clever text transposition and case handling
 - Auto-propagation (with various settings and exceptions allowed)
 - Query your favorite Internet resources straight from within CafeTran
-- Integrated MT engines (via an API connection or a web interface): DeepL, Google Translate, Microsoft Translator, Yandex.Translate, MyMemory, etc.
+- Integrated MT engines (via an API connection or a web interface): DeepL, Google Translate, Microsoft Translator, Yandex.Translate, MyMemory, IBM Watson, etc.
 - Rich QA features and Statistics
 - Export and reimport bilingual Word documents for external proofreading or review
 - Integration with ProZ.com and TM-Town
@@ -461,11 +463,8 @@ Monolingual term extraction attempts to analyze a text or corpus in order to ide
 
 #### Monolingual term extraction
 
-[Prospector](https://logrusglobal.com/prospector.html)
-
-Free, online, English only. If you work on English source texts, try it.
-Based on the world’s largest corpus of the English language supported by a Brigham Young University professor, and a unique algorithm developed by a team of in-house experts.
-
+<!--- [Prospector](https://logrusglobal.com/prospector.html) Free, online, English only. If you work on English source texts, try it.
+Based on the world’s largest corpus of the English language supported by a Brigham Young University professor, and a unique algorithm developed by a team of in-house experts. --->
 [ThermoStat Web](http://termostat.ling.umontreal.ca/interfaceTermostat.php)
 
 Free, online. Languages: English, French, Italian, Portuguese, Spanish. The results are really good. Uses linguistic and statistical methods while taking the potential terms’ structures and relative frequencies into account in the analysis corpus. TermoStat is free, but users must register. Outputs a Tab delimited TXT (which can be renamed to and opened as a CSV file in LibreOffice).
@@ -492,7 +491,7 @@ Subscription-based, online. Several supported languages. Monolingual and bilingu
 
 Anchovy is an offline multilingual cross-platform glossary editor and bilingual term extraction tool based on the open Glossary Markup Language (GlossML) format.
 
-Anchovy is included in [Swordfish III](https://www.maxprograms.com/products/swordfish.html) installers as free plugin and handles various import and export file formats.
+Anchovy is included in [Swordfish III](https://www.maxprograms.com/products/swordfish.html) installers as a free plugin and handles various import and export file formats.
 
 ### Terminology management
 
@@ -533,7 +532,7 @@ XBench (see below) can **import** TBX files and **convert** them to tab-delimite
 
 Trados Studio termbases (SDLTB) are written in a proprietary format, created by SDL MultiTerm. Since SDL Trados/Multiterm are quite common, you might come accross these files fairly often.
 
-Some CAT tools support importing SDLTB files: Fluency Now and Memsource ([partly](https://wiki.memsource.com/wiki/TBX.XML))
+Some CAT tools support importing SDLTB files: CafeTran Espresso, Fluency Now and Memsource ([partly](https://wiki.memsource.com/wiki/TBX.XML))
 
 Tools for converting SDLTB files: [Trados Studio Resource Converter](http://www.vannellen.com/fortranslators.php) and [WfConverter](http://wordfast.fi/blog/cat-tools/2012/11/03/convert-sdltm-and-sdltb-without-studio-and-multiterm/)
 
@@ -608,7 +607,7 @@ Less developed and feature-rich than LibreOffice.
 
 Free for Linux users. Boasts high MS Office compatibility.
 
-[SoftMaker Office 2018](http://www.softmaker.com/en/softmaker-office-linux)
+[SoftMaker Office 2018](https://www.softmaker.com/en/softmaker-office)
 
 Paid software. 30-day free trial. Boasts excellent MS Office compatibility.
 
@@ -620,7 +619,7 @@ The free version of the SoftMaker Office.
 
 [OnlyOffice](https://www.onlyoffice.com/)
 
-Has good looks and potential.
+Has good looks and potential. Works both offline and in the Cloud. Bosts 100% compatibility with MS Office formats.
 
 [Google Docs](https://www.google.com/docs/about/)/[Google Drive](https://drive.google.com) (online)
 
@@ -647,7 +646,8 @@ If fonts don’t look good, you might need to learn how to improve anti-aliasing
 - Other writing editors and writing aids (EN): [ProWritingAid](https://prowritingaid.com/), [Hemingway App](http://www.hemingwayapp.com/)
 - Other online proofreading tools (EN) include [GrammarChecker](https://grammarchecker.net/) and [GrammarLookup](https://www.grammarlookup.com/)
 - [Ludwig.guru](https://ludwig.guru/) (EN) is a linguistic search engine and contextualized translator.
-
+- [Writefull](https://writefullapp.com/) (EN) is an app that gives feedback on your writing by checking your text against databases of correct language (also offers translations from any language into English). It is available as a cross-platform desktop application and as a Chrome extension.
+-
 Note: [PerfectIt](http://www.intelligentediting.com/) (EN) (paid) cannot be installed with Wine (as tested), it needs to be used in a Windows VM.
 
 ## QA tools
@@ -735,6 +735,10 @@ A freeware tool for detecting and converting character encodings.
 [Any2UTF8](http://docs.sslmit.unibo.it/doku.php?id=any2utf8:start)
 
 Any2UTF8 is a simple program to convert plain text file in any character encoding to UTF8.
+
+[ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter)
+
+For converting between different versions of .dwg and .dxf files.
 
 [HTTRack/WebHTTRack](https://www.httrack.com/)
 
@@ -841,11 +845,11 @@ Free [for freelancers](https://protemos.com/freelance.html). Track translation o
 
 Project management and invoicing tool for Freelance translators, teams, and agencies. Online, subscription-based, 30-day trial.
 
-[BaccS](https://www.ibaccs.com/)
+[SDL Trados Businesss Manager](https://www.ibaccs.com/) (previously BaacS)
 
-Translation project management and invoicing tool. Offers an offline Windows-only version as well as an online version. Paid Freelance edition with permanent licence. Free for ProZ Plus members.
+Translation project management and invoicing tool. Offers an offline Windows-only version as well as an online version. Paid Freelance edition with permanent licence. The offline version is free for ProZ Plus members.
 
-I you are a ProZ.com member, you can also use the online [ProZ.com invoicing tool](https://www.proz.com/invoice/about).
+I you are a paying ProZ.com member, you can also use the online [ProZ.com invoicing tool](https://www.proz.com/invoice/about).
 
 [Flantie](https://www.flantie.com/)
 
@@ -853,7 +857,7 @@ Flantie is an easy to use online task and invoice management system for translat
 
 [Project Libre](http://www.projectlibre.com/product/projectlibre-open-source)
 
-An open source alternative to Microsoft Projects.
+An open source desktop alternative to Microsoft Projects.
 
 ## DTP - Image localization
 
@@ -863,7 +867,7 @@ Those offering DTP services may need to use a Windows VM or simply reconsider.
 
 GNU/Linux is not completely lacking in the DTP department. [Scribus](https://www.scribus.net/) can produce professional PDFs, just like InDesign or QuarkXpress, [Inkscape](https://inkscape.org/) is probably just as good as Illustrator and [GIMP](http://gimp.org/) can tackle many of Photoshop’s capabilities.
 
-It’s just that these tools cannot provide the required compatibility to flawlessly integrate into a client’s proprietary DTP workflow.
+It’s just that these tools cannot necessarily provide the required compatibility to flawlessly integrate into a client’s proprietary DTP workflow.
 
 Along with some other software and utilities, they can, however, prove useful for occasional image localization and editing.
 
@@ -982,6 +986,10 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [Beyond Compare](https://www.scootersoftware.com/): Compare files and folders, merge changes, synchronize files and generate reports. Commercial software.
 
+[KDiff3](https://kde.org/applications/development/org.kde.kdiff3): File and directory diff and merge tool
+
+[Diffuse](http://diffuse.sourceforge.net/): Graphical tool for merging and comparing text files
+
 [DiffPDF](http://www.qtrac.eu/diffpdf.html): Compare PDFs
 
 [diff-pdf](https://vslavik.github.io/diff-pdf/): Compare PDFs (terminal)
@@ -1034,17 +1042,21 @@ Text editors with even richer functions inclure GitHub’s [Atom](https://atom.i
 
 For historical reasons, I’ll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
 
-<!--- ## System security|Antivirus
+## System security|Antivirus
 
 While GNU/Linux is generally considered as less prone to (and targeted by) Trojans, viruses, malware and other malicious threats, especially those created for Windows, it is advisable to consider your system's security.
 
 Although beyond the scope of this document, you should take steps to ensure secure web browsing, especially via some browser add-ons/extensions.
 
-[Rkhunter](http://rkhunter.sourceforge.net/) (Rootkit Hunter) is a Unix-based tool that scans for rootkits, backdoors and possible local exploits specific to GNU/Linux systems.
+[Rkhunter](http://rkhunter.sourceforge.net/) (Rootkit Hunter) is a Unix-based CLI tool that scans for rootkits, backdoors and possible local exploits specific to GNU/Linux systems.
 
-More generally, you can use the open source antivirus engine [ClamAV](https://www.clamav.net/). By default, it lives in the command-line (terminal), but you can install its graphical front-end, [ClamTk](https://dave-theunsub.github.io/clamtk/) as well as its file manager addons (depending on your Desktop Environment: Gnome, KDE, Cinamon, XFCE, etc.), so that you can scan a file for threats just by right-clicking on it.
+[Bitdefender Antivirus Scanner for Unices](https://www.bitdefender.com/site/Store/viewProduct/antivirus-for-unices.html) (requires registration for free licence key) is not developped anymore but its virus database is kept up to date. It is a GUI tool that still represents one of the best Antivirus solutions for GNU/Linux users.
 
-Since most threats come from Windows programs, be extra careful when installing them. [CrossOver](https://www.codeweavers.com/) (paid), which helps run and install Windows applications on GNU/Linux, conveniently scans Windows programs that you install or run for viruses. Same goes for files (email attachments, etc.) that you open with such programs. --->
+[Sophos Antivirus](https://www.sophos.com/en-us/products/free-tools/sophos-antivirus-for-linux.aspx) is another excellent, although more involved solution.
+
+There is also an open source antivirus engine [ClamAV](https://www.clamav.net/). By default, it lives in the command-line (terminal), but you can install its graphical front-end, [ClamTk](https://dave-theunsub.github.io/clamtk/) as well as its file manager addons (depending on your Desktop Environment: Gnome, KDE, Cinamon, XFCE, etc.), so that you can scan a file for threats just by right-clicking on it. Unfortunately, its efficiency is sub-par.
+
+Since most threats come from Windows programs, be extra careful when installing them. [CrossOver](https://www.codeweavers.com/) (paid), which helps run and install Windows applications on GNU/Linux, conveniently scans Windows programs that you install or run for viruses. Same goes for files (email attachments, etc.) that you open with such programs.
 
 ## Productivity tools selection
 
@@ -1092,11 +1104,11 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
 
+[Peek](https://github.com/phw/peek) animated GIF/video Screen Recorder
+
 [Open Broadcaster Software](https://obsproject.com/) Full-featured cross-platform screen recording and live streaming software.
 
 [recordMyDesktop](http://recordmydesktop.sourceforge.net/about.php)
-
-[Peek](https://github.com/phw/peek) animated GIF Screen Recorder
 
 ### Time/Project tracking
 
@@ -1124,7 +1136,10 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 **Onboard** is an excellent on-screen (virtual) keyboard. Handy if you wish to remember how to type less frequent characters for your language.
 
-## Running Windows applications
+## Running GNU/Linux on Windows
+Just in case you prefer to run Linux from Windows, Windows 10 is able to [run Linux distributions side-by-side](https://docs.microsoft.com/en-us/windows/wsl/install-win1) without fiddling with a virtual machine or a dual boot installation.
+
+## Running Windows applications on Linux
 
 ### Natively on WINE
 
@@ -1183,7 +1198,7 @@ Happy translating!
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
 - 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Added Olifant to "Translation Memory (TMX) Editing/Maintainance" tools. Google Translation toolkit will be soon decommissioned, so it has been removed from the list of online CAT tools.
-- 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web.
+- 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web. Added a System security|Antivirus section. Added ODA File Converter for .dwg and .dxf files. Added a few more Diff tools (Diffuse, KDiff3). Windows 10 can run Linux distribution side-by-side, without VMs.
 
 ## Feedback
 
