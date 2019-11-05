@@ -5,7 +5,7 @@
 	- [OFFLINE CAT TOOLS](#offline-cat-tools)
 	- [OmegaT](#omegat)
 	- [CafeTran Espresso](#cafetran-espresso)
-	- [Memsource Editor/Cloud](#memsource-editorcloud)
+	- [Memsource Editor for Desktop](#memsource-editor-for-desktop)
 	- [WordFast Pro](#wordfast-pro)
 	- [Swordfish Translation Editor](#swordfish-translation-editor)
 	- [Fluency Now](#fluency-now)
@@ -13,7 +13,7 @@
 	- [WordFast Classic](#wordfast-classic)
 	- [Other](#other)
 	- [ONLINE CAT TOOLS](#online-cat-tools)
-	- [Memsource Cloud](#memsource-cloud)
+	- [Memsource Editor for Web](#memsource-editor-for-web)
 	- [MateCat](#matecat)
 	- [Smartcat](#smartcat)
 	- [Wordfast Anywhere](#wordfast-anywhere)
@@ -177,7 +177,7 @@ Here are some highlights:
 **Cost:** [Licensing options](https://www.cafetran.com/get-cafetran/) // Also, full access for [ProZ.com Plus members](https://www.proz.com/pages/Plus-subscriber-checklist).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/cafetran_espresso/97).
 
-## Memsource Editor/Cloud
+## Memsource Editor for Desktop
 
 Memsource is an easy and simple online CAT tool, which also offers a desktop editor (compatible with Linux), hence its inclusion in this section. It provides a complete translation environment that allows you to set up your own workflow, and share projects with your vendors.
 
@@ -186,10 +186,10 @@ Among other things, it offers an extensive file format support, with interesting
 Online/Offline tool
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** [file formats](https://help.memsource.com/hc/en-us/articles/360000446911-Supported-File-Formats).
-**Support and manual:** [Support](https://help.memsource.com/hc/en-us), [Memsource Cloud user manual](https://help.memsource.com/hc/en-us/sections/115000903671-Memsource-Cloud-User-Manual), [Desktop Editor user manual](https://help.memsource.com/hc/en-us/sections/115000903871-Desktop-Editor).
+**Support and manual:** [Support](https://help.memsource.com/hc/en-us), [Memsource Editor for Desktop and for Web documentation](https://help.memsource.com/hc/en-us/categories/115000351051-Translating).
 **License:** Closed source.
 **Demo**: 30-day trial / Free Personal edition (maximum two files at a time).
-**Cost:** [editions and pricing](https://www.memsource.com/pricing2).
+**Cost:** [editions and pricing](https://www.memsource.com/pricing/).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/memsource_cloud/40), [G2Crowd](https://www.g2crowd.com/products/memsource/reviews).
 
 ## WordFast Pro
@@ -305,9 +305,9 @@ It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tm
 
 While problematic from a privacy and freedom point of view, the advent of Cloud/browser-based CAT tools has added several GNU/Linux compatible solutions to the existing arsenal.
 
-## Memsource Cloud
+## Memsource Editor for Web
 
-Mentioned along with Memsource Editor in the above section.
+Mentioned along with Memsource Editor for Desktop in the above section.
 
 ## MateCat
 
@@ -330,7 +330,7 @@ The completely open source version can also be [installed offline or in a VM](ht
 [Smarcat](https://smartcat.ai/) is an intuitive, feature-rich computer-assisted translation web app. It provides a full set of translation automation technologies for companies and translators and makes it easy for them to connect and collaborate.
 
 **Supported formats**: [file formats](https://www.smartcat.ai/corp-features/).
-**Support and manual:** [Documentation and support](https://www.matecat.com/support/).
+**Support and manual:** [Documentation and support](https://help.smartcat.ai/hc/en-us).
 **License:** Closed source.
 **Cost:** Mostly free (registration needed), billable OCR service.
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/smartcat/145), [G2Crowd](https://www.g2crowd.com/products/smartcat/reviews).
@@ -1183,7 +1183,7 @@ Happy translating!
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
 - 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Added Olifant to "Translation Memory (TMX) Editing/Maintainance" tools. Google Translation toolkit will be soon decommissioned, so it has been removed from the list of online CAT tools.
-- 20191105 SRXEditor is now open source and available as a standalone cross-platform program.
+- 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web.
 
 ## Feedback
 
