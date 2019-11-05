@@ -449,9 +449,9 @@ The SRX (Segmentation Rules eXchange) format is an open standard to save segment
 
 Examples of tools that support SRX files: OmegaT, CafeTran Espresso, Swordfish, WordFast Pro, and Memsource.
 
-[Okapi Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a free-libre/open source cross-platform application that helps create and maintain segmentation rules in the SRX format. Such rules are used to break down translatable text into more meaningful parts. Ratel is part of the Okapi Framework, and can be used either as a standalone utility or from within Okapi Rainbow.
+Maxprograms’ [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) is an open source cross-platform editor of segmentation rules, designed to use Segmentation Rules eXchange (SRX) 2.0. You can use SRXEditor to create new SRX files and edit existing ones. It also can be used for testing segmentation rules to ensure that they break text as expected. It is also currently included in Swordfish III installers.
 
-Maxprograms’ [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) is included in Stingray and Swordfish III installers. While these programs require a license to be used, the SRXEditor can be launched freely.
+[Okapi Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a free-libre/open source cross-platform application that helps create and maintain segmentation rules in the SRX format. Such rules are used to break down translatable text into more meaningful parts. Ratel is part of the Okapi Framework, and can be used either as a standalone utility or from within Okapi Rainbow.
 
 Downloadable SRX rules: [OmegaT’s default rules](https://raw.githubusercontent.com/omegat-org/omegat/master/src/org/omegat/core/segmentation/defaultRules.srx), [LanguageTool’s segmentation rules](https://github.com/languagetool-org/languagetool/blob/master/languagetool-core/src/main/resources/org/languagetool/resource/segment.srx).
 
@@ -1183,6 +1183,7 @@ Happy translating!
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
 - 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Added Olifant to "Translation Memory (TMX) Editing/Maintainance" tools. Google Translation toolkit will be soon decommissioned, so it has been removed from the list of online CAT tools.
+- 20191105 SRXEditor is now open source and available as a standalone cross-platform program.
 
 ## Feedback
 
