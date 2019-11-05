@@ -55,7 +55,7 @@
 	- [Desktop search/Full text index](#desktop-searchfull-text-index)
 	- [File rename utilities](#file-rename-utilities)
 	- [Text editors](#text-editors)
-	- [System security|Antivirus](#system-securityantivirus)
+	- [Antivirus](#antivirus)
 	- [Productivity tools selection](#productivity-tools-selection)
 		- [AutoKey (Py3)](#autokey-py3)
 		- [Reduce eye-strain](#reduce-eye-strain)
@@ -1042,7 +1042,7 @@ Text editors with even richer functions inclure GitHub’s [Atom](https://atom.i
 
 For historical reasons, I’ll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
 
-## System security|Antivirus
+## Antivirus
 
 While GNU/Linux is generally considered as less prone to (and targeted by) Trojans, viruses, malware and other malicious threats, especially those created for Windows, it is advisable to consider your system's security.
 
