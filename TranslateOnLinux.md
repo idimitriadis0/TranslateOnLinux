@@ -20,59 +20,59 @@
   * [XTM Cloud](#xtm-cloud)
   * [Wordbee](#wordbee)
   * [Other](#other-1)
-  * [Translation related tasks and tools](#translation-related-tasks-and-tools)
-    + [Alignment](#alignment)
-    + [Handling tags](#handling-tags)
-    + [Translation Memory (TMX) Editing/Maintainance](#translation-memory--tmx--editing-maintainance)
-    + [Segmentation/SRX editors](#segmentation-srx-editors)
-    + [Term extraction](#term-extraction)
-      - [Monolingual term extraction](#monolingual-term-extraction)
-      - [Bilingual term extraction](#bilingual-term-extraction)
-    + [Terminology management](#terminology-management)
-      - [File formats](#file-formats)
-      - [Tools](#tools)
+- [Translation related tasks and tools](#translation-related-tasks-and-tools)
+  * [Alignment](#alignment)
+  * [Handling tags](#handling-tags)
+  * [Translation Memory (TMX) Editing/Maintainance](#translation-memory--tmx--editing-maintainance)
+  * [Segmentation/SRX editors](#segmentation-srx-editors)
+  * [Term extraction](#term-extraction)
+    + [Monolingual term extraction](#monolingual-term-extraction)
+    + [Bilingual term extraction](#bilingual-term-extraction)
+  * [Terminology management](#terminology-management)
+    + [File formats](#file-formats)
+    + [Tools](#tools)
     + [Word count](#word-count)
-  * [Office software](#office-software)
-  * [Language/Grammar checkers/Writing aids](#language-grammar-checkers-writing-aids)
-  * [QA tools](#qa-tools)
-  * [Proofreading/Revising (Track changes, compare documents)](#proofreading-revising--track-changes--compare-documents-)
-  * [Various localization-related utilities](#various-localization-related-utilities)
-  * [Subtitling](#subtitling)
-  * [Transcription](#transcription)
-  * [Dictionary lookup](#dictionary-lookup)
-  * [Project management & Invoicing](#project-management---invoicing)
-  * [DTP - Image localization](#dtp---image-localization)
-  * [Speech recognition (STT)](#speech-recognition--stt-)
-  * [Text-to-speech (TTS)](#text-to-speech--tts-)
-  * [PDFs](#pdfs)
-    + [PDF Editors](#pdf-editors)
-    + [PDF Readers](#pdf-readers)
-    + [PDF-related utilities](#pdf-related-utilities)
-    + [PDF TO TEXT](#pdf-to-text)
-    + [OCR](#ocr)
-  * [E-book management & conversion](#e-book-management---conversion)
-  * [File/Folder comparison (DIFF) tools](#file-folder-comparison--diff--tools)
-  * [Desktop search/Full text index](#desktop-search-full-text-index)
-  * [File rename utilities](#file-rename-utilities)
-  * [Text editors](#text-editors)
-  * [Antivirus](#antivirus)
-  * [Productivity tools selection](#productivity-tools-selection)
-    + [AutoKey (Py3)](#autokey--py3-)
-    + [Reduce eye-strain](#reduce-eye-strain)
-    + [Clipboard managers](#clipboard-managers)
-    + [Screenshots](#screenshots)
-    + [Screen recording/Screencasting](#screen-recording-screencasting)
-    + [Time/Project tracking](#time-project-tracking)
-    + [Pomodoro timers](#pomodoro-timers)
-    + [Unit conversion](#unit-conversion)
-    + [On-screen keyboard](#on-screen-keyboard)
-  * [Running GNU/Linux on Windows](#running-gnu-linux-on-windows)
-  * [Running Windows applications on Linux](#running-windows-applications-on-linux)
-    + [Natively on WINE](#natively-on-wine)
-    + [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine--vm-)
-    + [Via Dual Boot/On a separate machine](#via-dual-boot-on-a-separate-machine)
-  * [Updates](#updates)
-  * [Feedback](#feedback)
+- [Office software](#office-software)
+- [Language/Grammar checkers/Writing aids](#language-grammar-checkers-writing-aids)
+- [QA tools](#qa-tools)
+- [Proofreading/Revising (Track changes, compare documents)](#proofreading-revising--track-changes--compare-documents-)
+- [Various localization-related utilities](#various-localization-related-utilities)
+- [Subtitling](#subtitling)
+- [Transcription](#transcription)
+- [Dictionary lookup](#dictionary-lookup)
+- [Project management & Invoicing](#project-management---invoicing)
+- [DTP - Image localization](#dtp---image-localization)
+- [Speech recognition (STT)](#speech-recognition--stt-)
+- [Text-to-speech (TTS)](#text-to-speech--tts-)
+- [PDFs](#pdfs)
+  * [PDF Editors](#pdf-editors)
+  * [PDF Readers](#pdf-readers)
+  * [PDF-related utilities](#pdf-related-utilities)
+  * [PDF TO TEXT](#pdf-to-text)
+  * [OCR](#ocr)
+- [E-book management & conversion](#e-book-management---conversion)
+- [File/Folder comparison (DIFF) tools](#file-folder-comparison--diff--tools)
+- [Desktop search/Full text index](#desktop-search-full-text-index)
+- [File rename utilities](#file-rename-utilities)
+- [Text editors](#text-editors)
+- [Antivirus](#antivirus)
+- [Productivity tools selection](#productivity-tools-selection)
+  * [AutoKey (Py3)](#autokey--py3-)
+  * [Reduce eye-strain](#reduce-eye-strain)
+  * [Clipboard managers](#clipboard-managers)
+  * [Screenshots](#screenshots)
+  * [Screen recording/Screencasting](#screen-recording-screencasting)
+  * [Time/Project tracking](#time-project-tracking)
+  * [Pomodoro timers](#pomodoro-timers)
+  * [Unit conversion](#unit-conversion)
+  * [On-screen keyboard](#on-screen-keyboard)
+- [Running GNU/Linux on Windows](#running-gnu-linux-on-windows)
+- [Running Windows applications on Linux](#running-windows-applications-on-linux)
+  * [Natively on WINE](#natively-on-wine)
+  * [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine--vm-)
+  * [Via Dual Boot/On a separate machine](#via-dual-boot-on-a-separate-machine)
+- [Updates](#updates)
+- [Feedback](#feedback)
 
 <!-- /TOC -->
 
@@ -222,7 +222,7 @@ Other features include In-Context Exact Matches, full interface customization, s
 
 The developer, Maxprograms, also offers a range of [localization software and utilities](https://www.maxprograms.com/store/buy.html), among which [Stingray](https://www.maxprograms.com/products/stingray.html) (document aligner) and a DITA translation manager and publisher.
 
-Free utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.html) (Glossary manager and term extractor), [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) (Segmentation Rules editor), [XLIFFChecker](https://www.maxprograms.com/products/xliffchecker.html) and [TMXValidator](https://www.maxprograms.com/products/tmxvalidator.html).
+Free and/or open source utilities include [Anchovy](https://www.maxprograms.com/products/anchovy.html) (Glossary manager and term extractor), [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) (Segmentation Rules editor), [XLIFF Manager](https://maxprograms.com/products/xliffmanager.html) and [TMXValidator](https://www.maxprograms.com/products/tmxvalidator.html) among others.
 
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** [General documentation, XML formats and Software development](https://www.maxprograms.com/products/swordfish.html).
@@ -385,9 +385,9 @@ XTM International develops XTM, a complete online Translation Management System 
 
 Not to mention the different online browser-based localization platforms which can be used on GNU/Linux: [Crowdin](https://crowdin.com/), [Transifex](https://www.transifex.com/), [Weblate](https://weblate.org/en/), [Pontoon](https://pontoon.mozilla.org/), [Zanata](http://zanata.org/), [Pootle](http://pootle.translatehouse.org/), [POEditor](https://poeditor.com/), [Webtranslateit](https://webtranslateit.com/en), etc.
 
-## Translation related tasks and tools
+# Translation related tasks and tools
 
-### Alignment
+## Alignment
 
 Document alignment is the process of matching source language segments with target language segments and creating a reusable bilingual document (commonly a translation memory). It is a way of making use of existing translation materials, especially those not translated via a CAT tool.
 
@@ -407,7 +407,7 @@ Many other CAT tools, such as WordFast Pro, OmegaT, CafeTran Espresso, SmartCat 
 
 [Stingray](https://www.maxprograms.com/products/stingray.html) Document Aligner (paid) is a cross-platform document aligner designed to assist professional translators in the production of translation memories from existing translated material.
 
-### Handling tags
+## Handling tags
 
 Word documents (especially those coming from OCR’d files or PDF converted files) are often strewn with codes which produce unnecessary tags when imported in a CAT tool. This tagged information shows up in the translation grid as spurious codes{1}around{2}, or even in the mid{3}dle of, words, making sentences difficult to read and translate and generally negating many of the productivity benefits of the program. There are ways to get around this.
 
@@ -419,7 +419,7 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version now includes the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script for clearing excessive tags on Word documents. It offers a GUI that lets the user select different options with which it should be run.
 
-### Translation Memory (TMX) Editing/Maintainance
+## Translation Memory (TMX) Editing/Maintainance
 
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
@@ -445,7 +445,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 An intuitive and multifunctional TMX/TBX file editor from Logrus Global Software Development Team.
 
-### Segmentation/SRX editors
+## Segmentation/SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
@@ -457,11 +457,11 @@ Maxprograms’ [SRXEditor](https://www.maxprograms.com/products/srxeditor.html) 
 
 Downloadable SRX rules: [OmegaT’s default rules](https://raw.githubusercontent.com/omegat-org/omegat/master/src/org/omegat/core/segmentation/defaultRules.srx), [LanguageTool’s segmentation rules](https://github.com/languagetool-org/languagetool/blob/master/languagetool-core/src/main/resources/org/languagetool/resource/segment.srx).
 
-### Term extraction
+## Term extraction
 
 Monolingual term extraction attempts to analyze a text or corpus in order to identify candidate terms, while bilingual term extraction analyses existing source texts along with their translations in an attempt to identify potential terms and their equivalents.
 
-#### Monolingual term extraction
+### Monolingual term extraction
 
 <!--- [Prospector](https://logrusglobal.com/prospector.html) Free, online, English only. If you work on English source texts, try it.
 Based on the world’s largest corpus of the English language supported by a Brigham Young University professor, and a unique algorithm developed by a team of in-house experts. --->
@@ -481,7 +481,7 @@ Subscription-based, online. Several supported languages. Monolingual and bilingu
 
 Free, offline. Its term extraction utility offers flexible, configurable statistical analysis. Supports all languages which use scripts with space-delimited words.
 
-#### Bilingual term extraction
+### Bilingual term extraction
 
 [The Sketch Engine](https://www.sketchengine.co.uk/)
 
@@ -493,9 +493,9 @@ Anchovy is an offline multilingual cross-platform glossary editor and bilingual 
 
 Anchovy is included in [Swordfish III](https://www.maxprograms.com/products/swordfish.html) installers as a free plugin and handles various import and export file formats.
 
-### Terminology management
+## Terminology management
 
-#### File formats
+### File formats
 
 **Excel / CSV/TSV / Tab-delimited TXT**
 
@@ -538,7 +538,7 @@ Tools for converting SDLTB files: [Trados Studio Resource Converter](http://www.
 
 Tools for converting to SDLTB (among other conversions): [Glossary Converter](http://www.cerebus.de/glossaryconverter/) (Windows VM, or Wine with MS Office)
 
-#### Tools
+### Tools
 
 [XBench](https://www.xbench.net/) is a Terminology and QA tool.
 
@@ -563,7 +563,7 @@ https://www.proz.com/forum/office_applications/293399-how_to_get_word_count_of_t
 
 Counts the words and characters in a variety of file formats (). --->
 
-## Office software
+# Office software
 
 An Office suite represents an important part of a translator’s or reviser’s toolkit and is often a critical step in the translation workflow.
 
@@ -637,7 +637,7 @@ Copying the fonts folder from a Windows machine and placing it in the hidden .fo
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
-## Language/Grammar checkers/Writing aids
+# Language/Grammar checkers/Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages, free and open source): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
@@ -650,7 +650,7 @@ If fonts don’t look good, you might need to learn how to improve anti-aliasing
 -
 Note: [PerfectIt](http://www.intelligentediting.com/) (EN) (paid) cannot be installed with Wine (as tested), it needs to be used in a Windows VM.
 
-## QA tools
+# QA tools
 
 Each CAT tool offers a built-in QA:
 
@@ -672,7 +672,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
 - [Verifika](https://e-verifika.com/) (paid, 14-day trial) 32-bit edition can be installed, but may not run in Wine. Probably to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
-## Proofreading/Revising (Track changes, compare documents)
+# Proofreading/Revising (Track changes, compare documents)
 
 <!--- TODO Expand this section--->
 
@@ -696,7 +696,7 @@ Working on exported bilingual Word or RTF files offers the advantage that the re
 
 Here, it’s about working on the software program that handles the original file format. If it’s a Word document, you can use Track changes (or Compare Document) as usual. When delivering the final file, it’s usually expected to save a separate copy with no tracked changes (accept all).
 
-## Various localization-related utilities
+# Various localization-related utilities
 
 [Okapi Framework](http://okapiframework.org/)
 
@@ -707,6 +707,18 @@ The Okapi Framework is a cross-platform and free-libre/open source set of compon
 [CheckMate](http://okapiframework.org/wiki/index.php?title=CheckMate) is a GUI application that performs various QA checks on bilingual translation files such as XLIFF, TMX, TTX, PO, TS, Trados-Tagged RTF, and any other bilingual format supported by the framework.
 
 [Ratel](http://okapiframework.org/wiki/index.php?title=Ratel) is a GUI application to create and maintain segmentation rules. Such rules are used to break down translatable text into more meaningful parts. Ratel uses Okapi’s SRX-based segmentation engine. SRX is the Segmentation Rules eXchange format.
+
+[XLIFF Manager](https://maxprograms.com/products/xliffmanager.html)
+
+XLIFF Manager is a cross-platform open source graphical user interface for [OpenXLIFF Filters](https://www.maxprograms.com/products/openxliff.html) (an open source set of filters for creating, merging and validating XLIFF 1.2 and 2.0 files) written in JavaScript.
+
+With XLIFF Manager you can:
+
+- Create XLIFF 1.2 and 2.0 files that can be translated in any modern CAT tool for a variety of file types.
+- Convert your translated XLIFF files to original format with a couple of clicks.
+- Validate XLIFF files created by any tool. Validation is supported for XLIFF 1.0, 1.1, 1.2 and 2.0.
+- Produce an HTML file with word counts and segment status statistics from an XLIFF document.
+The XLIFF files generated by OpenXLIFF Filters don't use proprietary markup and are fully compatible with most CAT tools.
 
 [BootCaT](http://bootcat.dipintra.it/)
 
@@ -752,11 +764,7 @@ A toolkit with various terminal utilities for localization engineers, offering f
 
 Check the validity of your TMX documents on any platform.
 
-[XLIFFChecker](https://www.maxprograms.com/products/xliffchecker.html)
-
-Verify the validity of your XLIFF (XML Localisation Interchange File Format) documents in any platform
-
-## Subtitling
+# Subtitling
 
 Professional subtitling software is mostly Windows only, I’m afraid. Here are some free alternatives for more occasional subtitling (although Aegisub and, to a lesser extent, Subtitle Edit, are being used by professional subtitlers as well).
 
@@ -780,7 +788,7 @@ Editor for text-based subtitles. Supports translating a subtitles side by side w
 
 [dotsub](https://dotsub.com/) is another web-based system for creating and viewing subtitles for videos in multiple languages across all platforms.
 
-## Transcription
+# Transcription
 
 Foot pedal not included.
 
@@ -798,7 +806,7 @@ There are two options for [running Express Scribe on the Linux](http://www.nch.c
 
 Download [for Linux](https://www.seventhstring.com/xscribe/download_linux.html). There is a 30-day evaluation period, after which you decide if you wish to [buy](https://www.seventhstring.com/xscribe/buy.html) the software.
 
-## Dictionary lookup
+# Dictionary lookup
 
 [GoldenDict](http://goldendict.org/) is a feature-rich cross-platform dictionary lookup program.
 
@@ -833,7 +841,7 @@ Here’s just one: [MagicSearch.com](http://magicsearch.org/) is a multilingual 
 
 Tip: Set “One-page results” to OFF, to speed up queries. Click on the gear to select which resources to use (and hide the others), and reorder them as you see fit. MagicSearch is also available as a browser extension.
 
-## Project management & Invoicing
+# Project management & Invoicing
 
 Project management tools don’t have to be translation-specific, although it may help. Also, depending on your country of residence and tax requirements, you can use different more general invoicing tools.
 
@@ -859,7 +867,7 @@ Flantie is an easy to use online task and invoice management system for translat
 
 An open source desktop alternative to Microsoft Projects.
 
-## DTP - Image localization
+# DTP - Image localization
 
 There is no QuarkXpress, Adobe InDesign, Photoshop or Illustrator for GNU/Linux.
 
@@ -871,7 +879,7 @@ It’s just that these tools cannot necessarily provide the required compatibili
 
 Along with some other software and utilities, they can, however, prove useful for occasional image localization and editing.
 
-## Speech recognition (STT)
+# Speech recognition (STT)
 
 <!--- TODO --->
 
@@ -881,7 +889,7 @@ Online solutions, such as [Voice notebook](https://voicenotebook.com/), make oft
 
 Currently, one of the best ways to integrate speech recognition into your GNU/Linux workflow is to use an Android phone. Indeed, the smartphones' mic is optimized for recording voice and for noise suppression. Plus, you can apply voice typing across the desktop.
 
-## Text-to-speech (TTS)
+# Text-to-speech (TTS)
 
 <!--- TODO --->
 
@@ -891,9 +899,9 @@ Interested users might want to investigate [Balabolka](http://www.cross-plus-a.c
 
 Another possible solution would be to use [Amazon Polly](https://aws.amazon.com/polly/?nc1=h_ls) text-to-speech service. Drop me a line if interested.
 
-## PDFs
+# PDFs
 
-### PDF Editors
+## PDF Editors
 
 [Sejda PDF Editor](https://www.sejda.com/desktop) (Free, with some premium features)
 
@@ -921,7 +929,7 @@ TransPDF also offers a paid OCR feature for non-editable PDFs.
 
 For a thorough review of solutions for handling PDFs in translation, see [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#pdf).
 
-### PDF Readers
+## PDF Readers
 
 [Evince](https://wiki.gnome.org/Apps/Evince): Document viewer for multiple document formats. Supports PDF, PostScript, DjVu, TIFF, and DVI.
 
@@ -931,7 +939,7 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 [Okular](https://okular.kde.org/): Universal document viewer, supporting different kinds of documents, like PDF, Postscript, DjVu, CHM, XPS, ePub, and others.
 
-### PDF-related utilities
+## PDF-related utilities
 
 [PDFSam](https://pdfsam.org/): Split, merge, extract pages, rotate and mix PDF files.
 
@@ -941,7 +949,7 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 [Tabula](http://tabula.technology/): Tabula is a tool for liberating data tables locked inside (editable) PDF files.
 
-### PDF TO TEXT
+## PDF TO TEXT
 
 For converting editable PDFs to Docx, most PDF conversion utilities require using a Windows VM.
 
@@ -956,7 +964,7 @@ For command-line enthusiasts, programs such as pdftotext, pdfreflow (pdftohtml),
 
 For a thorough review of solutions for handling PDFs in translation, see [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#pdf).
 
-### OCR
+## OCR
 
 Native OCR solutions usually lag behind ABBYY FineReader and other proprietary software.
 
@@ -972,7 +980,7 @@ One of the easiest and most feature rich is [gImageReader](https://github.com/ma
 
 When it comes to image scan post-processing, or pre-processing for use in a program like ABBYY FineReader (to improve OCR, but also for creating scanned ebooks), there is nothing like [Scantailor](http://scantailor.org/). Or maybe there is: [Scantailor Advanced](https://github.com/4lex4/scantailor-advanced/releases). The wiki is [here](https://github.com/4lex4/scantailor-advanced).
 
-## E-book management & conversion
+# E-book management & conversion
 
 [Calibre](https://calibre-ebook.com/) is an excellent e-book management application for organizing, viewing, converting and editing e-books. Since linguists tend to keep many (e)books around, it’s definitely worth looking into it.
 
@@ -980,7 +988,7 @@ When it comes to image scan post-processing, or pre-processing for use in a prog
 
 Interested in translating e-books? A solution is described [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#epub--mobi--azw--e-book).
 
-## File/Folder comparison (DIFF) tools
+# File/Folder comparison (DIFF) tools
 
 [Meld](http://meldmerge.org/): Visual diff and merge tool for files, directories, and version controlled projects.
 
@@ -996,7 +1004,7 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge): Diff tool for comparing and merging TMX translation memories.
 
-## Desktop search/Full text index
+# Desktop search/Full text index
 
 [DocFetcher](http://docfetcher.sourceforge.net/en/index.html)
 
@@ -1026,13 +1034,13 @@ For simple, lightweight desktop search, you can use Gnome search tool or [Catfis
 
 Of course, there are also powerful command-line utilities for searching files (find), text searching for lines matching a regular expression (grep), etc.
 
-## File rename utilities
+# File rename utilities
 
 [Nautilus (Files)](https://wiki.gnome.org/Apps/Files) file manager comes bundled with a bulk renamer (just select multiple files and press F2).
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) file manager also includes an excellent [Bulk Rename](https://docs.xfce.org/xfce/thunar/bulk-renamer/start) utility.
 
-## Text editors
+# Text editors
 
 [Gedit](https://wiki.gnome.org/Apps/Gedit) and [Kate](https://kate-editor.org/) are two of the nice default text editors available.
 
@@ -1042,7 +1050,7 @@ Text editors with even richer functions inclure GitHub’s [Atom](https://atom.i
 
 For historical reasons, I’ll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
 
-## Antivirus
+# Antivirus
 
 While GNU/Linux is generally considered as less prone to (and targeted by) Trojans, viruses, malware and other malicious threats, especially those created for Windows, it is advisable to consider your system's security.
 
@@ -1058,15 +1066,15 @@ There is also an open source antivirus engine [ClamAV](https://www.clamav.net/).
 
 Since most threats come from Windows programs, be extra careful when installing them. [CrossOver](https://www.codeweavers.com/) (paid), which helps run and install Windows applications on GNU/Linux, conveniently scans Windows programs that you install or run for viruses. Same goes for files (email attachments, etc.) that you open with such programs.
 
-## Productivity tools selection
+# Productivity tools selection
 
-### AutoKey (Py3)
+## AutoKey (Py3)
 
 A Python 3 port of [AutoKey](https://github.com/autokey/autokey), the desktop automation utility for Linux and X11. It allows you to manage a collection of scripts, and assign abbreviations and hotkeys to these scripts allowing you to execute them on demand in whatever program you are using. It can also be used as a text expander, where you store phrases (snippets of text) to be reused across various applications by typing an abbreviation or a keyboard shortcut.
 
 [Wiki](https://github.com/autokey/autokey/wiki), [OldAutokey](https://code.google.com/archive/p/autokey/) page and [user group](https://groups.google.com/forum/#!forum/autokey-users).
 
-### Reduce eye-strain
+## Reduce eye-strain
 
 Utilities that adjusts the color temperature of your display(s) according to the position of the sun.
 
@@ -1078,7 +1086,7 @@ Also available as a [Gnome shell extension](https://extensions.gnome.org/).
 
 Note: Gnome Desktop environment also sports an integrated Night mode in Settings > Displays.
 
-### Clipboard managers
+## Clipboard managers
 
 [GPaste](https://github.com/Keruspe/GPaste)
 
@@ -1090,7 +1098,7 @@ Also available as a [Gnome shell extension]((https://extensions.gnome.org/)).
 
 [Klipper](https://userbase.kde.org/Klipper)
 
-### Screenshots
+## Screenshots
 
 Beyond the standard screenshot capabilities of the desktop environment (Gnome, KDE, etc.), there are separate apps that take it one step further:
 
@@ -1100,7 +1108,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Flameshot](https://github.com/lupoDharkael/flameshot)
 
-### Screen recording/Screencasting
+## Screen recording/Screencasting
 
 [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
 
@@ -1110,7 +1118,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [recordMyDesktop](http://recordmydesktop.sourceforge.net/about.php)
 
-### Time/Project tracking
+## Time/Project tracking
 
 [Project Hamster](https://github.com/projecthamster/)
 
@@ -1120,7 +1128,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Toggl](https://toggl.com)
 
-### Pomodoro timers
+## Pomodoro timers
 
 [Gnome Pomodoro](http://gnomepomodoro.org/)
 
@@ -1128,20 +1136,20 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Pomello](https://pomelloapp.com/)
 
-### Unit conversion
+## Unit conversion
 
 [ConvertAll](http://convertall.bellz.org/)
 
-### On-screen keyboard
+## On-screen keyboard
 
 **Onboard** is an excellent on-screen (virtual) keyboard. Handy if you wish to remember how to type less frequent characters for your language.
 
-## Running GNU/Linux on Windows
+# Running GNU/Linux on Windows
 Just in case you prefer to run Linux from Windows, Windows 10 is able to [run Linux distributions side-by-side](https://docs.microsoft.com/en-us/windows/wsl/install-win1) without fiddling with a virtual machine or a dual boot installation.
 
-## Running Windows applications on Linux
+# Running Windows applications on Linux
 
-### Natively on WINE
+## Natively on WINE
 
 [Wine](https://www.winehq.org/) (an acronym for “Wine Is Not an Emulator”) is a free and open-source compatibility layer that aims to allow computer programs developed for Microsoft Windows to run on Unix-like operating systems. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
 
@@ -1161,7 +1169,7 @@ Some examples of useful translation-related applications that run well on Linux 
 
 Many Windows programs that require specific versions of the .NET framework can be installed successfully after installing these first. Tip: Trial versions can be easily reinstalled since you can create separate machines with a few clicks.
 
-### Through a Windows Virtual Machine (VM)
+## Through a Windows Virtual Machine (VM)
 
 The recommended free and easy way to install a Windows virtual machine and run it inside GNU/Linux is through a cross-platform application called [VirtualBox](https://www.virtualbox.org/).
 
@@ -1179,7 +1187,7 @@ Paid: [Parallels](https://www.parallels.com/)
 Free/Paid: [VMware](https://www.vmware.com/)
 Free: [QEMU](https://www.qemu.org/)
 
-### Via Dual Boot/On a separate machine
+## Via Dual Boot/On a separate machine
 
 Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation, without the need of rebooting and using Windows.
 
@@ -1187,7 +1195,7 @@ And that concludes this wiki.
 
 Happy translating!
 
-## Updates
+# Updates
 
 - 20180408 Initial wiki upload
 - 20180622 Small update
@@ -1198,8 +1206,8 @@ Happy translating!
 - 20181112 Added Flantie in Project management & Invoicing, FSearch and AngrySearch in Desktop search, TimeCamp in Time/Project tracking, PyGlossary in Dictionary lookup.
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
 - 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Added Olifant to "Translation Memory (TMX) Editing/Maintainance" tools. Google Translation toolkit will be soon decommissioned, so it has been removed from the list of online CAT tools.
-- 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web. Added an Antivirus section. Added ODA File Converter for .dwg and .dxf files. Added a few more Diff tools (Diffuse, KDiff3). Windows 10 can run Linux distribution side-by-side, without VMs.
+- 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web. Added an Antivirus section. Added ODA File Converter for .dwg and .dxf files. Added a few more Diff tools (Diffuse, KDiff3). Removed XLIFFChecker, added XLIFF Manager. Windows 10 can run Linux distribution side-by-side, without VMs.
 
-## Feedback
+# Feedback
 
 You can send me feedback via a [ProZ message](https://www.proz.com/?sp=mailsend&eid_s=2042360). Please start your subject with the name of the document: “TranslateOnLinux”.
