@@ -206,7 +206,7 @@ The demo version has some limitations, but it is not time-based, making it usefu
 
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** [WFP 3](http://www.wordfast.com/products/products_wordfast_pro_3), [WFP 5](http://www.wordfast.com/products/products_wordfast_pro_5) (check specifications).
-**Support and manual:** [WFP 3 support wiki](https://www.wordfast.net/wiki/Wordfast_Pro_3) and [manual](), [WFP 5 support wiki](https://www.wordfast.net/wiki/Wordfast_Pro_5) and [manual](http://wordfast.com/WFP/5.0/Wordfast_Pro_Help.htm), videos and training courses available as well.
+**Support and manual:** [WFP 3 support wiki](https://www.wordfast.net/wiki/Wordfast_Pro_3) and [manual](https://wordfast.com/WFP3/Wordfast_Pro_Help.htm), [WFP 5 support wiki](https://www.wordfast.net/wiki/Wordfast_Pro_5) and [manual](http://wordfast.com/WFP/5.0/Wordfast_Pro_Help.htm), videos and training courses available as well.
 **License:** Closed source.
 **Demo:** Wordfast offers a demo version that runs without a paid license for translation memories (TM) of up to 500 translation units, making it possible to use Wordfast on actual translation projects before you decide to purchase. You can also register for a 30 day, fully functional trial license in case you have TMs that exceed this limit.
 **Cost:** [pricing](http://www.wordfast.com/checkout?product=PRO).
@@ -226,7 +226,7 @@ Free and/or open source utilities include [Anchovy](https://www.maxprograms.com/
 
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** [General documentation, XML formats and Software development](https://www.maxprograms.com/products/swordfish.html).
-**Support and manual:** [User guide](https://www.maxprograms.com/support/swordfish.pdf), [Getting started](https://www.maxprograms.com/tutorials/SwfishGettingStarted.html), [Downloads](https://www.maxprograms.com/downloads/index.html), [Groups.io support group](https://groups.io/g/maxprograms/) (The group is intended for supporting all tools published at Maxprograms, not only Swordfish).
+**Support and manual:** [User guide](https://www.maxprograms.com/support/swordfish.pdf), [Getting started](https://www.maxprograms.com/tutorials/SwfishGettingStarted.html), [Groups.io support group](https://groups.io/g/maxprograms/) (The group is intended for supporting all tools published at Maxprograms, not only Swordfish).
 **License:** Closed source.
 **Demo version**: 30-day trial.
 **Cost:** [Online Store](http://www.maxprograms.com/store/buy.html).
