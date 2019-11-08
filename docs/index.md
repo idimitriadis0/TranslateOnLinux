@@ -82,7 +82,7 @@ It is entirely possible to work as a professional translator while running a GNU
 
 The available information on compatible translation-related tools being sparse or out of date, this wiki aims to provide a list of offline (desktop) and online (cloud) solutions for linguists who wish to work on a GNU/Linux computer. The listed software should provide a comprehensive toolbox to fit most translation needs.
 
-Inspiration for this list: the website [LinuxForTranslators.com](http://www.linuxfortranslators.org/) by Marc Prior, and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators, by [Peter Sandrini](http://www.petersandrini.net/en-index.html), along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
+Inspiration for this list: the website [LinuxForTranslators.com](http://www.linuxfortranslators.org/) by Marc Prior, and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators by [Peter Sandrini](http://www.petersandrini.net/en-index.html), along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
 
 *Curated by [Jean Dimitriadis](https://www.proz.com/translator/2042360) (EN-FR/EL-FR translator).*
 
@@ -297,11 +297,13 @@ It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tm
 
 [Virtaal](https://virtaal.readthedocs.io/en/latest/): Virtaal is an easy and lightweight tool that opens Gettext (.po, .mo), XLIFF, TMX and TBX files, among other formats. Even if its nice feature set may not fully appeal to professional translators, it represents a very good utility to use as a quick viewer for the above-mentioned bilingual file types.
 
-[Lokalize](https://userbase.kde.org/Lokalize): Lokalize is a computer-aided translation (CAT) tool, a full-featured GUI application for translators, written from scratch using the KDE4 framework. Aside from basic editing of PO files with nifty auxiliary details, it integrates support for glossary, translation memory, diff-modes for QA, project managing, etc. Mostly interesting for free software localization.
+[Lokalize](https://userbase.kde.org/Lokalize): Lokalize is a computer-aided translation (CAT) tool, a full-featured GUI application for translators, written from scratch using the KDE4 framework in 1999 and ported to the KDE5 framework in 2007. Aside from basic editing of PO files with nifty auxiliary details, it integrates support for glossary, translation memory, diff-modes for QA, project managing, etc. Mostly interesting for free software localization. It is tightly integrated with KDE localization together with kdesvn, which makes it ideal for localization of KDE software, while also serving as a full-blown localization tool.
 
 [Anaphraseus](http://sourceforge.net/projects/anaphraseus/files/) (WordFast Classic-like OpenOffice/LibreOffice extension)
 
 [Esperantilo](http://www.esperantilo.org/tm/)
+
+[OmegaT+](http://omegatplus.sourceforge.net/)
 
 ## ONLINE CAT TOOLS
 
@@ -583,6 +585,8 @@ Useful Microsoft Office add-ins:
 
 LibreOffice is an excellent Office suite in its own right. It can open and save MS Office documents, but compatibility is not always perfect, which can be critical when it comes to delivering final documents and meeting client expectations. You may need to consider other options as well.
 
+One neat functionality it has is the ability to export hybrid PDFs, which are PDFs embedded with the original .odt file. This means that, by opening a hybrid PDF through LibreOffice Writer, the translator/proofreader is able to edit the original file while maintaining PDF formatting. This is exclusive to LibreOffice, as no other office software is able to do this.
+
 [Feature/compatibility comparison](https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office) with Microsoft Office.
 
 Useful [LibreOffice extensions](http://extensions.libreoffice.org/):
@@ -601,7 +605,7 @@ Useful [LibreOffice extensions](http://extensions.libreoffice.org/):
 
 [Apache OpenOffice](https://www.openoffice.org/)
 
-Less developed and feature-rich than LibreOffice.
+Less developed and feature-rich than LibreOffice. Use LibreOffice instead.
 
 [WPS Office](http://www.wps.com/)
 
@@ -615,11 +619,12 @@ Tip: Trial can be reset by removing the SoftMaker folder.
 
 [SoftMaker FreeOffice](http://www.freeoffice.com/)
 
-The free version of the SoftMaker Office.
+The free version of SoftMaker Office.
 
 [OnlyOffice](https://www.onlyoffice.com/)
 
 Has good looks and potential. Works both offline and in the Cloud. Bosts 100% compatibility with MS Office formats.
+It does not currently include dynamic counting of words. See [here](https://github.com/ONLYOFFICE/DesktopEditors/issues/166).
 
 [Google Docs](https://www.google.com/docs/about/)/[Google Drive](https://drive.google.com) (online)
 
@@ -633,7 +638,7 @@ Same as above.
 
 You’ll probably need a way to install Microsoft/Windows fonts on your Linux distribution to be able to work with the same fonts as other Microsoft Office users. These are mostly proprietary and cannot be distributed along with your GNU/Linux distribution.
 
-Copying the fonts folder from a Windows machine and placing it in the hidden .fonts folder of your home folder (or creating it, if it does not exist) is a distribution-independent solution. Other methods are available per GNU/Linux distribution.
+Copying the fonts folder from a Windows machine and placing it in the hidden .fonts folder of your home folder (or creating it, if it does not exist) is a distribution-independent solution. Other methods are available per GNU/Linux distribution, typically as a package: in Ubuntu, for instance, it is called ttf-mscorefonts-installer; however, it is a significantly old version of these fonts.
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
@@ -788,6 +793,8 @@ Editor for text-based subtitles. Supports translating a subtitles side by side w
 
 [dotsub](https://dotsub.com/) is another web-based system for creating and viewing subtitles for videos in multiple languages across all platforms.
 
+[Subtitle Composer](https://github.com/maxrd2/subtitlecomposer)
+
 # Transcription
 
 Foot pedal not included.
@@ -926,6 +933,12 @@ PDFs translated via TransPDF can be edited using the free demo version of Infix 
 Users of the paid Infix version can use TransPDF free of charge. [ProZ Plus](http://www.proz.com/about-plus-package) members enjoy free 10 credits (equivalent to 10 PDF pages) per month, along with [discounted credits](https://go.proz.com/transpdf-credit-purchase) purchase.
 
 TransPDF also offers a paid OCR feature for non-editable PDFs.
+
+[FlexiPDF](https://www.softmaker.com/en/flexipdf) (Paid)
+
+FlexiPDF is a PDF Editor for Windows which also works well under Wine (only lacks specific functionality such as print to PDF on Linux) and is sold both under a subscription model (FlexiPDF NX) and as a product (FlexiPDF 2019).
+
+The professional version of FlexiPDF includes the export/import of text from a PDF for translation with a CAT tool, similarly to Infix/TransPDF. They offer discounts on occasion and based on the country you are, so it's affordable.
 
 For a thorough review of solutions for handling PDFs in translation, see [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#pdf).
 
