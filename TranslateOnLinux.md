@@ -226,7 +226,7 @@ Free and/or open source utilities include [Anchovy](https://www.maxprograms.com/
 
 **Platforms:** GNU/Linux, Windows, OS X.
 **Supported formats:** [General documentation, XML formats and Software development](https://www.maxprograms.com/products/swordfish.html).
-**Support and manual:** [User guide](https://www.maxprograms.com/support/swordfish.pdf), [Getting started](https://www.maxprograms.com/tutorials/SwfishGettingStarted.html), [Yahoo support group](https://groups.yahoo.com/neo/groups/swordfish_support/info).
+**Support and manual:** [User guide](https://www.maxprograms.com/support/swordfish.pdf), [Getting started](https://www.maxprograms.com/tutorials/SwfishGettingStarted.html), [Downloads](https://www.maxprograms.com/downloads/index.html), [Groups.io support group](https://groups.io/g/maxprograms/) (The group is intended for supporting all tools published at Maxprograms, not only Swordfish).
 **License:** Closed source.
 **Demo version**: 30-day trial.
 **Cost:** [Online Store](http://www.maxprograms.com/store/buy.html).
@@ -569,7 +569,7 @@ An Office suite represents an important part of a translator’s or reviser’s 
 
 [Microsoft Office](https://www.office.com/)
 
-Various versions of Microsoft Office are quite well supported via Wine and are installable using [PlayOnLinux](playonlinux.com/) (free) or [CrossOver](codeweavers.com/) (paid). See dedicated section below.
+Various versions of Microsoft Office are quite well supported via Wine and are installable using [PlayOnLinux](https://playonlinux.com/) (free) or [CrossOver](https://codeweavers.com/) (paid). See dedicated section below.
 
 If needed, Microsoft Office can also be installed in a Windows VM (see related section).
 
@@ -1153,7 +1153,7 @@ Just in case you prefer to run Linux from Windows, Windows 10 is able to [run Li
 
 [Wine](https://www.winehq.org/) (an acronym for “Wine Is Not an Emulator”) is a free and open-source compatibility layer that aims to allow computer programs developed for Microsoft Windows to run on Unix-like operating systems. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
 
-Running Windows software on Linux can sometimes be a complex endeavor, however, you get to install and run many Windows programs via Wine.
+Running Windows software on Linux can sometimes be a complex endeavor, however, you get to install and run many Windows programs via Wine (and its helper script, [Winetricks](https://wiki.winehq.org/Winetricks)).
 
 To see the support status of a specific application and version, you can use the Wine’s [official website](https://www.winehq.org/). Not all software is represented.
 
@@ -1162,7 +1162,7 @@ Since each Windows app has different requirements, it is usually recommended to 
 Two applications aim to make it easy to install Windows programs in such separate locations:
 
 - [CrossOver](https://www.codeweavers.com/): The company CodeWeavers markets CrossOver specifically for running Microsoft Office and other major Windows applications. It is a commercial software which builds upon Wine.
-- [PlayOnLinux](playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
+- [PlayOnLinux](https://playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
 
 Some examples of useful translation-related applications that run well on Linux via Wine (mostly PlayOnLinux and Crossover) are the following:
 - Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open-source tool to search bilingual and multilingual text databases (translation memories) and glossaries. [Ron’s Editor](https://www.ronsplace.eu/Products/RonsEditor) excellent CSV File Editor works after installing .Net Framework 4.5.2.
