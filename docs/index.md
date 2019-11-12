@@ -467,7 +467,7 @@ Monolingual term extraction attempts to analyze a text or corpus in order to ide
 
 <!--- [Prospector](https://logrusglobal.com/prospector.html) Free, online, English only. If you work on English source texts, try it.
 Based on the world’s largest corpus of the English language supported by a Brigham Young University professor, and a unique algorithm developed by a team of in-house experts. --->
-[ThermoStat Web](http://termostat.ling.umontreal.ca/interfaceTermostat.php)
+[TermoStat Web](http://termostat.ling.umontreal.ca/interfaceTermostat.php)
 
 Free, online. Languages: English, French, Italian, Portuguese, Spanish. The results are really good. Uses linguistic and statistical methods while taking the potential terms’ structures and relative frequencies into account in the analysis corpus. TermoStat is free, but users must register. Outputs a Tab delimited TXT (which can be renamed to and opened as a CSV file in LibreOffice).
 
@@ -623,7 +623,7 @@ The free version of SoftMaker Office.
 
 [OnlyOffice](https://www.onlyoffice.com/)
 
-Has good looks and potential. Works both offline and in the Cloud. Bosts 100% compatibility with MS Office formats.
+Has good looks and potential. Works both offline and in the Cloud. Boasts 100% compatibility with MS Office formats.
 It does not currently include dynamic counting of words. See [here](https://github.com/ONLYOFFICE/DesktopEditors/issues/166).
 
 [Google Docs](https://www.google.com/docs/about/)/[Google Drive](https://drive.google.com) (online)
@@ -1220,6 +1220,7 @@ Happy translating!
 - 20181213 Fixed dead link for LibreOffice Writer/MS Word track changes compatibility. Added Able2Extract Professional for PDF conversion and OCR.
 - 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Added Olifant to "Translation Memory (TMX) Editing/Maintainance" tools. Google Translation toolkit will be soon decommissioned, so it has been removed from the list of online CAT tools.
 - 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web. Added an Antivirus section. Added ODA File Converter for .dwg and .dxf files. Added a few more Diff tools (Diffuse, KDiff3). Removed XLIFFChecker, added XLIFF Manager. Windows 10 can run Linux distribution side-by-side, without VMs.
+- 20191108 Contributor update (added content for LibreOffice, OnlyOffice, FlexiPDF and Lokalize plus minor edits).
 
 # Feedback
 
