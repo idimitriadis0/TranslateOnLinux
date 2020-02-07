@@ -427,6 +427,10 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 A powerful TM maintenance tool for all CAT software. It provides many useful and practical functions besides common editing features, allowing you to perform TM maintenance tasks easily, simply and all with one tool.
 
+[TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (free)
+
+Maxprograms TMXEditor is a cross-platform open source desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
+
 [Okapi Olifant](http://okapi.sourceforge.net/Release/Olifant/ReadMe.htm) (free)
 
 An excellent free Translation Memory Editor. Caveat: its current version is based on the old (2009) Windows-only .NET version of Okapi framework (a new Java-based version is in the works). Upside: It can be installed via Wine (or PlayOnLinux/CrossOver), provided that you have .NET framework 2.0 or later installed (on your Wine bottle/prefix). [Online documentation](http://okapi.sourceforge.net/Release/Olifant/Help/).
@@ -434,10 +438,6 @@ An excellent free Translation Memory Editor. Caveat: its current version is base
 [CafeTran Espresso](http://cafetran.com/) (paid)
 
 CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. The Demo limits TM editing to 1,000 TUs.
-
-[TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (paid, 30-day free trial)
-
-Maxprograms TMXEditor is a cross-platform desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge) (free)
 
