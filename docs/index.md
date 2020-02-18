@@ -34,7 +34,7 @@
 - [Office software](#office-software)
 - [Grammar checkers - Writing aids](#grammar-checkers---writing-aids)
 - [QA tools](#qa-tools)
-- [Proofreading|Revising (Track changes, compare documents)](#proofreading-revising--track-changes--compare-documents-)
+- [Proofreading and Revising (Track changes, compare documents)](#proofreading-and-revising--track-changes--compare-documents-)
 - [Various localization-related utilities](#various-localization-related-utilities)
 - [Subtitling](#subtitling)
 - [Transcription](#transcription)
@@ -50,8 +50,8 @@
   * [PDF TO TEXT](#pdf-to-text)
   * [OCR](#ocr)
 - [E-book management & conversion](#e-book-management---conversion)
-- [File|Folder comparison (DIFF) tools](#file-folder-comparison--diff--tools)
-- [Desktop search|Full text index](#desktop-search-full-text-index)
+- [File and Folder comparison (DIFF) tools](#file-and-folder-comparison--diff--tools)
+- [Desktop search - Full text index](#desktop-search---full-text-index)
 - [File rename utilities](#file-rename-utilities)
 - [Text editors](#text-editors)
 - [Antivirus](#antivirus)
@@ -70,7 +70,7 @@
 - [Running Windows applications on Linux](#running-windows-applications-on-linux)
   * [Natively on WINE](#natively-on-wine)
   * [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine--vm-)
-  * [Via Dual Boot|On a separate machine](#via-dual-boot-on-a-separate-machine)
+  * [Via Dual Boot - On a separate machine](#via-dual-boot---on-a-separate-machine)
 - [Updates](#updates)
 - [Feedback](#feedback)
 <!-- /TOC -->
@@ -676,7 +676,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
 - [Verifika](https://e-verifika.com/) (paid, 14-day trial) 32-bit edition can be installed, but may not run in Wine. Probably to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
-# Proofreading|Revising (Track changes, compare documents)
+# Proofreading and Revising (Track changes, compare documents)
 
 <!--- TODO Expand this section--->
 
@@ -1000,7 +1000,7 @@ When it comes to image scan post-processing, or pre-processing for use in a prog
 
 Interested in translating e-books? A solution is described [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#epub--mobi--azw--e-book).
 
-# File|Folder comparison (DIFF) tools
+# File and Folder comparison (DIFF) tools
 
 [Meld](http://meldmerge.org/): Visual diff and merge tool for files, directories, and version controlled projects.
 
@@ -1016,7 +1016,7 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge): Diff tool for comparing and merging TMX translation memories.
 
-# Desktop search|Full text index
+# Desktop search - Full text index
 
 [DocFetcher](http://docfetcher.sourceforge.net/en/index.html)
 
@@ -1202,7 +1202,7 @@ Paid: [Parallels](https://www.parallels.com/)
 Free/Paid: [VMware](https://www.vmware.com/)
 Free: [QEMU](https://www.qemu.org/)
 
-## Via Dual Boot|On a separate machine
+## Via Dual Boot - On a separate machine
 
 Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation, without the need of rebooting and using Windows.
 
