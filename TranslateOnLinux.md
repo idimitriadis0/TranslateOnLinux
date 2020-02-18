@@ -22,8 +22,8 @@
 - [Translation related tasks and tools](#translation-related-tasks-and-tools)
   * [Alignment](#alignment)
   * [Handling tags](#handling-tags)
-  * [Translation Memory (TMX) Editing|Maintainance](#translation-memory--tmx--editing-maintainance)
-  * [Segmentation|SRX editors](#segmentation-srx-editors)
+  * [Translation Memory (TMX) Editing - Maintainance](#translation-memory--tmx--editing---maintainance)
+  * [Segmentation - SRX editors](#segmentation---srx-editors)
   * [Term extraction](#term-extraction)
     + [Monolingual term extraction](#monolingual-term-extraction)
     + [Bilingual term extraction](#bilingual-term-extraction)
@@ -32,7 +32,7 @@
     + [Tools](#tools)
     + [Word count](#word-count)
 - [Office software](#office-software)
-- [Language|Grammar checkers|Writing aids](#language-grammar-checkers-writing-aids)
+- [Grammar checkers - Writing aids](#grammar-checkers---writing-aids)
 - [QA tools](#qa-tools)
 - [Proofreading|Revising (Track changes, compare documents)](#proofreading-revising--track-changes--compare-documents-)
 - [Various localization-related utilities](#various-localization-related-utilities)
@@ -61,8 +61,8 @@
   * [Reduce eye-strain](#reduce-eye-strain)
   * [Clipboard managers](#clipboard-managers)
   * [Screenshots](#screenshots)
-  * [Screen recording|Screencasting](#screen-recording-screencasting)
-  * [Time/Project tracking](#time-project-tracking)
+  * [Screen recording - Screencasting](#screen-recording---screencasting)
+  * [Time and Project tracking](#time-and-project-tracking)
   * [Pomodoro timers](#pomodoro-timers)
   * [Unit conversion](#unit-conversion)
   * [On-screen keyboard](#on-screen-keyboard)
@@ -420,7 +420,7 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version now includes the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script for clearing excessive tags on Word documents. It offers a GUI that lets the user select different options with which it should be run.
 
-## Translation Memory (TMX) Editing|Maintainance
+## Translation Memory (TMX) Editing - Maintainance
 
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
@@ -446,7 +446,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 An intuitive and multifunctional TMX/TBX file editor from Logrus Global Software Development Team.
 
-## Segmentation|SRX editors
+## Segmentation - SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
@@ -641,7 +641,7 @@ Copying the fonts folder from a Windows machine and placing it in the hidden .fo
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
-# Language|Grammar checkers|Writing aids
+# Grammar checkers - Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages, free and open source): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
@@ -1123,7 +1123,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Flameshot](https://github.com/lupoDharkael/flameshot)
 
-## Screen recording|Screencasting
+## Screen recording - Screencasting
 
 [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
 
@@ -1133,7 +1133,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [recordMyDesktop](http://recordmydesktop.sourceforge.net/about.php)
 
-## Time/Project tracking
+## Time and Project tracking
 
 [Project Hamster](https://github.com/projecthamster/)
 
