@@ -1,5 +1,4 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
 - [TranslateOnLinux](#translateonlinux)
 - [CAT TOOLS](#cat-tools)
   * [OFFLINE CAT TOOLS](#offline-cat-tools)
@@ -23,8 +22,8 @@
 - [Translation related tasks and tools](#translation-related-tasks-and-tools)
   * [Alignment](#alignment)
   * [Handling tags](#handling-tags)
-  * [Translation Memory (TMX) Editing/Maintainance](#translation-memory--tmx--editing-maintainance)
-  * [Segmentation/SRX editors](#segmentation-srx-editors)
+  * [Translation Memory (TMX) Editing|Maintainance](#translation-memory--tmx--editing-maintainance)
+  * [Segmentation|SRX editors](#segmentation-srx-editors)
   * [Term extraction](#term-extraction)
     + [Monolingual term extraction](#monolingual-term-extraction)
     + [Bilingual term extraction](#bilingual-term-extraction)
@@ -33,9 +32,9 @@
     + [Tools](#tools)
     + [Word count](#word-count)
 - [Office software](#office-software)
-- [Language/Grammar checkers/Writing aids](#language-grammar-checkers-writing-aids)
+- [Language|Grammar checkers|Writing aids](#language-grammar-checkers-writing-aids)
 - [QA tools](#qa-tools)
-- [Proofreading/Revising (Track changes, compare documents)](#proofreading-revising--track-changes--compare-documents-)
+- [Proofreading|Revising (Track changes, compare documents)](#proofreading-revising--track-changes--compare-documents-)
 - [Various localization-related utilities](#various-localization-related-utilities)
 - [Subtitling](#subtitling)
 - [Transcription](#transcription)
@@ -51,29 +50,29 @@
   * [PDF TO TEXT](#pdf-to-text)
   * [OCR](#ocr)
 - [E-book management & conversion](#e-book-management---conversion)
-- [File/Folder comparison (DIFF) tools](#file-folder-comparison--diff--tools)
-- [Desktop search/Full text index](#desktop-search-full-text-index)
+- [File|Folder comparison (DIFF) tools](#file-folder-comparison--diff--tools)
+- [Desktop search|Full text index](#desktop-search-full-text-index)
 - [File rename utilities](#file-rename-utilities)
 - [Text editors](#text-editors)
 - [Antivirus](#antivirus)
 - [Productivity tools selection](#productivity-tools-selection)
   * [AutoKey (Py3)](#autokey--py3-)
+  * [ibus-typing-booster](#ibus-typing-booster)
   * [Reduce eye-strain](#reduce-eye-strain)
   * [Clipboard managers](#clipboard-managers)
   * [Screenshots](#screenshots)
-  * [Screen recording/Screencasting](#screen-recording-screencasting)
+  * [Screen recording|Screencasting](#screen-recording-screencasting)
   * [Time/Project tracking](#time-project-tracking)
   * [Pomodoro timers](#pomodoro-timers)
   * [Unit conversion](#unit-conversion)
   * [On-screen keyboard](#on-screen-keyboard)
-- [Running GNU/Linux on Windows](#running-gnu-linux-on-windows)
+- [Running GNU-Linux on Windows](#running-gnu-linux-on-windows)
 - [Running Windows applications on Linux](#running-windows-applications-on-linux)
   * [Natively on WINE](#natively-on-wine)
   * [Through a Windows Virtual Machine (VM)](#through-a-windows-virtual-machine--vm-)
-  * [Via Dual Boot/On a separate machine](#via-dual-boot-on-a-separate-machine)
+  * [Via Dual Boot|On a separate machine](#via-dual-boot-on-a-separate-machine)
 - [Updates](#updates)
 - [Feedback](#feedback)
-
 <!-- /TOC -->
 
 # TranslateOnLinux
@@ -421,11 +420,15 @@ Word documents (especially those coming from OCR’d files or PDF converted file
 
 [OmegaT](https://omegat.org/en/) CAT tool has a Remove tags option, which strips ALL tags from the imported document(s). The latest version now includes the [TagWipe](https://libretraduko.wordpress.com/2018/04/18/tagwipe-in-omegat/) utility/Groovy script for clearing excessive tags on Word documents. It offers a GUI that lets the user select different options with which it should be run.
 
-## Translation Memory (TMX) Editing/Maintainance
+## Translation Memory (TMX) Editing|Maintainance
 
 [Heartsome TMX Editor](https://github.com/heartsome/tmxeditor8) (free)
 
 A powerful TM maintenance tool for all CAT software. It provides many useful and practical functions besides common editing features, allowing you to perform TM maintenance tasks easily, simply and all with one tool.
+
+[TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (free)
+
+Maxprograms TMXEditor is a cross-platform open source desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
 
 [Okapi Olifant](http://okapi.sourceforge.net/Release/Olifant/ReadMe.htm) (free)
 
@@ -435,10 +438,6 @@ An excellent free Translation Memory Editor. Caveat: its current version is base
 
 CafeTran Espresso CAT tool offers a powerful workflow for performing various editing and maintenance tasks on TMX Translation Memories. The Demo limits TM editing to 1,000 TUs.
 
-[TMXEditor](https://www.maxprograms.com/products/tmxeditor.html) (paid, 30-day free trial)
-
-Maxprograms TMXEditor is a cross-platform desktop application designed for editing TMX. It is able to handle very large files with millions of segments.
-
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge) (free)
 
 Diff tool for comparing and merging TMX translation memories.
@@ -447,7 +446,7 @@ Diff tool for comparing and merging TMX translation memories.
 
 An intuitive and multifunctional TMX/TBX file editor from Logrus Global Software Development Team.
 
-## Segmentation/SRX editors
+## Segmentation|SRX editors
 
 The SRX (Segmentation Rules eXchange) format is an open standard to save segmentation rules in a file so they can be used between different tools.
 
@@ -642,7 +641,7 @@ Copying the fonts folder from a Windows machine and placing it in the hidden .fo
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
-# Language/Grammar checkers/Writing aids
+# Language|Grammar checkers|Writing aids
 
 - [Antidote](https://www.antidote.info/en/antidote) (FR/EN): is an excellent French and/or English language, typography and style corrector, which also includes several Dictionaries (definitions, synonyms, word combinations, etc.) and Guides. It offers a GNU/Linux version with connectors for LibreOffice, Thunderbird, Firefox, Chrome (and derivative browsers, such as Chromium and Vivaldi), plus excellent software support.  Well worth the investment.
 - [LanguageTool](https://languagetool.org/languages/) (multiple languages, free and open source): linguistic and grammar check for LibreOffice, Chrome, Google Docs also available as a Standalone app for [many supported languages](https://languagetool.org/languages/).
@@ -652,7 +651,7 @@ If fonts don’t look good, you might need to learn how to improve anti-aliasing
 - Other online proofreading tools (EN) include [GrammarChecker](https://grammarchecker.net/) and [GrammarLookup](https://www.grammarlookup.com/)
 - [Ludwig.guru](https://ludwig.guru/) (EN) is a linguistic search engine and contextualized translator.
 - [Writefull](https://writefullapp.com/) (EN) is an app that gives feedback on your writing by checking your text against databases of correct language (also offers translations from any language into English). It is available as a cross-platform desktop application and as a Chrome extension.
--
+
 Note: [PerfectIt](http://www.intelligentediting.com/) (EN) (paid) cannot be installed with Wine (as tested), it needs to be used in a Windows VM.
 
 # QA tools
@@ -677,7 +676,7 @@ On top of the QA checks integrated into your chosen CAT tool, you may want or ne
   - XBench also offers a Chrome Extension for Matecat, Memsource, Transifex, Google Translator Toolkit (GTT) and Smartcat.
 - [Verifika](https://e-verifika.com/) (paid, 14-day trial) 32-bit edition can be installed, but may not run in Wine. Probably to be used in a Windows VM. Same goes for [QA Distiller](http://www.qa-distiller.com/).
 
-# Proofreading/Revising (Track changes, compare documents)
+# Proofreading|Revising (Track changes, compare documents)
 
 <!--- TODO Expand this section--->
 
@@ -779,7 +778,7 @@ Aegisub is a free, cross-platform open-source tool for creating and modifying su
 
 Probably the most advanced and powerful free subtitling tool out there. Excellent for time-spotting.
 
-Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
+Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).a
 
 [Subtitle Edit](http://www.nikse.dk/subtitleedit/)
 
@@ -1001,7 +1000,7 @@ When it comes to image scan post-processing, or pre-processing for use in a prog
 
 Interested in translating e-books? A solution is described [here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#epub--mobi--azw--e-book).
 
-# File/Folder comparison (DIFF) tools
+# File|Folder comparison (DIFF) tools
 
 [Meld](http://meldmerge.org/): Visual diff and merge tool for files, directories, and version controlled projects.
 
@@ -1017,7 +1016,7 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [SuperTMXMerge](https://github.com/amake/SuperTMXMerge): Diff tool for comparing and merging TMX translation memories.
 
-# Desktop search/Full text index
+# Desktop search|Full text index
 
 [DocFetcher](http://docfetcher.sourceforge.net/en/index.html)
 
@@ -1087,6 +1086,9 @@ A Python 3 port of [AutoKey](https://github.com/autokey/autokey), the desktop au
 
 [Wiki](https://github.com/autokey/autokey/wiki), [OldAutokey](https://code.google.com/archive/p/autokey/) page and [user group](https://groups.google.com/forum/#!forum/autokey-users).
 
+## ibus-typing-booster
+[Ibus-typing-booster](https://mike-fabian.github.io/ibus-typing-booster/) is a completion input method to speedup typing.
+
 ## Reduce eye-strain
 
 Utilities that adjusts the color temperature of your display(s) according to the position of the sun.
@@ -1121,7 +1123,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 [Flameshot](https://github.com/lupoDharkael/flameshot)
 
-## Screen recording/Screencasting
+## Screen recording|Screencasting
 
 [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/) Excellent and easy-to-use screen recorder
 
@@ -1157,7 +1159,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 
 **Onboard** is an excellent on-screen (virtual) keyboard. Handy if you wish to remember how to type less frequent characters for your language.
 
-# Running GNU/Linux on Windows
+# Running GNU-Linux on Windows
 Just in case you prefer to run Linux from Windows, Windows 10 is able to [run Linux distributions side-by-side](https://docs.microsoft.com/en-us/windows/wsl/install-win1) without fiddling with a virtual machine or a dual boot installation.
 
 # Running Windows applications on Linux
@@ -1200,7 +1202,7 @@ Paid: [Parallels](https://www.parallels.com/)
 Free/Paid: [VMware](https://www.vmware.com/)
 Free: [QEMU](https://www.qemu.org/)
 
-## Via Dual Boot/On a separate machine
+## Via Dual Boot|On a separate machine
 
 Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation, without the need of rebooting and using Windows.
 
@@ -1221,6 +1223,8 @@ Happy translating!
 - 20191020 Minor update. CafeTran Espresso demo mode does not support unlimited TMX editing anymore. Added Olifant to "Translation Memory (TMX) Editing/Maintainance" tools. Google Translation toolkit will be soon decommissioned, so it has been removed from the list of online CAT tools.
 - 20191105 SRXEditor is now open source and available as a standalone cross-platform program. Memsource editors renamed to Memsource Editor for Desktop and Memsource Editor for Web. Added an Antivirus section. Added ODA File Converter for .dwg and .dxf files. Added a few more Diff tools (Diffuse, KDiff3). Removed XLIFFChecker, added XLIFF Manager. Windows 10 can run Linux distribution side-by-side, without VMs.
 - 20191108 Contributor update (added content for LibreOffice, OnlyOffice, FlexiPDF and Lokalize plus minor edits).
+- 20200218 Fixed TOC, added ibus-typing-booster
+
 
 # Feedback
 
