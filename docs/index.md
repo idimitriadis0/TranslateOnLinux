@@ -16,9 +16,9 @@
   * [MateCat](#matecat)
   * [Smartcat](#smartcat)
   * [Wordfast Anywhere](#wordfast-anywhere)
-  * [Termsoup](#termsoup)
   * [XTM Cloud](#xtm-cloud)
   * [Wordbee](#wordbee)
+  * [Termsoup](#termsoup)
   * [Other](#other-1)
 - [Translation related tasks and tools](#translation-related-tasks-and-tools)
   * [Alignment](#alignment)
@@ -353,18 +353,6 @@ The completely open source version can also be [installed offline or in a VM](ht
 **Cost:** Free (registration needed).
 **Reviews:** [ProZ](https://www.proz.com/software-comparison-tool/tool/wordfast_anywhere/29).
 
-## Termsoup
-
-[Termsoup](https://termsoup.com/) is a cloud-based computer-assisted translation (CAT) software designed to boost productivity. This no-frill, user-friendly platform is ideal for literary (but not only) translators who need streamlined features for long-form projects. The platform makes collaboration simple with real-time editing and auto-save features so translators and colleagues can work together.
-
-Sports various original features and an interesting UI/UX.
-
-**Supported formats**: doc, docx, xls, xlsx, ppt, pptx, txt, html, xml, dtd, json, csv, yaml, srt, wix, json, yml, odt, ods, odp, po, xlf, xliff, sdlxliff, ttx, mif, idml, icml, and dita.
-**Support and manual:** [User guide](https://termsoup.crisp.help/en-us/).
-**License:** Closed source.
-**Cost:** Subscription-based, free 10-day trial.
-**Reviews:** [Capterra](https://www.capterra.com/p/204194/Termsoup/).
-
 <!--- ## Lilt
 
 [Lilt](https://lilt.com/) is machine-assisted translation platform that helps businesses, agencies, and individuals optimize translation speed, quality, and cost. It uses predictive typing as well as its own Adaptive MT engine that learns in real-time while you work.
@@ -398,6 +386,18 @@ XTM International develops XTM, a complete online Translation Management System 
 **License:** Closed source.
 **Demo:** 14-day free trial.
 **Cost:** Monthly or annual subscription.
+
+## Termsoup
+
+[Termsoup](https://termsoup.com/) is a cloud-based computer-assisted translation (CAT) software designed to boost productivity. This no-frill, user-friendly platform is ideal for literary (but not only) translators who need streamlined features for long-form projects. The platform makes collaboration simple with real-time editing and auto-save features so translators and colleagues can work together.
+
+Sports various original features and an interesting UI/UX.
+
+**Supported formats**: doc, docx, xls, xlsx, ppt, pptx, txt, html, xml, dtd, json, csv, yaml, srt, wix, json, yml, odt, ods, odp, po, xlf, xliff, sdlxliff, ttx, mif, idml, icml, and dita.
+**Support and manual:** [User guide](https://termsoup.crisp.help/en-us/).
+**License:** Closed source.
+**Cost:** Subscription-based, free 10-day trial.
+**Reviews:** [Capterra](https://www.capterra.com/p/204194/Termsoup/).
 
 ## Other
 
@@ -982,9 +982,9 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 [Foxit Reader](https://www.foxitsoftware.com/pdf-reader/): PDF reader (not editor) with some lite editing features such as PDF annotation and PDF sign/protect.
 
-[Acroread](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html): Acrobat Reader 9 for Linux. You can install [abracadabraCompteur 2016](https://www.abracadabrapdf.net/utilitaires/utilitaires-reader/abracadabracompteur/) plugin for PDF word count. Warning: Running such an old version of Acrobat Reader is considered a serious security risk. Tread lightly.
-
 [Okular](https://okular.kde.org/): Universal document viewer, supporting different kinds of documents, like PDF, Postscript, DjVu, CHM, XPS, ePub, and others.
+
+[Acroread](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html): Acrobat Reader 9 for Linux. You can also install [abracadabraCompteur 2016](https://www.abracadabrapdf.net/utilitaires/utilitaires-reader/abracadabracompteur/) plugin for PDF word count. Warning: Running such an old version of Acrobat Reader is considered a serious security risk. Tread lightly. If needed, more recent Acrobat Reader versions can be installed via Wine (CrossOver/PlayOnLinux).
 
 ## PDF-related utilities
 
