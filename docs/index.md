@@ -82,7 +82,7 @@ It is entirely possible to work as a professional translator while running a GNU
 
 This wiki aims to provide a list of desktop and web solutions for linguists who use a GNU/Linux OS for their work. The listed software should provide a comprehensive toolbox to fit most translation needs.
 
-Inspiration for this list: the website [LinuxForTranslators.com](https://www.linuxfortranslators.org/) by [Mark Prior](https://www.marcprior.de/en/intro.html), and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators by [Peter Sandrini](http://www.petersandrini.net/en-index.html), along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
+Inspiration for this list: the website [LinuxForTranslators.com](https://www.linuxfortranslators.org/) by [Marc Prior](https://www.marcprior.de/en/intro.html), and [tuxtrans](https://www.uibk.ac.at/tuxtrans/), a GNU/Linux distribution specifically targeted at translators by [Peter Sandrini](http://www.petersandrini.net/en-index.html), along with its list of [installed software](https://www.uibk.ac.at/tuxtrans/software.html).
 
 For a more general overview, head over to [LinuxForTranslators.com](https://www.linuxfortranslators.org/). For discussing any GNU/Linux-related topics in a professional translation/localization context, consider subscribing to the [LinuxForTranslators@groups.io](https://groups.io/g/LinuxForTranslators) mailing list. 
 
@@ -1097,7 +1097,7 @@ Of course, there are also powerful command-line utilities for searching files (f
 
 [Geany](https://geany.org/) is a great lightweight text editor and Integrated Development Environment (IDE).
 
-Text editors with even richer functions inclure GitHub’s [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) (free/paid) and [Brackets](http://brackets.io/).
+Text editors with even richer functions include GitHub’s [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/) (free/paid) and [Brackets](http://brackets.io/).
 
 For historical reasons, I’ll also include two of the oldest editors, with some hardcore fans: [Vim](https://www.vim.org/) and [GNU Emacs](https://www.gnu.org/software/emacs/) (see also [Editor wars](https://en.wikipedia.org/wiki/Editor_war)).
 
