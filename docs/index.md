@@ -1,4 +1,5 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
 - [TranslateOnLinux](#translateonlinux)
 - [CAT TOOLS](#cat-tools)
   * [OFFLINE CAT TOOLS](#offline-cat-tools)
@@ -74,7 +75,7 @@
   * [Via Dual Boot - On a separate machine](#via-dual-boot---on-a-separate-machine)
 - [Updates](#updates)
 - [Feedback](#feedback)
-<!-- /TOC -->
+  <!-- /TOC -->
 
 # TranslateOnLinux
 
@@ -133,7 +134,7 @@ Some highlights include:
 **Platforms:** GNU/Linux, Windows, macOS.
 **Supported formats:** More than 50 formats (with the help of the Okapi plugin), including Microsoft Word, Excel and PowerPoint, LibreOffice, HTML, TTX and SDLXLIFF (Trados), TXML (Wordfast Pro), IDML (InDesign) and PDF (text and Iceni Infix export).
 **Support and manual:** [Documentation and manual](http://omegat.org/documentation), [support page](https://omegat.org/support).
-**License:** Free-Libre/Open Source Software.
+**License:** Free-Libre/Open Source Software (GPLv2).
 **Cost:** Gratis (donations welcome).
 **Reviews:** [OmegaT](http://omegat.org/en/reviews.html), [ProZ](https://www.proz.com/software-comparison-tool/tool/omegat/82), [G2Crowd](https://www.g2crowd.com/products/omegat/reviews).
 
@@ -183,12 +184,12 @@ Here are some highlights:
 
 ## Memsource Editor for Desktop
 
-Memsource is an easy and simple online CAT tool, which also offers a desktop editor (compatible with Linux), hence its inclusion in this section. It provides a complete translation environment that allows you to set up your own workflow, and share projects with your vendors.
+Memsource is an easy and simple online CAT tool, which also offers a desktop editor (compatible with Linux and written in Qt), hence its inclusion in this section. It provides a complete translation environment that allows you to set up your own workflow, and share projects with your vendors.
 
-Among other things, it offers an extensive file format support, with interesting file filter options and features a thorough support website. It also sports a useful document preview feature and can handle large remote TMs and termbases as well. It is used by some agencies who offer project-based licenses. The web version is reportedly quite slower than the desktop version.
+Among other things, it offers an extensive file format support, with interesting file filter options and features a thorough support website. It also sports a useful document preview feature and can handle large remote TMs and termbases as well. It is used by some agencies who offer project-based licenses as it allows for remote management and distribution of translation jobs, keeping track of translators' progress in real time. The web version is reportedly quite slower than the desktop version. There is a port for Android and iOS.
 
 Online/Offline tool
-**Platforms:** GNU/Linux, Windows, macOS.
+**Platforms:** GNU/Linux, Windows, macOS, Android, iOS.
 **Supported formats:** [file formats](https://help.memsource.com/hc/en-us/articles/360000446911-Supported-File-Formats).
 **Support and manual:** [Support](https://help.memsource.com/hc/en-us), [Memsource Editor for Desktop and for Web documentation](https://help.memsource.com/hc/en-us/categories/115000351051-Translating).
 **License:** Closed source.
@@ -279,7 +280,7 @@ It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tm
 **Platforms:** GNU/Linux, Windows, macOS.
 **Supported formats:** see [GitHub](https://github.com/heartsome/translationstudio8) page.
 **Support:** [GitHub page](https://github.com/heartsome/translationstudio8) has links for user manual, quick start guide and file conversion guide.
-**License:** Open sourced.
+**License:** Open source (GPLv2).
 **Cost:** Gratis.
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/heartsome_translation_studio/85).
 
@@ -297,9 +298,11 @@ It also offers a separate [Heartsome TMX Editor](https://github.com/heartsome/tm
 
 ## Other
 
-[Virtaal](https://virtaal.readthedocs.io/en/latest/): Virtaal is an easy and lightweight tool that opens Gettext (.po, .mo), XLIFF, TMX and TBX files, among other formats. Even if its nice feature set may not fully appeal to professional translators, it represents a very good utility to use as a quick viewer for the above-mentioned bilingual file types.
+[Virtaal](https://virtaal.readthedocs.io/en/latest/): Virtaal is an easy and lightweight tool that opens Gettext (.po, .mo), XLIFF, TMX and TBX files, among other formats. Even if its nice feature set may not fully appeal to professional translators, it represents a very good utility to use as a quick viewer for the above-mentioned bilingual file types. It should be noted that it hasn't seen active development since 2017 and is in maintenance mode; some distros (like Fedora) do not ship it.
 
-[Lokalize](https://userbase.kde.org/Lokalize): Lokalize is a computer-aided translation (CAT) tool, a full-featured GUI application for translators, written from scratch using the KDE4 framework in 1999 and ported to the KDE5 framework in 2007. Aside from basic editing of PO files with nifty auxiliary details, it integrates support for glossary, translation memory, diff-modes for QA, project managing, etc. Mostly interesting for free software localization. It is tightly integrated with KDE localization together with kdesvn, which makes it ideal for localization of KDE software, while also serving as a full-blown localization tool.
+[Lokalize](https://userbase.kde.org/Lokalize): Lokalize is a computer-aided translation (CAT) tool, a full-featured GUI application for translators written from scratch using the KDE4 framework in 1999 and ported to the KDE5 framework in 2007. Aside from basic editing of PO files with nifty auxiliary details, it integrates support for glossary, translation memory, diff-modes for QA, project management, pology/posieve verification, etc. Mostly interesting for free software localization. It is tightly integrated with KDE localization together with kdesvn, which makes it ideal for localization of KDE software, while also serving as a full-blown localization tool.
+
+[QtLinguist](https://doc.qt.io/qt-5/linguist-translators.html): Developed by The Qt Company to localize primarily Qt applications, this tool is able to translate TS, PO and XLIFF files. Despite being proprietary, it is open source and generally available on Linux via the package qttools5/qt5-qttools/qt5tools (name depends on the distribution) and via website download. Downloading from your distribution is recommended.
 
 [DGT-OmegaT](http://185.13.37.79/) is an active fork of OmegaT (currently, the 3.3. branch), developed by the Directorate-General for Translation of the European Commission, adding some [specific features](http://185.13.37.79/?q=node/2) built for their own needs. Some features, like Tagwipe, have been integrated into the original OmegaT software. [Documentation](http://185.13.37.79/?q=node/36). [Download](http://185.13.37.79/?q=node/31).
 
@@ -319,7 +322,7 @@ Mentioned along with Memsource Editor for Desktop in the above section. Please n
 
 ## MateCat
 
-[MateCat](https://matecat.com/) is a free, simple, enterprise-level online tool, designed to make translation, post-editing and outsourcing easy and to provide a complete set of features to manage and monitor translation projects. It is released as open source software.
+[MateCat](https://matecat.com/) is a free, simple, enterprise-level online tool, designed to make translation, post-editing and outsourcing easy and to provide a complete set of features to manage and monitor translation projects.
 
 Given the fact MateCat supports a host of file formats (as well as MT engines), it can also be used in a round trip scenario (as an additional filter to handle file types unsupported by other CAT tools). [Read more about this here](https://github.com/idimitriadis0/TheCafeTranFiles/wiki/4-File-formats#matecat-recommended).
 
@@ -329,13 +332,17 @@ Given the fact MateCat supports a host of file formats (as well as MT engines), 
 **Cost:** Free (registration recommended).
 **Reviews:** [Proz](https://www.proz.com/software-comparison-tool/tool/matecat/134), [G2Crowd](https://www.g2crowd.com/products/matecat/reviews).
 
-The completely open source version can also be [installed offline or in a VM](https://site.matecat.com/installation-guide/), and the open sourced [MateCat filters](https://github.com/matecat/MateCat-Filters/) are freely available too.
+The completely open source version of the webserver can also be [installed offline](https://site.matecat.com/installation-guide/), and the open sourced [MateCat filters](https://github.com/matecat/MateCat-Filters/) are freely available too. <!-- The .ova VirtualBox VM file is no longer available. -->
 
 **Warning:** By default, MateCat stores your translated segments in the public MyMemory TM. To make sure this does not happen unwillingly, create a private TM resource: In the Project creation page, click on Settings (Alternatively, in the TM and glossary field, expand the drop-down menu and select Create resource). Click on + New resource button in the opened dialog. Give the TM an optional name. Hit Confirm. You will see that “MyMemory: Collaborative translation memory” resource is Enabled for Lookup, but not set to be Updated anymore. That way, translated segments will only be stored in your private resources.
+
+**Warning:** Matecat only officially supports Chrome/Chromium and will go out of its way to block your access if you're using a different browser. It is possible to use it with other browsers such as Firefox by switching your user agent, but speed/performance might be slightly worse.
 
 ## Smartcat
 
 [Smarcat](https://smartcat.ai/) is an intuitive, feature-rich computer-assisted translation web app. It provides a full set of translation automation technologies for companies and translators and makes it easy for them to connect and collaborate.
+
+It directly integrates with Paypal and Payoneer as well as local and international wire transfer. A Marketplace section is available for seeking translation jobs (though often low-payed as it allows for values below 1 cent), which can then allow for direct referrals. 
 
 **Supported formats**: [file formats](https://www.smartcat.ai/corp-features/).
 **Support and manual:** [Documentation and support](https://help.smartcat.ai/hc/en-us).
@@ -401,7 +408,23 @@ Sports various original features and an interesting UI/UX.
 
 ## Other
 
-Not to mention the different online browser-based localization platforms which can be used on GNU/Linux: [Crowdin](https://crowdin.com/), [Transifex](https://www.transifex.com/), [Weblate](https://weblate.org/en/), [Pontoon](https://pontoon.mozilla.org/), [Zanata](http://zanata.org/), [Pootle](http://pootle.translatehouse.org/), [POEditor](https://poeditor.com/), [Webtranslateit](https://webtranslateit.com/en), etc.
+Not to mention the different online browser-based localization platforms which can be used on GNU/Linux:
+
+* [Crowdin](https://crowdin.com/)
+
+* [Transifex](https://www.transifex.com/): Proprietary and closed source, but often used to translate open-source software. Free for translators.
+
+* [Weblate](https://weblate.org/en/): Free/Libre open source software, it can be self-hosted or you can pay for hosting services.
+
+* [Pontoon](https://pontoon.mozilla.org/): Used to localize the interface of Mozilla Firefox websites.
+
+* [Zanata](http://zanata.org/)
+
+* [Pootle](http://pootle.translatehouse.org/)
+
+* [POEditor](https://poeditor.com/)
+
+* [Webtranslateit](https://webtranslateit.com/en)
 
 # Translation related tasks and tools
 
@@ -546,6 +569,8 @@ XBench (see below) can **import** TBX files and **convert** them to tab-delimite
 
 [Goldpan TMX/TBX Editor](https://logrusglobal.com/goldpan.html) (installs but does not run correctly in Wine, needs a Windows VM) can **edit and export/save** TBX (and TMX) files
 
+[Translate-Toolkit](http://docs.translatehouse.org/projects/translate-toolkit/en/latest/) is a set of libraries and command line tools made by the same creators of Pootle and Virtaal and used by many free software projects, like Lokalize. It comes with [several file conversion utilities](http://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/index.html), including xls2csv and [csv2tbx](http://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/csv2tbx.html). It's useful to manage term bases in .xlsx, .csv and .tbx when no GUI tool is available (or for general scripting).
+
 **SDLTB**
 
 Trados Studio termbases (SDLTB) are written in a proprietary format, created by SDL MultiTerm. Since SDL Trados/Multiterm are quite common, you might come accross these files fairly often.
@@ -592,6 +617,7 @@ Various versions of Microsoft Office are quite well supported via Wine and are i
 If needed, Microsoft Office can also be installed in a Windows VM (see related section).
 
 Useful Microsoft Office add-ins:
+
 - [CodeZapper](http://asap-traduction.com/CodeZapper) (one-time donation) is a set of Word VBA macros designed to “clean up” Word files before being imported into a standalone translation environment so that the files have fewer tags.
 - [TransTools](http://www.translatortools.net/) is a collection of tools for Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Microsoft Visio, Autodesk AutoCAD and other programs. These tools will help you at every step of the translation process – during the preparation of documents for translation, in the course of translation, and during QA and post-formatting. [Feature overview](http://www.translatortools.net/benefits.html).
 - [PlusTools](https://www.wordfast.net/wiki/PlusTools) is a free MS Word add-in that can handle multiple tasks, including preparing tagged files for translation, extracting terminology, and alignment.
@@ -603,9 +629,12 @@ LibreOffice is an excellent Office suite in its own right. It can open and save 
 
 One neat functionality it has is the ability to export hybrid PDFs, which are PDFs embedded with the original .odt file. This means that, by opening a hybrid PDF through LibreOffice Writer, the translator/proofreader is able to edit the original file while maintaining PDF formatting. This is exclusive to LibreOffice, as no other office software is able to do this.
 
+Pair it with hunspell for spelling support for your language and the hyphen/hyphenation package for optimal use.
+
 [Feature/compatibility comparison](https://wiki.documentfoundation.org/Feature_Comparison:_LibreOffice_-_Microsoft_Office) with Microsoft Office.
 
 Useful [LibreOffice extensions](http://extensions.libreoffice.org/):
+
 - [LanguageTool](https://extensions.libreoffice.org/extensions/languagetool): linguistic and grammar check for many supported languages.
 - [Grammalecte](https://extensions.libreoffice.org/extensions/grammalecte): French grammar checker. Note: You must disable LanguageTool for Grammalecte to work in LibreOffice.
 - [Linguist](https://extensions.libreoffice.org/extensions/linguist): Simple text analyzer.
@@ -625,11 +654,11 @@ Less developed and feature-rich than LibreOffice. Use LibreOffice instead.
 
 [WPS Office](http://www.wps.com/)
 
-Free for Linux users. Boasts high MS Office compatibility.
+Free for Linux users and comes with an unchangeable ribbon/tabbed bar, not very customizable but it's still featureful. Boasts high MS Office compatibility, but it is unable to handle free formats like ODT. It includes support for baloons that is arguably better than that of Microsoft Word, as the tracked changes section can be scrolled. It allows to set your own keyboard shorcuts for specific Unicode characters, which is useful depending on your keyboard layout. If you find any issues (e.g. theming), check the [general troubleshooting page over the Arch Linux wiki](https://wiki.archlinux.org/index.php/WPS_Office).
 
-[SoftMaker Office 2021](https://www.softmaker.com/en/softmaker-office)
+[SoftMaker Office](https://www.softmaker.com/en/softmaker-office)
 
-Paid software. 30-day free trial. Boasts excellent MS Office compatibility.
+Paid software; you can subscribe to its Software-as-a-Service model (similar to Office 365) or purchase it once. 30-day free trial with FreeOffice. Boasts high MS Office compatibility, the interface is quite feature-complete and has a traditional look, although it lacks baloons.
 
 Tip: Trial can be reset by removing the SoftMaker folder.
 
@@ -639,7 +668,7 @@ The free version of SoftMaker Office.
 
 [OnlyOffice](https://www.onlyoffice.com/)
 
-Has good looks and potential. Works both offline and in the Cloud. Boasts 100% compatibility with MS Office formats.
+It has good looks and potential, but it's way less featureful than other desktop clients like LibreOffice, Softmaker Office and WPS Office. Works both offline and in the cloud, can be integrated directly to a Nextcloud instance. Boasts 100% compatibility with MS Office formats.
 It does not currently include dynamic counting of words. See [here](https://github.com/ONLYOFFICE/DesktopEditors/issues/166).
 
 [Google Docs](https://www.google.com/docs/about/)/[Google Drive](https://drive.google.com) (online)
@@ -662,9 +691,9 @@ _soffice_ is the CLI version of the LibreOffice office suite. It can be used for
 
 **A word on Microsoft fonts:**
 
-You’ll probably need a way to install Microsoft/Windows fonts on your Linux distribution to be able to work with the same fonts as other Microsoft Office users. These are mostly proprietary and cannot be distributed along with your GNU/Linux distribution.
+You’ll probably need a way to install Microsoft/Windows fonts on your Linux distribution to be able to work with the same fonts as other Microsoft Office users. These are mostly proprietary. You can install these fonts on your GNU/Linux distribution via a package typically called ttf-mscorefonts-installer/msttcorefonts and signing an EULA. It's the result of the now discontinued project [Core fonts for the web](https://en.wikipedia.org/wiki/Core_fonts_for_the_Web) and [available here](http://corefonts.sourceforge.net/); however, since newer versions of Microsoft Core Fonts are unavailable for redistribution/commercial use since the project was discontinued and ttf-mscorefonts-installer packages incredibly old versions of these fonts (2012), this might render incompatibility. Emphasis on might. Thus it might be a good idea to save the original Microsoft Fonts for personal use.
 
-Copying the fonts folder from a Windows machine and placing it in the hidden .fonts folder of your home folder (or creating it, if it does not exist) is a distribution-independent solution. Other methods are available per GNU/Linux distribution, typically as a package: in Ubuntu, for instance, it is called ttf-mscorefonts-installer; however, it is a significantly old version of these fonts.
+Copying the fonts folder from a Windows machine and placing it in the hidden .local/share/fonts folder of your home folder (or creating it, if it does not exist) is a distribution-independent solution. On legacy systems, it is possible to do the same with the ~/.fonts folder instead. <!-- The .fonts folder has been deprecated in favor of XDG-compliant .local/share/fonts. -->
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
@@ -749,7 +778,7 @@ With XLIFF Manager you can:
 - Convert your translated XLIFF files to original format with a couple of clicks.
 - Validate XLIFF files created by any tool. Validation is supported for XLIFF 1.0, 1.1, 1.2 and 2.0.
 - Produce an HTML file with word counts and segment status statistics from an XLIFF document.
-The XLIFF files generated by OpenXLIFF Filters don't use proprietary markup and are fully compatible with most CAT tools.
+  The XLIFF files generated by OpenXLIFF Filters don't use proprietary markup and are fully compatible with most CAT tools.
 
 [BootCaT](https://bootcat.dipintra.it/)
 
@@ -789,7 +818,7 @@ A free (GPL, libre/free software) and easy-to-use offline browser utility allowi
 
 [Translate Toolkit](http://toolkit.translatehouse.org/)
 
-A toolkit with various terminal utilities for localization engineers, offering format conversions, and quality assurance tasks.
+A toolkit with various terminal utilities for localization engineers, offering format conversions, and quality assurance tasks. Most notably it includes command line tools for converting XLIFF, PO, TS, DOCX/XLS, TBX, TMX, TXT, WORDFAST, SRT, XML, etc.
 
 [TMXValidator](https://www.maxprograms.com/products/tmxvalidator.html)
 
@@ -807,7 +836,7 @@ Professional subtitling software is mostly Windows only, I’m afraid. Here are 
 
 Aegisub is a free, cross-platform open-source tool for creating and modifying subtitles. Aegisub makes it quick and easy to time subtitles to audio and features many powerful tools for styling them, including a built-in real-time video preview.
 
-Although one the most advanced and powerful free subtitling tools out there, and an excellent program for time-spotting, Aegisub has stopped being actively developped a few years ago. Consider using Subtitle Edit.
+Although one the most advanced and powerful free subtitling tools out there, and an excellent program for time-spotting, Aegisub has stopped being actively developed a few years ago. Consider using Subtitle Edit.
 
 Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
 
@@ -823,7 +852,7 @@ Editor for text-based subtitles. Supports translating subtitles side by side wit
 
 [dotsub](https://dotsub.com/) is another web-based system for creating and viewing subtitles for videos in multiple languages across all platforms.
 
-[Subtitle Composer](https://github.com/maxrd2/subtitlecomposer)
+[Subtitle Composer](https://subtitlecomposer.kde.org) is a subtitle editor made available by KDE that allows for both mouse- and keyboard-driven workflows. Most notably it includes dettachable panes for you to customize your environment; translate subtitles side by side; recognize speech via PocketSphinx; detect errors automatically; and manage times in bulk.
 
 # Transcription
 
@@ -836,6 +865,7 @@ An easy to use transcription software with a variety of features. Free.
 [Express Scribe](http://www.nch.com.au/scribe/index.html)
 
 There are two options for [running Express Scribe on the Linux](http://www.nch.com.au/scribe/linux.html) operating system.
+
 - Option 1: Native Linux Exe
 - Option 2: WINE Install
 
@@ -860,8 +890,8 @@ The program has the following features:
 - Ability to run arbitrary external programs for audio playback or content generation (text-to-speech, man pages, etc) (use the latest Git version for this)
 - Support for looking up and listening to pronunciations from forvo.com
 - Hunspell-based morphology system, used for word stemming and spelling suggestions.
-Ability to index arbitrary directories with audio files for pronunciation lookups
-Full Unicode case, diacritics, punctuation and whitespace folding. This means the ability to type in words without any accents, correct case, punctuation or spaces (e.g. typing “Grussen” would yield “grüßen” in German dictionaries).
+  Ability to index arbitrary directories with audio files for pronunciation lookups
+  Full Unicode case, diacritics, punctuation and whitespace folding. This means the ability to type in words without any accents, correct case, punctuation or spaces (e.g. typing “Grussen” would yield “grüßen” in German dictionaries).
 - Scan popup functionality. A small window pops up with the translation of a word chosen from another application.
 - Support for global hotkeys. You can spawn the program window at any point, or directly translate a word from the clipboard.
 - Tabbed browsing in a modern Qt 4 interface.
@@ -1047,7 +1077,11 @@ Interested in translating e-books? A solution is described [here](https://github
 
 [KDiff3](https://kde.org/applications/development/org.kde.kdiff3): File and directory diff and merge tool
 
+[Kompare](https://apps.kde.org/en/kompare): File and directory diff and merge tool with mirrored scrolling
+
 [Diffuse](http://diffuse.sourceforge.net/): Graphical tool for merging and comparing text files
+
+[Diffoscope](https://diffoscope.org/): Terminal utility for diff with colors for better visualization
 
 [DiffPDF](http://www.qtrac.eu/diffpdf.html): Compare PDFs
 
@@ -1079,9 +1113,11 @@ Allows users to search for file names and contents using powerful regular expres
 
 [Regexxer](http://regexxer.sourceforge.net/) is a GUI search/replace tool featuring Perl-style regular expressions.
 
-[Gnome Shell](https://www.gnome.org/) Desktop Environment comes with a configurable built-in Tracker (Search), which allows searching various types of content, including “full-text search”. If you don’t use it, you might as well disable it, to prevent full indexing.
+[Gnome Shell](https://www.gnome.org/) Desktop Environment comes with a configurable built-in Tracker (Search), which allows for searching various types of content, including “full-text search”. If you don’t use it, you might as well disable it, to prevent full indexing.
 
-For simple, lightweight desktop search, you can use Gnome search tool or [Catfish](http://www.twotoasts.de/index.php/catfish/).
+[KDE Plasma 5](https://www.kde.org) Desktop Environment comes with baloo search, which indexes your home folder and can be configured to search only specific folders, to perform full content indexing (useful to find text in office files), and to allow searching hidden files and folders. Two setups are optimal for it: just leaving the defaults but with full content indexing disabled (openSUSE does this), or making it not search the home folder and only search (perhaps with full content indexing) in the Documents, Downloads, Pictures, Music and Videos folders (Fedora does this).
+
+For simple, lightweight desktop search, you can use Tracker on GNOME, Baloo without full content indexing on Plasma, or [Catfish](http://www.twotoasts.de/index.php/catfish/).
 
 Of course, there are also powerful command-line utilities for searching files (find), text searching for lines matching a regular expression (grep), etc.
 
@@ -1090,6 +1126,10 @@ Of course, there are also powerful command-line utilities for searching files (f
 [Nautilus (Files)](https://wiki.gnome.org/Apps/Files) file manager comes bundled with a bulk renamer (just select multiple files and press F2).
 
 [Thunar](https://docs.xfce.org/xfce/thunar/start) file manager also includes an excellent [Bulk Rename](https://docs.xfce.org/xfce/thunar/bulk-renamer/start) utility.
+
+[Dolphin](https://apps.kde.org/en/dolphin) file manager that includes numeric-based bulk renaming (file1.txt, file2.txt etc)
+
+[KRename](https://apps.kde.org/en/krename) is a flexible program for bulk renaming based on text patterns.
 
 # Text editors
 
@@ -1141,7 +1181,7 @@ Also available as a [Gnome shell extension](https://extensions.gnome.org/).
 
 [f.lux](https://justgetflux.com/)
 
-Note: Gnome Desktop environment also sports an integrated Night mode in Settings > Displays.
+Note: the GNOME and Plasma Desktop environments also sport integrated Night mode. In GNOME it can be found under Settings > Displays, in Plasma it can be found under System Settings > Display and Monitor > Night Color.
 
 ## Clipboard managers
 
@@ -1204,6 +1244,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 **Onboard** is an excellent on-screen (virtual) keyboard. Handy if you wish to remember how to type less frequent characters for your language.
 
 # Running GNU-Linux on Windows
+
 Just in case you prefer to run Linux from Windows, Windows 10 is able to [run Linux distributions side-by-side](https://docs.microsoft.com/en-us/windows/wsl/install-win1) without fiddling with a virtual machine or a dual boot installation.
 
 # Running Windows applications on Linux
@@ -1224,6 +1265,7 @@ Two applications aim to make it easy to install Windows programs in such separat
 - [PlayOnLinux](https://playonlinux.com/): Currently under heavy development and transition, PlayOnLInux is the free pendant to CrossOver.
 
 Some examples of useful translation-related applications that run well on Linux via Wine (mostly PlayOnLinux and Crossover) are the following:
+
 - Microsoft Office 2010, 2013 and 2016, [XBench](https://www.xbench.net/index.php/download), and [Glossary Converter](http://www.cerebus.de/glossaryconverter/). For the GUI Windows version of [LF Aligner](https://sourceforge.net/projects/aligner/) (with a nice interface for splitting-merging aligned segments), just run it with Wine. Same goes for [TMLookup](http://www.farkastranslations.com/tmlookup.php), an open-source tool to search bilingual and multilingual text databases (translation memories) and glossaries. [Ron’s Editor](https://www.ronsplace.eu/Products/RonsEditor) excellent CSV File Editor works after installing .Net Framework 4.5.2.
 
 Many Windows programs that require specific versions of the .NET framework can be installed successfully after installing these first. Tip: Trial versions can be easily reinstalled since you can create separate machines with a few clicks.
@@ -1246,9 +1288,11 @@ Paid: [Parallels](https://www.parallels.com/)
 Free/Paid: [VMware](https://www.vmware.com/)
 Free: [QEMU](https://www.qemu.org/)
 
+<!-- Probably worth adding the information available on https://rabbitictranslator.com/wordpress/index.php/2020/07/04/fluff-linux-sessions/ since, although a niche case, this method can be used to maximize performance enough so as to run Windows well on 4GB machines with HDD. -->
+
 ## Via Dual Boot - On a separate machine
 
-Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation, without the need of rebooting and using Windows.
+Of course, you can install GNU/Linux alongside Windows on your PC or on a separate machine, but that defeats the purpose of using GNU/Linux as your main OS for professional translation without the need of rebooting and using Windows.
 
 And that concludes this wiki.
 
@@ -1269,6 +1313,7 @@ Happy translating!
 - 20191108 Contributor update (added content for LibreOffice, OnlyOffice, FlexiPDF and Lokalize plus minor edits).
 - 20200218 Fixed TOC, added ibus-typing-booster
 - 20200611 Various minor content edits. Contributor update: added Termsoup and DGT-OmegaT under CAT tools, added the CLI ABBYY FineReader Engine for Linux under OCR and PDF to text, added a section for command-line office file conversions under Office software. Mention for FileOpen (localization-related utilities) and ImageTranslate (image localization) and TMetric (time tracking). Stingray document aligner is now open source.
+- 20201128 Contributor update, many content edits. Added license for OmegaT and Heartsome; mentioned Memsource mobile; Virtaal in maintenance mode; add QtLinguist, Kompare, Diffoscope, baloo, Dolphin, KRename; Matecat Chrome-only, VM gone; descriptions for Smartcat, Transifex, Weblate, Pontoon, translate-toolkit, WPS, Softmaker, OnlyOffice, SubtitleComposer, GNOME/Plasma utilities, Microsoft fonts; XDG fonts; hunspell for LibreOffice.
 
 # Feedback
 
