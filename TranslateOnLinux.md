@@ -199,7 +199,7 @@ Online/Offline tool
 
 Among the major commercial TM tools, WordFast Pro is the only one that is truly cross-platform. It is available as a standalone application (in contrast to WordFast Classic, which is Word-based).
 
-[WordFast Pro](https://www.wordfast.com/products/wordfast_pro), whose interface and underlying technology was first implemented as version 4.0 is now at version 6.3.x. 
+[WordFast Pro](https://www.wordfast.com/products/wordfast_pro), whose interface and underlying technology was first implemented as version 4.0 is now at version 6.6.x. 
 
 The legacy [WordFast Pro 3](https://www.wordfast.com/products/wordfast_pro_3) was last updated to version 3.4.14 in August 2018 and is no longer in development. It still works in many systems and some users continue to use it.
 
@@ -1025,7 +1025,7 @@ For a thorough review of solutions for handling PDFs in translation, see [here](
 
 ## OCR
 
-While there is no GUI version of [ABBYY FineReader](https://www.abbyy.com/en-me/finereader/) for GNU/Linux, ABBYY offers the [ABBYY FineReader Engine for Linux](https://abbyy.technology/en:products:fre:linux) as a command line interface (CLI), at an equivalent price.
+While there is no GUI version of [ABBYY FineReader](https://www.abbyy.com/en-me/finereader/) for GNU/Linux, ABBYY offers the [ABBYY FineReader Engine for Linux](https://www.abbyy.com/ocr-sdk/) as a command line interface (CLI), at an equivalent price.
 
 Other native OCR solutions usually lag behind ABBYY FineReader and other proprietary software.
 
