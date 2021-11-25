@@ -545,7 +545,7 @@ For conducting CAT-tool independent TM and glossary searches, [TMLookup](http://
 
 **TBX**
 
-TBX, short for TermBase eXchange, is the international standard for representing and exchanging information about terms, words, and other lexical data. Here’s a list of tools with some TBX support: http://www.tbxinfo.net/tbx-support/
+TBX, short for TermBase eXchange, is the international standard for representing and exchanging information about terms, words, and other lexical data. Here’s a list of tools with some TBX support: [https://www.tbxinfo.net/tbx-support/](https://www.tbxinfo.net/tbx-support/)
 
 Several CAT tools can **import/read** TBX files: OmegaT, CafeTran Espresso, Memsource, WordFast Pro, Swordfish, etc.
 
@@ -580,12 +580,6 @@ It features an older freeware non-unicode version (2.9) and a yearly subscriptio
 XBench supports a host of glossary, TM and bilingual formats. For Terminology, XBench can import/read Tab-delimited Text files, TBX, MultiTerm XML Glossaries, Wordfast Glossaries, etc.
 
 It can also be used to convert to TMX and Tab-delimited text files.
-
-<!--- [TODO More software]
-
-Terminology management
-termbases.eu
-https://www.termbases.eu/page/view/pricing/
 
 # Office software
 
@@ -674,7 +668,7 @@ _soffice_ is the CLI version of the LibreOffice office suite. It can be used for
 
 You’ll probably need a way to install Microsoft/Windows fonts on your Linux distribution to be able to work with the same fonts as other Microsoft Office users. These are mostly proprietary. You can install these fonts on your GNU/Linux distribution via a package typically called ttf-mscorefonts-installer/msttcorefonts and signing an EULA. It's the result of the now discontinued project [Core fonts for the web](https://en.wikipedia.org/wiki/Core_fonts_for_the_Web) and [available here](http://corefonts.sourceforge.net/); however, since newer versions of Microsoft Core Fonts are unavailable for redistribution/commercial use since the project was discontinued and ttf-mscorefonts-installer packages incredibly old versions of these fonts (2012), this might render incompatibility. Emphasis on might. Thus it might be a good idea to save the original Microsoft Fonts for personal use.
 
-Copying the fonts folder from a Windows machine and placing it in the hidden .local/share/fonts folder of your home folder (or creating it, if it does not exist) is a distribution-independent solution. On legacy systems, it is possible to do the same with the ~/.fonts folder instead. <!-- The .fonts folder has been deprecated in favor of XDG-compliant .local/share/fonts. -->
+Copying the fonts folder from a Windows machine and placing it in the hidden .local/share/fonts folder of your home folder (or creating it, if it does not exist) is a distribution-independent solution. On legacy systems, it is possible to do the same with the ~/.fonts folder or .local/share/fonts instead. 
 
 If fonts don’t look good, you might need to learn how to improve anti-aliasing.
 
@@ -982,7 +976,7 @@ TransPDF also offers a paid OCR feature for non-editable PDFs.
 
 [FlexiPDF](https://www.softmaker.com/en/flexipdf) (Paid)
 
-FlexiPDF is a PDF Editor for Windows which also works well under Wine (only lacks specific functionality such as print to PDF on Linux) and is sold both under a subscription model (FlexiPDF NX) and as a product (FlexiPDF 2019).
+FlexiPDF is a PDF Editor for Windows which also works well under Wine (only lacks specific functionality such as print to PDF on Linux) and is sold both under a subscription model (FlexiPDF NX) and as a product (FlexiPDF).
 
 The professional version of FlexiPDF includes the export/import of text from a PDF for translation with a CAT tool, similarly to Infix/TransPDF. They offer discounts on occasion and based on the country you are, so it's affordable.
 
@@ -1214,7 +1208,7 @@ Beyond the standard screenshot capabilities of the desktop environment (Gnome, K
 # Running GNU-Linux on Windows via WLS
 The Windows Subsystem for Linux ([WLS](https://docs.microsoft.com/en-us/windows/wsl/)) lets you run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup.
 
-This means you are able to [run Linux distributions side-by-side](https://docs.microsoft.com/en-us/windows/wsl/install). WLS requires Windows 10 (Build 19041 and higher) and Windows 11.
+This means you are able to [run Linux distributions and applications side-by-side](https://docs.microsoft.com/en-us/windows/wsl/install) with Windows. WLS requires Windows 10 (Build 19041 and higher) and Windows 11.
 
 # Running Windows applications on Linux
 
