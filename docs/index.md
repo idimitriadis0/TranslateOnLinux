@@ -1,3 +1,5 @@
+{:toc}
+
 # TranslateOnLinux
 
 It is entirely possible to work as a professional translator while running a GNU/Linux distribution as your chosen operating system.
