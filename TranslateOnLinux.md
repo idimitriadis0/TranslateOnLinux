@@ -86,6 +86,10 @@ For a more general overview, head over to [LinuxForTranslators.com](https://www.
 
 *Curated by [Jean Dimitriadis](https://www.proz.com/translator/2042360) (EN-FR/EL-FR translator).*
 
+```
+{% include toc.md %}
+```
+
 # CAT TOOLS
 
 Some popular computer-aided translation (CAT) tools, such as SDL Trados, memoQ or Déjà Vu are only Windows-compatible, but they are far from being the only options. There are some powerful translation tools that can run on GNU/Linux. It is worth noting almost all of them can handle (albeit with some limitations) Trados SDLXLIFF files and/or SDLPPX packages, which are often sent out by translation agencies.
