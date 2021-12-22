@@ -84,11 +84,7 @@ Inspiration for this list: the website [LinuxForTranslators.com](https://www.lin
 
 For a more general overview, head over to [LinuxForTranslators.com](https://www.linuxfortranslators.org/). For discussing any GNU/Linux-related topics in a professional translation/localization context, consider subscribing to the [LinuxForTranslators@groups.io](https://groups.io/g/LinuxForTranslators) mailing list. 
 
-*Curated by [Jean Dimitriadis](https://www.proz.com/translator/2042360) (EN-FR/EL-FR translator).*
-
-```
-{% include toc.md %}
-```
+*Curated by [Jean Dimitriadis](https://www.proz.com/translator/2042360) (EN-FR/EL-FR translator).
 
 # CAT TOOLS
 
@@ -811,7 +807,7 @@ Plug-in and viewer to access documents encrypted with the FileOpen software. Whi
 
 # Subtitling
 
-Most professional subtitling software (such as [EZTitles](https://www.eztitles.com), [Spot](https://www.spotsoftware.nl) , [WinCaps](https://broadstream.com/products/wincaps/), and [Subtitle NEXT](https://subtitlenext.com)) is primarily available for Windows (and can only be used via a Windows VM on Linux). However, subtitlers working on Linux still have a a few tricks up their sleeve.
+Most professional subtitling software (such as [EZTitles](https://www.eztitles.com), [Spot](https://www.spotsoftware.nl) and [WinCaps](https://broadstream.com/products/wincaps/)) is primarily available for Windows (and can only be used via a Windows VM on Linux). However, subtitlers working on Linux still have a a few tricks up their sleeve.
 
 **Desktop subtitling editors**
 
@@ -823,29 +819,31 @@ If the Linux-ready portable version using Mono is giving you issues, try the Win
 
 [Aegisub](http://www.aegisub.org/)
 
-Aegisub is a free, cross-platform open source tool for creating and editing subtitles. It makes it quick and easy to time subtitles to audio (time-spotting), and styling them, among other features.
+Aegisub is a free, powerful cross-platform open source tool for creating and editing subtitles, especially when it comes to the versatile SSA/ASS subtitle format. It  makes it quick and easy to time subtitles to audio (time-spotting), and styling them, among other features.
 
-This excellent program has stopped being actively developed a few years ago, although some still swear by it. Consider using Subtitle Edit instead.
+Unfortunately, this excellent program has stopped being actively developed a few years ago, although some still swear by it.
+
+Aegisub can be further enhanced by automation scripts, such as those by [unanimated](https://unanimated.github.io/ts/scripts-unanimated.htm), [lyger](https://github.com/lyger/Aegisub_automation_scripts) and [petzku](https://github.com/petzku/Aegisub-Scripts).
+
+Many other free desktop subtitling tools (such as [Subtitle Composer](https://subtitlecomposer.kde.org)) exist, some cross-platform, others, Linux-specific, but we're focusing more on those who cater to professional subtitlers.
 
 Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
 
-Some additional free desktop subtitling tools (many more can be found, some cross-platform, others, Linux-specific):
+[Subtitle NEXT](https://subtitlenext.com)
 
-[Gaupol](https://otsaloma.io/gaupol/)
+SubtitleNEXT is a professional tool for video captioning and subtitling, which claims to be [fully functional on Linux through Wine](https://subtitlenext.com/faq/#toggle-id-26) (you can download the [Demo version](https://subtitlenext.com/demo-download/) and see for yourself). Note: In our test, the video playback was too choppy, even with the installation of the required LAVFilters.
 
-Editor for text-based subtitles. Supports translating subtitles side by side with the original.
-
-[Subtitle Composer](https://subtitlecomposer.kde.org) is a subtitle editor made available by KDE that allows for both mouse- and keyboard-driven workflows. Most notably it includes dettachable panes for you to customize your environment; translate subtitles side by side; recognize speech via PocketSphinx; detect errors automatically; and manage times in bulk.
+# THE ULTIMATE TIMED TEXT SOFTWARE
 
 **Online subtitling editors**
 
-[OOONA](https://ooona.net/ooona-tools/) offers a collection of professional-grade online video localization tools with weekly, monthly, biannual and annual [plans](https://ooona.net/ooona-tools/) (and a free 4 weeks trial with limited subtitles export), making its subtitling platform an excellent option for frequent as well as occasional use. Recommended.
+[OOONA](https://ooona.net/ooona-tools/) offers a collection of professional-grade online video localization tools with weekly, monthly, biannual and annual [plans](https://ooona.net/ooona-tools/) (and a free 4 weeks trial with limited subtitles export), making it a recommended solution for regular or occasional use, especially given its range of [supported formats](https://ooona.ooonatools.tv/Pages/Formats).
 
 [Amara](https://amara.org/en/subtitling-platform/) features various versions of its online subtitling editor: Amara Public (a free, public workspace-only edition), the advanced, subscription-based Amara Plus, and Amara Enterprise for bigger teams. Check out the [feature comparison](https://amara.org/en/subtitling-platform).
 
 [Matesub](https://matesub.com) is a new subtitling tool, developed by Translated.net, the company behind MateCat, MyMemory publlic TM and ModernMT. Currently on <u>free beta access</u>, it will be offered on a monthly-subscription basis later on.
 
-If no SRT file is available/used, subtitles will be automatically generated and synced, and optionally pre-translated via MT, for further checking/editing.
+In supported languages, if no SRT file is available/used, subtitles will be automatically generated and synced, and optionally pre-translated via MT (although you can safely skip this step). This can help speed up time spotting and transcription, and the subtitling process.
 
 List of features: Auto-Transcription, Auto-Spotting, Auto-Translation, Easy collaboration, WYSIWYG editor, Real time QA check, Magic timeline, User-friendly UI, Top security.
 
@@ -888,6 +886,8 @@ There are two options for [running Express Scribe on the Linux](http://www.nch.c
 [Transcribe!](https://www.seventhstring.com/xscribe/overview.html)
 
 Download [for Linux](https://www.seventhstring.com/xscribe/download_linux.html). There is a 30-day evaluation period, after which you decide if you wish to [buy](https://www.seventhstring.com/xscribe/buy.html) the software.
+
+[oTranscribe](https://otranscribe.com) is free web app for audio/video transcription. You can use it in combination with the [Voice in Voice Typing](https://www.youtube.com/watch?v=1WzPddekSoI&t=532s) Chrome extension.
 
 [OOONA Transcribe](https://ooona.net/ooona-tools/) is an online subscription-based software aimed at creating script files and dialog lists.
 
@@ -974,7 +974,9 @@ An online paid service for translating images.
 
 Speech recognition/dictation is quite lacking in GNU/Linux. At present, few options compare to Nuance’s Dragon Naturally Speaking, which does not run natively (although some editions are reported to be usable under Wine).
 
-Online solutions, such as [Voice notebook](https://voicenotebook.com/), make often use of the Google Speech API, which is also built-in Google Docs (CafeTran Espresso offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+Online solutions, such as [Voice notebook](https://voicenotebook.com/), make often use of the Google Speech API, which is also [built-in in Google Docs](https://support.google.com/docs/answer/4492226?hl=en) (CafeTran Espresso offers a [solution](https://cafetran.freshdesk.com/support/solutions/folders/6000225250) to take advantage of that).
+
+[Dictanote](https://dictanote.co) is a note-dating dictation app that can be installed as a standalone app on Linux, and [Voice in Voice Typing](https://dictanote.co/voicein/) is a Chrome extension to voice type in any textbox on any website, including punctuation. Many other such web browser extensions can be found.
 
 Currently, one way to integrate speech recognition into your GNU/Linux workflow is to use an Android (or Apple?) phone. Indeed, the smartphones' mic is optimized for recording voice and for noise suppression. Plus, you can apply voice typing across the desktop.
 
@@ -991,6 +993,8 @@ Interested users might want to investigate [Balabolka](http://www.cross-plus-a.c
 Another solution would be to use [Amazon Polly](https://aws.amazon.com/polly/?nc1=h_ls) text-to-speech service, with the combination of a bash script.
 
 CafeTran Espresso CAT tool actually implements TTS with the Amazon Polly API.
+
+For web browser based scenarios, [Read Aloud](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en) is an excellent text to speech voice reader, with many voice options.
 
 # PDFs
 
@@ -1333,7 +1337,7 @@ Happy translating!
 - 20200611 Various minor content edits. Contributor update: added Termsoup and DGT-OmegaT under CAT tools, added the CLI ABBYY FineReader Engine for Linux under OCR and PDF to text, added a section for command-line office file conversions under Office software. Mention for FileOpen (localization-related utilities) and ImageTranslate (image localization) and TMetric (time tracking). Stingray document aligner is now open source.
 - 20201128 Contributor update, many content edits. Added license for OmegaT and Heartsome; mentioned Memsource mobile; Virtaal in maintenance mode; add QtLinguist, Kompare, Diffoscope, baloo, Dolphin, KRename; Matecat Chrome-only, VM gone; descriptions for Smartcat, Transifex, Weblate, Pontoon, translate-toolkit, WPS, Softmaker, OnlyOffice, SubtitleComposer, GNOME/Plasma utilities, Microsoft fonts; XDG fonts; hunspell for LibreOffice.
 - 20211123 Updated all content and fixed broken links. Swordfish VI and all maxprograms.com applications are now open source and free to use (with optional paid subscription for binaries and support). WFP 3 is legacy now. MateCat sports an aligner. MateCat filtrers removed (no longer offered as Open Source). Mention of markdown editors. Google Docs now offers Microsoft Office editing. Removed Antivirus section for now.
-- 20211220 Subtitling: largely updated and expended section (added mention of online tools such as OOONA and Matesub, which is free during beta, a section discussing CAT tools for subtitling and two applications for embedding subtitles into videos);  Transcription: Added F4Transcript, OOONA Transcribe and Transcribe by Wreally; Swordfish: Link with additional instructions for compilation from the source code; Dictation software: expended mention of using a smartphone for dictating on Linux; Windows VMs: added mention of WinApps.
+- 20211222 Subtitling: extensively updated section (with added mention of Subtitle Next, and online tools such as OOONA and Matesub, which is free during beta, as well as a section discussing CAT tools for subtitling and two applications for embedding subtitles into videos); Transcription: Added F4Transcript, OOONA Transcribe, oTranscribe and Transcribe by Wreally; Swordfish: Link with additional instructions for compilation from the source code; STT/TTS: expended mention of using a smartphone for dictating on Linux, added Dictanote app, and Voice in Voice Typing and Read Aloud Chrome extensions; Windows VMs: added mention of WinApps.
 
 # Feedback
 
