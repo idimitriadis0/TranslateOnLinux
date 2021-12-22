@@ -825,9 +825,9 @@ Unfortunately, this excellent program has stopped being actively developed a few
 
 Aegisub can be further enhanced by automation scripts, such as those by [unanimated](https://unanimated.github.io/ts/scripts-unanimated.htm), [lyger](https://github.com/lyger/Aegisub_automation_scripts) and [petzku](https://github.com/petzku/Aegisub-Scripts).
 
-Many other free desktop subtitling tools (such as [Subtitle Composer](https://subtitlecomposer.kde.org)) exist, some cross-platform, others, Linux-specific, but we're focusing more on those who cater to professional subtitlers.
-
 Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
+
+Many other free desktop subtitling tools (such as [Subtitle Composer](https://subtitlecomposer.kde.org)) exist, some cross-platform, others, Linux-specific, but we're focusing more on those who cater to professional subtitlers.
 
 [Subtitle NEXT](https://subtitlenext.com)
 
@@ -859,7 +859,7 @@ The only CAT tool that currently offers a more complete set of features for tran
 
 **Burning (embedding) subtitles**
 
-[HandBrake](https://handbrake.fr/) is one of the best FLOSS tools to embed .srt and .ass subtitles to a video. For image-based subtitles, the free version of [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/ video editor supports importing and embedding Final Cut Pro XML subtitle files.
+[HandBrake](https://handbrake.fr/) is one of the best FLOSS tools to embed .srt and .ass subtitles to a video. For image-based subtitles, the free version of [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) video editor supports importing and embedding Final Cut Pro XML subtitle files.
 
 # Transcription
 
@@ -1335,7 +1335,7 @@ Happy translating!
 - 20200611 Various minor content edits. Contributor update: added Termsoup and DGT-OmegaT under CAT tools, added the CLI ABBYY FineReader Engine for Linux under OCR and PDF to text, added a section for command-line office file conversions under Office software. Mention for FileOpen (localization-related utilities) and ImageTranslate (image localization) and TMetric (time tracking). Stingray document aligner is now open source.
 - 20201128 Contributor update, many content edits. Added license for OmegaT and Heartsome; mentioned Memsource mobile; Virtaal in maintenance mode; add QtLinguist, Kompare, Diffoscope, baloo, Dolphin, KRename; Matecat Chrome-only, VM gone; descriptions for Smartcat, Transifex, Weblate, Pontoon, translate-toolkit, WPS, Softmaker, OnlyOffice, SubtitleComposer, GNOME/Plasma utilities, Microsoft fonts; XDG fonts; hunspell for LibreOffice.
 - 20211123 Updated all content and fixed broken links. Swordfish VI and all maxprograms.com applications are now open source and free to use (with optional paid subscription for binaries and support). WFP 3 is legacy now. MateCat sports an aligner. MateCat filtrers removed (no longer offered as Open Source). Mention of markdown editors. Google Docs now offers Microsoft Office editing. Removed Antivirus section for now.
-- 20211222 Subtitling: extensively updated section (with added mention of Subtitle Next, and online tools such as OOONA and Matesub, which is free during beta, as well as a section discussing CAT tools for subtitling and two applications for embedding subtitles into videos); Transcription: Added F4Transcript, OOONA Transcribe, oTranscribe and Transcribe by Wreally; Swordfish: Link with additional instructions for compilation from the source code; STT/TTS: expended mention of using a smartphone for dictating on Linux, added Dictanote app, and Voice in Voice Typing and Read Aloud Chrome extensions; Windows VMs: added mention of WinApps.
+- 20211222 Subtitling: extensively updated section (with added mention of Subtitle Next, and online tools such as OOONA and Matesub, which is free during beta, as well as a section discussing CAT tools for subtitling and two applications for embedding subtitles into videos); Transcription: Added F4Transcript, OOONA Transcribe, oTranscribe and Transcribe by Wreally; Swordfish: Link with additional instructions for compilation from the source code; STT/TTS: expanded mention of using a smartphone for dictating on Linux, added Dictanote app, and Voice in Voice Typing and Read Aloud Chrome extensions; Windows VMs: added mention of WinApps.
 
 # Feedback
 
