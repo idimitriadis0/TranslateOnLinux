@@ -833,8 +833,6 @@ Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
 
 SubtitleNEXT is a professional tool for video captioning and subtitling, which claims to be [fully functional on Linux through Wine](https://subtitlenext.com/faq/#toggle-id-26) (you can download the [Demo version](https://subtitlenext.com/demo-download/) and see for yourself). Note: In our test, the video playback was too choppy, even with the installation of the required LAVFilters.
 
-# THE ULTIMATE TIMED TEXT SOFTWARE
-
 **Online subtitling editors**
 
 [OOONA](https://ooona.net/ooona-tools/) offers a collection of professional-grade online video localization tools with weekly, monthly, biannual and annual [plans](https://ooona.net/ooona-tools/) (and a free 4 weeks trial with limited subtitles export), making it a recommended solution for regular or occasional use, especially given its range of [supported formats](https://ooona.ooonatools.tv/Pages/Formats).
