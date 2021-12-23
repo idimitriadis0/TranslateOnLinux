@@ -827,7 +827,9 @@ Aegisub can be further enhanced by automation scripts, such as those by [unanima
 
 Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
 
-Many other free desktop subtitling tools (such as [Subtitle Composer](https://subtitlecomposer.kde.org)) exist, some cross-platform, others, Linux-specific, but we're focusing more on those who cater to professional subtitlers.
+[Subtitle Composer](https://web.archive.org/web/20211123070300/https://subtitlecomposer.kde.org/) is a subtitle editor made available by KDE that allows for both mouse- and keyboard-driven workflows. Most notably it includes dettachable panes for you to customize your environment; translate subtitles side by side; recognize speech via PocketSphinx; detect errors automatically; and manage times in bulk.
+
+Many other free desktop subtitling tools exist, some cross-platform, others, Linux-specific, but we're focusing more on those who may cater to professional subtitlers.
 
 [Subtitle NEXT](https://subtitlenext.com)
 
