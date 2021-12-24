@@ -807,9 +807,13 @@ Plug-in and viewer to access documents encrypted with the FileOpen software. Whi
 
 # Subtitling
 
-Most professional subtitling software (such as [EZTitles](https://www.eztitles.com), [Spot](https://www.spotsoftware.nl) and [WinCaps](https://broadstream.com/products/wincaps/)) is primarily available for Windows (and can only be used via a Windows VM on Linux). However, subtitlers working on Linux still have a a few tricks up their sleeve.
+Most professional subtitling software (such as [EZTitles](https://www.eztitles.com), [Spot](https://www.spotsoftware.nl) and [WinCaps](https://broadstream.com/products/wincaps/)) is primarily available for Windows (and can only be used via a Windows VM on Linux). However, subtitlers working on Linux still have a a few tricks up their sleeve. 
+
+Supported commercial-grade tools include [OOONA](https://ooona.net/ooona-tools/) (cloud) and [SubtitleNEXT](https://subtitlenext.com) (desktop).
 
 **Desktop subtitling editors**
+
+*Free tools*
 
 [Subtitle Edit](http://www.nikse.dk/subtitleedit/)
 
@@ -819,7 +823,7 @@ If the Linux-ready portable version using Mono is giving you issues, try the Win
 
 [Aegisub](http://www.aegisub.org/)
 
-Aegisub is a free, powerful cross-platform open source tool for creating and editing subtitles, especially when it comes to the versatile SSA/ASS subtitle format. It  makes it quick and easy to time subtitles to audio (time-spotting), and styling them, among other features.
+Aegisub is a free, powerful cross-platform open source tool for creating and editing subtitles, especially when it comes to the versatile SSA/ASS subtitle format. It makes it quick and easy to time subtitles to audio (time-spotting), and styling them, among other features.
 
 Unfortunately, this excellent program has stopped being actively developed a few years ago, although some still swear by it.
 
@@ -831,17 +835,19 @@ Aegisub’s [user manual](http://docs.aegisub.org/3.2/Main_Page/).
 
 Many other free desktop subtitling tools exist, some cross-platform, others, Linux-specific, but we're focusing more on those who may cater to professional subtitlers.
 
-[Subtitle NEXT](https://subtitlenext.com)
+*Commercial tools*
 
-SubtitleNEXT is a professional tool for video captioning and subtitling, which claims to be [fully functional on Linux through Wine](https://subtitlenext.com/faq/#toggle-id-26) (you can download the [Demo version](https://subtitlenext.com/demo-download/) and see for yourself). Note: In our test, the video playback was too choppy, even with the installation of the required LAVFilters.
+[SubtitleNEXT](https://subtitlenext.com)
+
+SubtitleNEXT is a professional tool for video captioning and subtitling, which claims to be [fully functional on Linux through Wine](https://subtitlenext.com/faq/#toggle-id-26) (you can download the [Demo version](https://subtitlenext.com/demo-download/) and see for yourself). It requires the installation of [LAVFilters](https://github.com/Nevcairiel/LAVFilters/releases).
 
 **Online subtitling editors**
 
-[OOONA](https://ooona.net/ooona-tools/) offers a collection of professional-grade online video localization tools with weekly, monthly, biannual and annual [plans](https://ooona.net/ooona-tools/) (and a free 4 weeks trial with limited subtitles export), making it a recommended solution for regular or occasional use, especially given its range of [supported formats](https://ooona.ooonatools.tv/Pages/Formats).
+[OOONA](https://ooona.net/ooona-tools/) offers a collection of professional online video localization tools with weekly, monthly, biannual and annual [plans](https://ooona.net/ooona-tools/) (and a free 4 weeks trial with limited subtitles export), making it a recommended solution for regular or occasional use, especially given its range of [supported formats](https://ooona.ooonatools.tv/Pages/Formats).
 
 [Amara](https://amara.org/en/subtitling-platform/) features various versions of its online subtitling editor: Amara Public (a free, public workspace-only edition), the advanced, subscription-based Amara Plus, and Amara Enterprise for bigger teams. Check out the [feature comparison](https://amara.org/en/subtitling-platform).
 
-[Matesub](https://matesub.com) is a new subtitling tool, developed by Translated.net, the company behind MateCat, MyMemory publlic TM and ModernMT. Currently on <u>free beta access</u>, it will be offered on a monthly-subscription basis later on.
+[Matesub](https://matesub.com) is a new subtitling tool, developed by Translated.net, the company behind MateCat, MyMemory public TM and ModernMT. Currently on <u>free beta access</u>, it will be offered on a monthly-subscription basis later on.
 
 In supported languages, if no SRT file is available/used, subtitles will be automatically generated and synced, and optionally pre-translated via MT (although you can safely skip this step). This can help speed up time spotting and transcription, and the subtitling process.
 
@@ -859,7 +865,7 @@ CAT tools that at least offer a video preview function for subtitles, which is c
 
 The only CAT tool that currently offers a more complete set of features for translating subtitles is Trados (via a RWS plugin), and partly, MemoQ, but these are only available on Windows.
 
-**Burning (embedding) subtitles**
+**Burning-in (embedding) subtitles**
 
 [HandBrake](https://handbrake.fr/) is one of the best FLOSS tools to embed .srt and .ass subtitles to a video. For image-based subtitles, the free version of [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) video editor supports importing and embedding Final Cut Pro XML subtitle files.
 
